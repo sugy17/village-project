@@ -1,11 +1,15 @@
 import aiohttp
-from bs4 import BeautifulSoup as bs
+from bs4 import BeautifulSoup as bs, Tag
 import os
 import time
 import sys
 import asyncio
 
-stop_flag=False
+stop_flag = False
+
+#storing scheme data as [original_link,img_link,one_line_desc,required_content(in html form from orginal_link)]
+schemes = []
+
 
 async def get_page(url):
     global stop_flag
@@ -19,6 +23,7 @@ async def get_page(url):
             stop_flag = True
             return None
 
+
 def parse_page(page):
     try:
         soup = bs(page, 'html.parser')
@@ -27,39 +32,65 @@ def parse_page(page):
             data = soup.findAll("div", {"class": "tabcontent"})[0].find("ul").findAll("li")
         except:
             data = soup.findAll("div", {"class": "tabccontainer"})[0].findAll("li")
-        links,imgs,desc=[],[],[]
+        links, imgs, desc = [], [], []
         for i in data:
-            isoup=bs(str(i), 'html.parser')
+            isoup = bs(str(i), 'html.parser')
             links.append(isoup.find('a')['href'])
             imgs.append(isoup.findAll("div")[0].find('img')['src'])
             try:
                 desc.append(isoup.findAll("div")[2].find("p").text)
             except:
                 desc.append(isoup.findAll("div")[1].find("p").text)
-        return data,links,imgs,desc
+        return data, links, imgs, desc
     except Exception as e:
-        return None,None,None,None
+        return None, None, None, None
+
+
+def parse_scheme_desc(page):
+    soup = bs(page, 'html.parser')
+    for tag in soup.findAll('div', {"class": "googleads"}):
+        tag.replaceWith('')
+    for tag in soup.findAll('div', {"class": "mobaddiv250 abc"}):
+        tag.replaceWith('')
+    for tag in soup.findAll('div', {"class": "stats"}):
+        tag.replaceWith('')
+    for tag in soup.findAll('noscript'):
+        tag.unwrap()
+    soup.find('a', {"class": "saveaspdf"}).replaceWith('')
+    html_data = soup.find("article")
+    return html_data
 
 
 async def async_run(loop):
-    tasks=[]
-    i=1
-    print('\n'+"https://sarkariyojana.com/karnataka/")
-    while not stop_flag and i<10:
-        tasks.append((loop.create_task(get_page('https://sarkariyojana.com/karnataka/page/'+str(i))),i))
-        i+=1
-    for task,i in tasks:
+    global stop_flag
+    global schemes
+    schemes = []
+    i = 1
+    print('\n' + "https://sarkariyojana.com/karnataka/")
+    while not stop_flag and i < 10:
+        task = loop.create_task(get_page('https://sarkariyojana.com/karnataka/page/' + str(i)))
         page = await task
-        data,links,imgs,desc= parse_page(page)
-        if data==None:
-            return
-        #print(data)
-        print('page',i,':')
-        print('\t',links)
-        print('\t',imgs)
-        print('\t',desc,'\n')
+        data, links, imgs, desc = parse_page(page)
+        if data == None:
+            continue
+        # print(data)
+        print('page', i, ':')
+        print('\t', links)
+        print('\t', imgs)
+        print('\t', desc, '\n')
+        tasks, j = [], 0
+        for link in links:
+            tasks.append((loop.create_task(get_page(links[j])), j))
+            j += 1
+        for task, j in tasks:
+            page = await task
+            html_data = parse_scheme_desc(page)
+            schemes.append((links[j], imgs[j], desc[j], html_data))
+        i += 1
+
 
 def main():
+    global schemes
     try:
         start = time.time()
         loop = asyncio.get_event_loop()
@@ -67,11 +98,10 @@ def main():
         stop = time.time()
         time_taken = round((stop - start) * 100, 4)  # Gives in milliseconds upto four decimal places
         print("Time=" + str(time_taken))
+        for i in schemes:
+            print(i[2])
     except Exception as e:
-        exc_type, exc_obj, exc_tb = sys.exc_info()
-        fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
-        print(exc_type, fname, exc_tb.tb_lineno)
-        print(repr(e)+'\n')
+        print(repr(e) + '\n')
 
 
 if __name__ == '__main__':

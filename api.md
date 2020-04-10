@@ -18,7 +18,7 @@
 ```json
   {
     desc:["ration card distribution [...] ","driver license for free [...]"]
-    image:["https://sarkariyojana.com/karnataka-ration-card-list/pic0.jpg","https://sarkariyojana.com/driverlicense.jpg"]
+    image:["asjldkjlajsfdlk","asdasfwedfasf"]
   }
 ```
   
@@ -26,4 +26,4 @@
 
   The above call returns 2 lists of size n containing one line desc and img of n schemes.
   
-  The one line description ,one img of a scheme i is in desc[i],image[i]
+  The one line description ,one img(base64 encoded) of a scheme i is in desc[i],image[i]

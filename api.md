@@ -11,7 +11,13 @@
 
 * **Sample Call 1:**
 
-   api/list
+   * headers-
+   
+      content-type:application/json
+
+   * endpoint-
+    
+      api/list
    
 * **Sample response 1:**
 ```json
@@ -28,9 +34,16 @@
   The one line description ,one img(base64 encoded) of a scheme i is in desc[i],image[i]
   
 * **Sample Call 2:**
-
-   api/scheme0/content
    
+   * headers-
+   
+      content-type:plain-text/html
+
+   * endpoint-
+    
+      api/scheme0/content
+   
+
 * **Sample response 2:**
 
     contains json in plain-text/html having the follwing structure,j indicating the the paritcular element number-
@@ -57,6 +70,8 @@
   1.Data may contain escape sequences. 
   
   2.Possibilty of getting ``table_<a>_tr_<b>_td_<c>_centre_text_``  as  ``table_<a>_tr_<b>_td_<c>_text_centre_``.
+  
+  3.response for call 2 is sent as plain-text to maintine order of the elements.
   
   
  

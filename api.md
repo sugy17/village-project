@@ -55,8 +55,9 @@
 ```
 * **Notes:**
  
-  1.Data may contain escape sequences.\n 
-  2.Possibilty of getting "table_<a>_tr_<b>_td_<c>_centre_text_"  as  "table_<a>_tr_<b>_td_<c>_text_centre_".
+  1.Data may contain escape sequences. 
+  
+  2.Possibilty of getting ``table_<a>_tr_<b>_td_<c>_centre_text_``  as  ``table_<a>_tr_<b>_td_<c>_text_centre_``.
   
   
  

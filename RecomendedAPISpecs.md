@@ -11,7 +11,7 @@ Public Endpoint that does the following:
 
 Sample Response on 200.
 
-```json
+```jsonc
 [
   {
     "title": "lkUsXxOgXJIlnBeFhD",
@@ -56,7 +56,7 @@ Public Endpoint for retreving data for a given schemeId
 
 The request must be of the format:
 
-```json
+```jsonc
 {
   "schemeId": "006a7f12-4475-5f8c-8569-2f7e2cfc121f"
 }
@@ -64,7 +64,7 @@ The request must be of the format:
 
 On 200, A sample Response:
 
-```json
+```jsonc
 {
   "titleHeading": "", //Main Heading, Is NEVER repeated.
   "subTitle-n": "", //Many subtitles are possible.

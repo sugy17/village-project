@@ -12,10 +12,13 @@
 
 ### Current aims:
 
->Find sources consisting data releted to schemes.
+>Structure the scrapped data.
 
->Scrape for scheme related data from sources for Karanata.
+>Develop API.
+
+>Develop UI and client side. 
+
 
 ### Progress:
 
-Scrapping https://sarkariyojana.com/karnataka/
+developed functinal prototype.

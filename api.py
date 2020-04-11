@@ -243,7 +243,6 @@ def parse_content(page):
     #parse(js)
     # print(js['article'])
     flat=flatten_json(js)
-    print(flat)
     return flat,nested,html_data
 
 stop_flag = False

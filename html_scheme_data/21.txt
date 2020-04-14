@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<title>Karnataka Govt. Plans New Loan Scheme for Self Help Groups (SHGs)</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v13.4.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Karnataka govt. is planning to launch new loan scheme for members of self-help groups (SHGs) to provide loans upto Rs. 10 lakh to encourage entrepreneurship"/>
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<link rel="canonical" href="https://sarkariyojana.com/karnataka-new-loan-scheme-self-help-groups-shgs/"/>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//s.w.org'/>
+<link rel="alternate" type="application/rss+xml" title="सरकारी योजना - Sarkari Yojana List &amp; News &raquo; Feed" href="https://sarkariyojana.com/feed/"/>
+<link rel="alternate" type="application/rss+xml" title="सरकारी योजना - Sarkari Yojana List &amp; News &raquo; Comments Feed" href="https://sarkariyojana.com/comments/feed/"/>
+<link rel="alternate" type="application/rss+xml" title="सरकारी योजना - Sarkari Yojana List &amp; News &raquo; New Loan Scheme for Self Help Groups (SHGs) Planned by Karnataka Govt. Comments Feed" href="https://sarkariyojana.com/karnataka-new-loan-scheme-self-help-groups-shgs/feed/"/>
+<link rel='stylesheet' id='ez-icomoon-css' href='https://sarkariyojana.com/wp-content/plugins/easy-table-of-contents/vendor/icomoon/style.min.css' type='text/css' media='all'/>
+<link rel='stylesheet' id='ez-toc-css' href='https://sarkariyojana.com/wp-content/plugins/easy-table-of-contents/assets/css/screen.min.css' type='text/css' media='all'/>
+<style id='ez-toc-inline-css' type='text/css'>div#ez-toc-container p.ez-toc-title{font-size:100%}div#ez-toc-container p.ez-toc-title{font-weight:700}div#ez-toc-container ul li{font-size:100%}div#ez-toc-container{background:#eff9ff;border:1px solid #e5e5e5;width:100%}div#ez-toc-container p.ez-toc-title{color:#565656}div#ez-toc-container ul.ez-toc-list a{color:#06c}div#ez-toc-container ul.ez-toc-list a:hover{color:#0070a8}div#ez-toc-container ul.ez-toc-list a:visited{color:#06c}</style>
+<link rel='stylesheet' id='quickpress-css' href='https://sarkariyojana.com/wp-content/themes/quickpress-child/style.css' type='text/css' media='all'/>
+<link rel='https://api.w.org/' href='https://sarkariyojana.com/wp-json/'/>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://sarkariyojana.com/xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://sarkariyojana.com/wp-includes/wlwmanifest.xml"/> 
+<meta name="generator" content="WordPress 5.4"/>
+<link rel='shortlink' href='https://sarkariyojana.com/?p=15225'/>
+<link rel="alternate" type="application/json+oembed" href="https://sarkariyojana.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsarkariyojana.com%2Fkarnataka-new-loan-scheme-self-help-groups-shgs%2F"/>
+<link rel="alternate" type="text/xml+oembed" href="https://sarkariyojana.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsarkariyojana.com%2Fkarnataka-new-loan-scheme-self-help-groups-shgs%2F&#038;format=xml"/>
+<style type='text/css'>img#wpstats{display:none}</style><style type="text/css">.recentcomments a{display:inline!important;padding:0!important;margin:0!important}</style><style type="text/css">.broken_link,a.broken_link{text-decoration:line-through}</style>			<style type="text/css">html:not( .jetpack-lazy-images-js-enabled ):not( .js ) .jetpack-lazy-image {display:none}</style>
+			<script>document.documentElement.classList.add('jetpack-lazy-images-js-enabled');</script>
+		<link rel="amphtml" href="https://sarkariyojana.com/karnataka-new-loan-scheme-self-help-groups-shgs/amp/">
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="New Loan Scheme for Self Help Groups (SHGs) Planned by Karnataka Govt."/>
+<meta property="og:url" content="https://sarkariyojana.com/karnataka-new-loan-scheme-self-help-groups-shgs/"/>
+<meta property="og:description" content="Karnataka govt. is going to launch a new loan scheme to encourage entrepreneurship among the members of self-help groups (SHGs). This new scheme of the state govt. will provide loans upto Rs. 10 la…"/>
+<meta property="article:published_time" content="2018-10-11T10:19:52+00:00"/>
+<meta property="article:modified_time" content="2018-10-13T10:44:29+00:00"/>
+<meta property="og:site_name" content="सरकारी योजना - Sarkari Yojana List &amp; News"/>
+<meta property="og:image" content="https://sarkariyojana.com/wp-content/uploads/2018/10/karnataka-new-loan-scheme-self-help-groups.jpg"/>
+<meta property="og:image:alt" content="Karnataka New Loan Scheme Self Help Groups"/>
+<meta name="twitter:text:title" content="New Loan Scheme for Self Help Groups (SHGs) Planned by Karnataka Govt."/>
+<meta name="twitter:image" content="https://sarkariyojana.com/wp-content/uploads/2018/10/karnataka-new-loan-scheme-self-help-groups.jpg?w=640"/>
+<meta name="twitter:image:alt" content="Karnataka New Loan Scheme Self Help Groups"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="675"/>
+
+<!-- End Jetpack Open Graph Tags -->
+<script type="application/ld+json">
+{"@context": "https://schema.org","@type":"NewsArticle","mainEntityOfPage": {"@type": "WebPage","@id": "https://sarkariyojana.com/karnataka-new-loan-scheme-self-help-groups-shgs/"},"headline": "New Loan Scheme for Self Help Groups (SHGs) Planned by Karnataka Govt.","image": ["https://sarkariyojana.com/wp-content/uploads/2018/10/karnataka-new-loan-scheme-self-help-groups.jpg"],"datePublished": "2018-10-11T15:49:52+05:30","dateModified": "2018-10-13T16:14:29+05:30 ","author": {"@type": "Person","name": "Karan Chhabra"},"publisher": {"@type": "Organization","name": "Sarkari Yojana","logo": {"@type": "ImageObject","url": "https://sarkariyojana.com/logo.png"}},"description": "Karnataka govt. is going to launch a new loan scheme to encourage entrepreneurship among the members of self-help groups (SHGs). This new scheme of the state govt. will provide loans upto Rs. 10 lakhs to [&hellip;]","commentCount":"11"}
+</script>
+<meta name="google-site-verification" content="jNq6eclDD71dnpMabqxCl6dxTcfHm0DAb1jTpe38DrQ"/>
+<meta name="google-site-verification" content="xGX7aX_a5YiB_GuJCRoc_ifzpRymsN3jUOSBbxPbKgU"/>
+<meta name="p:domain_verify" content="8fa99d3a08132489b36df4236a53c63d"/>
+<meta name="verifyownership" content="3b064f561f68a34417f398e0219e5535"/>
+<meta name="revisit-after" content="1 days"/>
+<link rel="icon" href="https://sarkariyojana.com/wp-content/themes/quickpress-child/images/favicon.png.pagespeed.ce.8YWa_6JThZ.png" type="image/x-icon"/>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Merriweather|Noto+Sans&display=swap" rel="stylesheet">
+</head>
+<body data-rsssl=1 class="post-template-default single single-post postid-15225 single-format-standard">
+<div class="headerc">
+<header id="header">
+<div class="searchform header-search">
+<section class="search"><form role="search" method="get" id="searchform" class="searchform" action="https://sarkariyojana.com/">
+    <label class="screen-reader-text" for="s"></label>
+     <input type="search" value="" name="s" id="s" placeholder="Search Scheme Name..."/>
+     <input type="submit" id="searchsubmit" value="Search"/>
+     </form></section>  </div>
+  <div class="blog-top">
+      <a class="blogtitle" href="https://sarkariyojana.com" title="सरकारी योजना - Sarkari Yojana"><img src="https://sarkariyojana.com/wp-content/themes/quickpress-child/images/sarkari-yojana-logo.png" data-no-lazy="1" alt="Sarkari Yojana - सरकारी योजना"></a>
+  </div>
+	<div class="statediv" onClick="openmenu()">
+		<span class="select-state">STATES</span>
+	</div>
+</header>
+</div>
+<div id="page">
+<p id="breadcrumbs"><span><span><a href="https://sarkariyojana.com/">सरकारी योजना</a> » <span><a href="https://sarkariyojana.com/karnataka/">Karnataka</a> » <strong class="breadcrumb_last" aria-current="page">New Loan Scheme for Self Help Groups (SHGs) Planned by Karnataka Govt.</strong></span></span></span></p><div id="content" class="narrowcolumn">
+<main role="main">
+<section>
+	<article id="post-15225" class="post-15225 post type-post status-publish format-standard has-post-thumbnail hentry category-karnataka tag-government-loan-schemes">
+	<div class="entry-category"><a href="https://sarkariyojana.com/karnataka/" rel="category tag">Karnataka</a></div>
+      <h1 class="entry-title">New Loan Scheme for Self Help Groups (SHGs) Planned by Karnataka Govt.</h1>
+              <h2 class="entry-summary postsummary">New loan scheme for members of self-help groups (SHGs) is planned by the Karnataka govt. to provide loans upto Rs. 10 lakh to encourage entrepreneurial activities, first Rs. 5 lakh are interest fee and remaining Rs. 5 lakh attracts interest rate of 4% p.a</h2>
+				<div class="googleads">
+<!-- SYRLU1 -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9413286941447335" data-ad-slot="9106778305" data-ad-format="link"></ins>
+<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+</div>
+<div class="stats">
+	<div class="views"><strong>35931</strong> Views</div>
+	<a href="#respond"><strong>11 Comments</strong>Write a Comment</a>
+</div>
+<span class="lastmod lmdate"><span class="date published created">October 11, 2018</span> | <b>UPDATED ON:</b> <span class="date updated modified">October 13, 2018</span></span>	<div class="entry">
+<!-- post thumbnail -->
+<div class="fpostimage">
+<img src="https://sarkariyojana.com/wp-content/uploads/2018/10/karnataka-new-loan-scheme-self-help-groups.jpg" alt="Karnataka New Loan Scheme Self Help Groups"/>
+</div>
+<div class="entry-content" id="cprint">
+		<p><a href="https://sarkariyojana.com/karnataka/">Karnataka govt.</a> is going to launch a new loan scheme to encourage entrepreneurship among the members of self-help groups (SHGs). This new scheme of the state govt. will provide loans upto Rs. 10 lakhs to SHGs to boost entrepreneurial activities among the members of these SHGs.  </p>
+<div class="mobaddiv250 abc">
+<!-- SY Mobile 300x250 P1 -->
+<ins class="adsbygoogle mobad" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-9413286941447335" data-ad-slot="6682993587"></ins>
+<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+</div>
+
+<p>This scheme is in accordance with the long pending demand of self-help groups to provide them with zero interest loans to boost their activities. </p>
+<p>CM HD Kumaraswamy will also launch <a href="https://sarkariyojana.com/karnataka-badavara-bandhu-one-day-loan-scheme-street-vendors-traders/" target="_blank">Badavara Bandhu scheme</a> to provide one day loans upto Rs. 1000 to street vendors and small traders to free them from menace of meter baddi.</p>
+<div class="googleads">
+<!-- SYRLU2 -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9413286941447335" data-ad-slot="4369456947" data-ad-format="link"></ins>
+<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+</div>
+
+<h2>Karnataka New Loan Scheme for Self-Help Groups (SHGs)</h2>
+<p>The important features and highlights of this new loan scheme for SHGs as planned by the state govt. of Karnataka are as follows:-</p> 
+<ul>
+<li>To promote and encourage entrepreneurship activities in self help group members, govt. will provide loans upto Rs. 10 lakh.</li>
+<li>Out of this total loan amount of Rs. 10 lakh, govt. will not charge any interest for loans upto Rs. 5 lakh amount.</li>
+<li>The remaining amount of Rs. 5 lakh would attract an interest rate of 4% per annum.</li>
+</ul>
+<p>The state govt. is working on the preparation of policy guidelines for this loan scheme for SHGs. CM has announced that the state govt. will launch this scheme across various districts very soon. Various SHGs were demanding interest free loans to boost their efforts. This proposed scheme is an advancement to encourage entrepreneurial activities among SHG members.</p>
+<div class="googleads">
+<center>
+<script type="text/javascript">google_ad_client="ca-pub-3737030722290655";google_ad_slot="CM_Sarkariyojana_BTF_WC3";google_ad_width=336;google_ad_height=280;</script>
+<script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+</center>
+</div>
+
+<h3>Karnataka Badavara Bandhu Loan Scheme for Street Vendors</h3>
+<p>Besides the launch of new loan scheme for self-help groups, govt. is also planning to help street vendors and small traders. For this purpose, govt. will launch Badavara Bandhu loan scheme to provide loans upto Rs. 1000 for one day without an interest to the street vendors. There is no requirement for any guarantor and this assistance amount would be interest free. The state govt. is planning to implement this scheme before Diwali festival.</p>
+<p>This scheme will free urban poor people including street vendors, small traders and footpath hawkers from being exploited by private money lenders who charges 2% to 10% interest for one day. Now around 53,000 beneficiaries across the state will be given financial assistance for their day to day assistance.</p>
+<p>To streamline the operation of PACS (Primary Agricultural Cooperative Societies) through computerisation, govt. plans to bring 5,300 PANS in the state under a common software. The state govt. has also ensured that steps have been taken to waive around Rs. 9,448 crore loans in the cooperative sector under Karnataka Farm Loan Waiver scheme.</p>
+</div>
+<div class="googleads">
+<script type="text/javascript">google_ad_client="ca-pub-3737030722290655";google_ad_slot="CM_Sarkariyojana_BTF_WC2";google_ad_width=336;google_ad_height=280;</script>
+<script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+</div>
+<a href="https://sarkariyojana.com/printaspdf/?slug=karnataka-new-loan-scheme-self-help-groups-shgs" rel="nofollow noindex" target="_blank" class="saveaspdf" onclick="ga('send', 'event', 'Button', 'Click', 'DOWNLOAD PDF', 1);">SAVE AS PDF</a>
+	<p class="postmetadata inbvt">
+		There <a href="#comments">are 11 comments</a> on this article | <a href="#respond">leave a reply</a><span class="tgslist">Tags: <a href="https://sarkariyojana.com/tag/government-loan-schemes/" rel="tag">Government Loan Schemes</a></span></p>
+		<div class="vcard">
+<span class="fn">Karan Chhabra</span> at <span class="org">सरकारी योजना</span>
+</div>
+	</article>
+				<div class="relcont">Related <strong>Content</strong></div>
+<div class="relatedposts">
+<ul>
+	    <li><a href="https://sarkariyojana.com/up-mukhyamantri-khadi-gramodyog-rojgar-yojana-interest-free-loan-form/">उत्तर प्रदेश मुख्यमंत्री खादी ग्रामोद्योग रोजगार लोन योजना 2020 आवेदन पत्र | जरूरी योग्यता, पात्रता &#8211; बेरोजगारों को 10 लाख का लोन</a></li>
+        <li><a href="https://sarkariyojana.com/loan-scheme-small-cottage-food-processors/">Scheme For Loans to Small and Cottage Food Processors in Unorganized Sectors</a></li>
+        <li><a href="https://sarkariyojana.com/haryana-subsidized-loan-scheme-widows/">हरियाणा विधवा महिला उद्यमी ऋण योजना &#8211; स्वरोजगार लगाने के लिए 3 लाख का सब्सिडी लोन</a></li>
+        <li><a href="https://sarkariyojana.com/mp-subsidized-loans-young-it-scientists/">मध्य प्रदेश सीएम युवा वैज्ञानिक, आईटी रोजगार ऋण योजना &#8211; उद्यम लगाने पर कम ब्याज दरों में मिलेगा लोन</a></li>
+        <li><a href="https://sarkariyojana.com/nirvik-yojana-ecgc-insurance-loan-scheme-exporters-msme/">केंद्र सरकार निर्विक योजना 2019 &#8211; निर्यातकों के लिए एमएसएमई लोन स्कीम</a></li>
+        <li><a href="https://sarkariyojana.com/e-rickshaw-sahayata-yojana-chhattisgarh/">छत्तीसगढ़ ई-रिक्शा सहायता योजना 2019 &#8211; असंगठित क्षेत्र के चालकों को 50 हजार वित्तीय सहायता</a></li>
+    		</ul>
+</div>
+    	<div class="navigation singlepg">
+		  <a href="https://sarkariyojana.com/12-lakh-non-gazetted-railway-employees-productivity-linked-bonus/" rel="prev">12 Lakh Non-gazetted Railway Employees to Get Productivity Linked Bonus (PLB)</a>		  <a href="https://sarkariyojana.com/1-lakh-solar-agricultural-water-pumps-farmers-maharashtra/" rel="next">1 Lakh Solar Powered Agricultural Water Pumps to Farmers in Maharashtra</a>	</div>
+</section>
+</main>
+<span class="publicdisc"><strong>Disclaimer and Notice:</strong> This is not the official website for any government scheme nor associated with any Govt. body. Please do not treat this as official website and do not leave your contact / personal such as Aadhar Number or Mobile No. information in the comment below. It is not possible for us to reply to each comment/query, neither we can address the complaints regarding any scheme. We request all our visitors to visit the official website of the concerned department / authority for any complaint, query about the scheme / information published on this website.</span>
+	<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">LEAVE A COMMENT / ASK A QUESTION &#128527 <small><a rel="nofollow" id="cancel-comment-reply-link" href="/karnataka-new-loan-scheme-self-help-groups-shgs/#respond" style="display:none;">Cancel reply</a></small></h3><form action="https://sarkariyojana.com/wp-comments-post.php" method="post" id="commentform" class="comment-form"><p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" required='required'/></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="text" value="" size="30" maxlength="100" aria-describedby="email-notes" required='required'/></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="text" value="" size="30" maxlength="200"/></p>
+<p class="comment-subscription-form"><input type="checkbox" name="subscribe_comments" id="subscribe_comments" value="subscribe" style="width: auto; -moz-appearance: checkbox; -webkit-appearance: checkbox;"/> <label class="subscribe-label" id="subscribe-label" for="subscribe_comments">Notify me of follow-up comments by email.</label></p><p class="comment-subscription-form"><input type="checkbox" name="subscribe_blog" id="subscribe_blog" value="subscribe" style="width: auto; -moz-appearance: checkbox; -webkit-appearance: checkbox;"/> <label class="subscribe-label" id="subscribe-blog-label" for="subscribe_blog">Notify me of new posts by email.</label></p><p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment"/> <input type='hidden' name='comment_post_ID' value='15225' id='comment_post_ID'/>
+<input type='hidden' name='comment_parent' id='comment_parent' value='0'/>
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="1fa6daed65"/></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="97"/></p></form>	</div><!-- #respond -->
+	<div id="comments" class="relcont">
+<strong>11 Comments</strong> on &ldquo;<span>New Loan Scheme for Self Help Groups (SHGs) Planned by Karnataka Govt.</span>&rdquo;</div>
+	<ol class="commentlist">
+	<li class="comment even thread-even depth-1" id="comment-105539" itemtype="https://schema.org/Comment" itemscope>
+				<div id="div-comment-105539" class="comment-body">
+				<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+			<cite itemprop="name" class="fn">Raghu N</cite> <span class="says">says:</span></div>
+		<div class="comment-meta commentmetadata"><a href="https://sarkariyojana.com/karnataka-new-loan-scheme-self-help-groups-shgs/#comment-105539">
+			<time datetime="2020-01-21T20:11:24+05:30" itemprop="datePublished">January 21, 2020, 8:11 PM</time></a></div>
+					<div class="comment-content" itemprop="text"><p>How to get a loan this please help regard this</p>
+</div>
+		<span class="reply"><a rel="nofollow" class="comment-reply-link" href="#comment-105539" data-commentid="105539" data-postid="15225" data-belowelement="div-comment-105539" data-respondelement="respond" aria-label="Reply to Raghu N">Reply</a></span>
+				</div>       
+</li><!-- #comment-## -->
+<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-77185" itemtype="https://schema.org/Comment" itemscope>
+				<div id="div-comment-77185" class="comment-body">
+				<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+			<cite itemprop="name" class="fn">poornima Nagaraj Naik</cite> <span class="says">says:</span></div>
+		<div class="comment-meta commentmetadata"><a href="https://sarkariyojana.com/karnataka-new-loan-scheme-self-help-groups-shgs/#comment-77185">
+			<time datetime="2019-08-16T19:48:28+05:30" itemprop="datePublished">August 16, 2019, 7:48 PM</time></a></div>
+					<div class="comment-content" itemprop="text"><p>sir plz informations this loan facility banks are departments programmes plz</p>
+</div>
+		<span class="reply"><a rel="nofollow" class="comment-reply-link" href="#comment-77185" data-commentid="77185" data-postid="15225" data-belowelement="div-comment-77185" data-respondelement="respond" aria-label="Reply to poornima Nagaraj Naik">Reply</a></span>
+				</div>       
+</li><!-- #comment-## -->
+<li class="comment even thread-even depth-1" id="comment-63937" itemtype="https://schema.org/Comment" itemscope>
+				<div id="div-comment-63937" class="comment-body">
+				<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+			<cite itemprop="name" class="fn">Seenappa</cite> <span class="says">says:</span></div>
+		<div class="comment-meta commentmetadata"><a href="https://sarkariyojana.com/karnataka-new-loan-scheme-self-help-groups-shgs/#comment-63937">
+			<time datetime="2019-03-16T17:00:38+05:30" itemprop="datePublished">March 16, 2019, 5:00 PM</time></a></div>
+					<div class="comment-content" itemprop="text"><p>I need 10lacks loan,how to apply plz tell me sir.</p>
+</div>
+		<span class="reply"><a rel="nofollow" class="comment-reply-link" href="#comment-63937" data-commentid="63937" data-postid="15225" data-belowelement="div-comment-63937" data-respondelement="respond" aria-label="Reply to Seenappa">Reply</a></span>
+				</div>       
+</li><!-- #comment-## -->
+<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-63474" itemtype="https://schema.org/Comment" itemscope>
+				<div id="div-comment-63474" class="comment-body">
+				<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+			<cite itemprop="name" class="fn">CHITRA G</cite> <span class="says">says:</span></div>
+		<div class="comment-meta commentmetadata"><a href="https://sarkariyojana.com/karnataka-new-loan-scheme-self-help-groups-shgs/#comment-63474">
+			<time datetime="2019-03-07T16:43:31+05:30" itemprop="datePublished">March 7, 2019, 4:43 PM</time></a></div>
+					<div class="comment-content" itemprop="text"><p>how to apply for this loan we need very emergency .</p>
+</div>
+		<span class="reply"><a rel="nofollow" class="comment-reply-link" href="#comment-63474" data-commentid="63474" data-postid="15225" data-belowelement="div-comment-63474" data-respondelement="respond" aria-label="Reply to CHITRA G">Reply</a></span>
+				</div>       
+</li><!-- #comment-## -->
+<li class="comment even thread-even depth-1" id="comment-63120" itemtype="https://schema.org/Comment" itemscope>
+				<div id="div-comment-63120" class="comment-body">
+				<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+			<cite itemprop="name" class="fn">shridhar</cite> <span class="says">says:</span></div>
+		<div class="comment-meta commentmetadata"><a href="https://sarkariyojana.com/karnataka-new-loan-scheme-self-help-groups-shgs/#comment-63120">
+			<time datetime="2019-03-01T08:46:06+05:30" itemprop="datePublished">March 1, 2019, 8:46 AM</time></a></div>
+					<div class="comment-content" itemprop="text"><p>How to apply for this loan plz help me sir/madam</p>
+</div>
+		<span class="reply"><a rel="nofollow" class="comment-reply-link" href="#comment-63120" data-commentid="63120" data-postid="15225" data-belowelement="div-comment-63120" data-respondelement="respond" aria-label="Reply to shridhar">Reply</a></span>
+				</div>       
+</li><!-- #comment-## -->
+<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-61665" itemtype="https://schema.org/Comment" itemscope>
+				<div id="div-comment-61665" class="comment-body">
+				<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+			<cite itemprop="name" class="fn">SOUMYA M Yarageri</cite> <span class="says">says:</span></div>
+		<div class="comment-meta commentmetadata"><a href="https://sarkariyojana.com/karnataka-new-loan-scheme-self-help-groups-shgs/#comment-61665">
+			<time datetime="2019-01-18T10:00:37+05:30" itemprop="datePublished">January 18, 2019, 10:00 AM</time></a></div>
+					<div class="comment-content" itemprop="text"><p>How to apply for this loan</p>
+</div>
+		<span class="reply"><a rel="nofollow" class="comment-reply-link" href="#comment-61665" data-commentid="61665" data-postid="15225" data-belowelement="div-comment-61665" data-respondelement="respond" aria-label="Reply to SOUMYA M Yarageri">Reply</a></span>
+				</div>       
+</li><!-- #comment-## -->
+<li class="comment even thread-even depth-1" id="comment-59296" itemtype="https://schema.org/Comment" itemscope>
+				<div id="div-comment-59296" class="comment-body">
+				<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+			<cite itemprop="name" class="fn">shivaraj s saradagi</cite> <span class="says">says:</span></div>
+		<div class="comment-meta commentmetadata"><a href="https://sarkariyojana.com/karnataka-new-loan-scheme-self-help-groups-shgs/#comment-59296">
+			<time datetime="2018-12-13T13:00:23+05:30" itemprop="datePublished">December 13, 2018, 1:00 PM</time></a></div>
+					<div class="comment-content" itemprop="text"><p>yes I am intrast</p>
+</div>
+		<span class="reply"><a rel="nofollow" class="comment-reply-link" href="#comment-59296" data-commentid="59296" data-postid="15225" data-belowelement="div-comment-59296" data-respondelement="respond" aria-label="Reply to shivaraj s saradagi">Reply</a></span>
+				</div>       
+</li><!-- #comment-## -->
+<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-59142" itemtype="https://schema.org/Comment" itemscope>
+				<div id="div-comment-59142" class="comment-body">
+				<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+			<cite itemprop="name" class="fn">Sagar B Ghanti</cite> <span class="says">says:</span></div>
+		<div class="comment-meta commentmetadata"><a href="https://sarkariyojana.com/karnataka-new-loan-scheme-self-help-groups-shgs/#comment-59142">
+			<time datetime="2018-12-09T07:46:38+05:30" itemprop="datePublished">December 9, 2018, 7:46 AM</time></a></div>
+					<div class="comment-content" itemprop="text"><p>How to apply for this loan scheme please suggest me sir.</p>
+</div>
+		<span class="reply"><a rel="nofollow" class="comment-reply-link" href="#comment-59142" data-commentid="59142" data-postid="15225" data-belowelement="div-comment-59142" data-respondelement="respond" aria-label="Reply to Sagar B Ghanti">Reply</a></span>
+				</div>       
+</li><!-- #comment-## -->
+<li class="comment even thread-even depth-1" id="comment-58201" itemtype="https://schema.org/Comment" itemscope>
+				<div id="div-comment-58201" class="comment-body">
+				<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+			<cite itemprop="name" class="fn">Ravi</cite> <span class="says">says:</span></div>
+		<div class="comment-meta commentmetadata"><a href="https://sarkariyojana.com/karnataka-new-loan-scheme-self-help-groups-shgs/#comment-58201">
+			<time datetime="2018-11-22T20:55:31+05:30" itemprop="datePublished">November 22, 2018, 8:55 PM</time></a></div>
+					<div class="comment-content" itemprop="text"><p>How to apply for this loan. What is the procedure and list of documents required? Can anybody say?</p>
+</div>
+		<span class="reply"><a rel="nofollow" class="comment-reply-link" href="#comment-58201" data-commentid="58201" data-postid="15225" data-belowelement="div-comment-58201" data-respondelement="respond" aria-label="Reply to Ravi">Reply</a></span>
+				</div>       
+</li><!-- #comment-## -->
+<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-58149" itemtype="https://schema.org/Comment" itemscope>
+				<div id="div-comment-58149" class="comment-body">
+				<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+			<cite itemprop="name" class="fn">NAGAVENI</cite> <span class="says">says:</span></div>
+		<div class="comment-meta commentmetadata"><a href="https://sarkariyojana.com/karnataka-new-loan-scheme-self-help-groups-shgs/#comment-58149">
+			<time datetime="2018-11-21T14:42:32+05:30" itemprop="datePublished">November 21, 2018, 2:42 PM</time></a></div>
+					<div class="comment-content" itemprop="text"><p>how to get a loan this scheme</p>
+</div>
+		<span class="reply"><a rel="nofollow" class="comment-reply-link" href="#comment-58149" data-commentid="58149" data-postid="15225" data-belowelement="div-comment-58149" data-respondelement="respond" aria-label="Reply to NAGAVENI">Reply</a></span>
+				</div>       
+<ul class="children">
+<li class="comment even depth-2" id="comment-84940" itemtype="https://schema.org/Comment" itemscope>
+				<div id="div-comment-84940" class="comment-body">
+				<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+			<cite itemprop="name" class="fn">Prabu</cite> <span class="says">says:</span></div>
+		<div class="comment-meta commentmetadata"><a href="https://sarkariyojana.com/karnataka-new-loan-scheme-self-help-groups-shgs/#comment-84940">
+			<time datetime="2019-09-29T09:05:19+05:30" itemprop="datePublished">September 29, 2019, 9:05 AM</time></a></div>
+					<div class="comment-content" itemprop="text"><p>Hi</p>
+</div>
+		<span class="reply"><a rel="nofollow" class="comment-reply-link" href="#comment-84940" data-commentid="84940" data-postid="15225" data-belowelement="div-comment-84940" data-respondelement="respond" aria-label="Reply to Prabu">Reply</a></span>
+				</div>       
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	</ol> 
+</div>
+</div>
+</div>
+<footer id="footer">
+<p><strong>सरकारी योजनाएं हिंदी में:</strong> <a href="https://sarkariyojana.com/central-government/" title="केंद्र सरकार की सरकारी योजनाएं">केंद्र सरकार</a> । <a href="https://sarkariyojana.com/central-government/pradhan-mantri-yojana-list/" title="प्रधान मंत्री योजना सूची">प्रधान मंत्री योजना सूची</a> । <a href="https://sarkariyojana.com/assam-hindi/" title="असम सरकारी योजना">असम</a> । <a href="https://sarkariyojana.com/bihar-hindi/" title="बिहार सरकारी योजना">बिहार</a> । <a href="https://sarkariyojana.com/chhattisgarh-hindi/" title="छत्तीसगढ़ सरकारी योजना">छत्तीसगढ़</a> । <a href="https://sarkariyojana.com/delhi-hindi/" title="दिल्ली सरकारी योजना">दिल्ली</a> । <a href="https://sarkariyojana.com/goa-hindi/" title="गोवा सरकारी योजना">गोवा</a> । <a href="https://sarkariyojana.com/gujarat-hindi/" title="गुजरात सरकारी योजना">गुजरात</a> । <a href="https://sarkariyojana.com/haryana-hindi/" title="हरियाणा सरकारी योजना">हरियाणा</a> । <a href="https://sarkariyojana.com/himachal-pradesh-hindi/" title="हिमाचल प्रदेश सरकारी योजना">हिमाचल प्रदेश</a> । <a href="https://sarkariyojana.com/jammu-kashmir-hindi/" title="जम्मू कश्मीर सरकारी योजना">जम्मू कश्मीर</a> । <a href="https://sarkariyojana.com/jharkhand-hindi/" title="झारखण्ड सरकारी योजना">झारखण्ड</a> । <a href="https://sarkariyojana.com/maharashtra-hindi/" title="महाराष्ट्र सरकारी योजना">महाराष्ट्र</a> । <a href="https://sarkariyojana.com/punjab-hindi/" title="पंजाब सरकारी योजना">पंजाब</a> । <a href="https://sarkariyojana.com/rajasthan-hindi/" title="राजस्थान सरकारी योजना">राजस्थान</a> । <a href="https://sarkariyojana.com/uttar-pradesh-hindi/" title="उत्तर प्रदेश सरकारी योजना">उत्तर प्रदेश</a> । <a href="https://sarkariyojana.com/uttarakhand-hindi/" title="उत्तराखंड सरकारी योजना">उत्तराखंड</a></p>
+<p><a href="https://sarkariyojana.com/about/">about</a> | <a href="https://sarkariyojana.com/contact/">contact</a> | <a href="https://sarkariyojana.com/privacy-policy/">privacy policy</a> | <a href="https://sarkariyojana.com/disclaimer/">disclaimer</a></p>
+<p>
+<strong>Registered Company Name:</strong> W3BRAIN LLP
+<strong>Address:</strong> 1st Floor, Above Pizza Bite, Bhardwaj Tower, Opposite Bus Stand, Palwal, 121102, HR, India<br/>	
+&copy; Copyright 2020 - sarkariyojana.com 
+</p>
+<p class="discl"><strong>DISCLAIMER:</strong> This is neither the official website nor linked to any Government organization, agency, office or official in any way. This is a public website and author share information about government schemes on this website. All the logos/images posted on this website are the property of their actual copyright/trademark owners.</p>
+<p><a href="https://sarkariyojana.com/tag/sarkari-yojana-hindi/" target="_blank">सरकारी योजना हिंदी में</a> | <a href="http://www.pmujjwalayojana.in" target="_blank" rel="noopener">PM Ujjwala Yojana</a></p>
+<!--<p><a href="//www.dmca.com/Protection/Status.aspx?ID=5c273b95-7a38-473f-987f-ae396bdf1068" title="DMCA.com Protection Status" class="dmca-badge"> <img src="//images.dmca.com/Badges/_dmca_premi_badge_4.png?ID=5c273b95-7a38-473f-987f-ae396bdf1068" alt="DMCA.com Protection Status"></a></p>
+--></footer>
+<a href="#" id="back-to-top" title="Back to top"></a>
+<nav id="menu-header" class="menu-header">
+<span class="close-select-state" onClick="closemenu()">X</span>
+  <!-- Header Menu -->
+<ul id="menu-main-menu" class="nav navbar-nav">
+<li><a href="https://sarkariyojana.com/tag/sarkari-yojana-list/" title="Government Schemes List">Sarkari Yojana List</a></li>
+<li><a href="https://sarkariyojana.com/central-government/" title="Central Government Schemes">Central Government</a></li>
+<li><a href="https://sarkariyojana.com/andhra-pradesh/" title="Andhra Pradesh Government Schemes">Andhra Pradesh</a></li>
+<li><a href="https://sarkariyojana.com/assam/" title="Assam Government Schemes">Assam</a></li>
+<li><a href="https://sarkariyojana.com/arunachal-pradesh/" title="Arunachal Government Schemes">Arunachal Pradesh</a></li>	
+<li><a href="https://sarkariyojana.com/bihar/" title="Bihar Sarkari Yojana">Bihar</a></li>
+<li><a href="https://sarkariyojana.com/chhattisgarh/" title="Chhattisgarh Sarkari Yojana">Chhattisgarh</a></li>
+<li><a href="https://sarkariyojana.com/delhi/" title="Delhi Government Schemes">Delhi</a></li>
+<li><a href="https://sarkariyojana.com/goa/" title="Goa Government Schemes">Goa</a></li>
+<li><a href="https://sarkariyojana.com/gujarat/" title="Gujarat Government Schemes">Gujarat</a></li>
+<li><a href="https://sarkariyojana.com/haryana/" title="Haryana Sarkari Yojana">Haryana</a></li>
+<li><a href="https://sarkariyojana.com/himachal-pradesh/" title="Himachal Pradesh Government Schemes">Himachal Pradesh</a></li>
+<li><a href="https://sarkariyojana.com/jammu-kashmir/" title="J&K Government Schemes">Jammu Kashmir</a></li>
+<li><a href="https://sarkariyojana.com/jharkhand/" title="Jharkhand Sarkari Yojana">Jharkhand</a></li>
+<li><a href="https://sarkariyojana.com/karnataka/" title="Karnataka Government Schemes">Karnataka</a></li>
+<li><a href="https://sarkariyojana.com/madhya-pradesh/" title="MP Sarkari Yojana">Madhya Pradesh</a></li>
+<li><a href="https://sarkariyojana.com/kerala/" title="Kerala Government Schemes">Kerala</a></li>
+<li><a href="https://sarkariyojana.com/maharashtra/" title="Maharashtra Government Schemes">Maharashtra</a></li>
+<li><a href="https://sarkariyojana.com/manipur/" title="Manipur Government Schemes">Manipur</a></li>
+<li><a href="https://sarkariyojana.com/meghalaya/" title="Meghalaya Government Schemes">Meghalaya</a></li>
+<li><a href="https://sarkariyojana.com/mizoram/" title="Mizoram Government Schemes">Mizoram</a></li>
+<li><a href="https://sarkariyojana.com/odisha/" title="Odisha Government Schemes">Odisha</a></li>
+<li><a href="https://sarkariyojana.com/punjab/" title="Punjab Government Schemes">Punjab</a></li>
+<li><a href="https://sarkariyojana.com/rajasthan/" title="Rajasthan Government Schemes">Rajasthan</a></li>
+<li><a href="https://sarkariyojana.com/tamilnadu/" title="Tamilnadu Government Schemes">Tamil Nadu</a></li>
+<li><a href="https://sarkariyojana.com/telangana/" title="Telangana Government Schemes">Telangana</a></li>
+<li><a href="https://sarkariyojana.com/tripura/" title="Tripura Government Schemes">Tripura</a></li>
+<li><a href="https://sarkariyojana.com/uttar-pradesh/" title="Uttar Pradesh Sarkari Yojana">Uttar Pradesh</a></li>
+<li><a href="https://sarkariyojana.com/uttarakhand/" title="Uttarakhand Government Schemes">Uttarakhand</a></li>
+<li><a href="https://sarkariyojana.com/west-bengal/" title="West Bengal Government Schemes">West Bengal</a></li>
+<li><a href="https://sarkariyojana.com/disclaimer/">Disclaimer</a></li>
+<li><a href="https://sarkariyojana.com/contact/">Contact Us</a></li>
+<li><a href="https://sarkariyojana.com/about/">About Us</a></li>
+</ul>
+</nav>
+<div class="dwnapp">
+<a href="https://play.google.com/store/apps/details?id=com.w3brain.sarkariyojana&hl=en" target="_blank" rel="noopener"><img src="https://sarkariyojana.com/wp-content/themes/quickpress-child/images/sarkari-yojana-app-download.png" data-no-lazy="1" alt="Sarkari Yojana App Download"/></a>
+</div>
+<div id="shareThis"></div>
+<div id="support" class=""><span id="close" onclick="closeshare()">CLOSE</span><b>SHARE ON:</b> <button onclick="sharefb()" class="fbsharebtn">Facebook</button><button class="washarebtn" onclick="shareWhatsapp()">WhatsApp</button><button class="washarebtnd" onclick="shareWhatsappD()">WhatsApp</button></div>
+<script>
+var shareButton=document.getElementById("shareThis"),supported=document.getElementById("support");function sharefb(){window.open("https://www.facebook.com/sharer/sharer.php?u="+window.location.href+"&t="+document.title),ga("send","event","Button","Click","FB SHARE",1)}function shareWhatsapp(){window.open("whatsapp://send?text="+document.title+" - "+window.location.href),ga("send","event","Button","Click","WHATSAPP SHARE",1)}function shareWhatsappD(){window.open("https://wa.me/?text="+document.title+" - "+window.location.href),ga("send","event","Button","Click","WHATSAPP SHARE DESKTOP",1)}function closeshare(){document.getElementById("shareThis").style.display="block",document.getElementById("support").style.bottom="-200px"}shareButton.addEventListener("click",e=>{if(navigator.share){var t=document.querySelector("link[rel=canonical]")?document.querySelector("link[rel=canonical]").href:window.location.href;navigator.share({title:document.title,text:document.title,url:t}).then(()=>{console.log("Successful Sharing")}).catch(console.error)}else supported.style.bottom="34px",shareButton.style.display="none"});
+</script>
+<script>function openmenu(){document.getElementById("menu-header").style.left="0px"}function closemenu(){document.getElementById("menu-header").style.left="-100%"}function expandsylist(){document.getElementById("sylistover").style.height="100%",document.getElementById("showfull").style.display="none",document.getElementById("hidefull").style.display="block"}function closesylist(){window.matchMedia("(max-width: 768px)").matches?document.getElementById("sylistover").style.height="200px":document.getElementById("sylistover").style.height="500px",document.getElementById("showfull").style.display="block",document.getElementById("hidefull").style.display="none"}(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create','UA-73005060-1','auto');ga('send','pageview');</script>
+<script>if(document.location.protocol!="https:"){document.location=document.URL.replace(/^http:/i,"https:");}</script><script type='text/javascript' src='https://sarkariyojana.com/wp-includes/js/comment-reply.min.js?ver=5.4'></script>
+<script type='text/javascript' src='https://sarkariyojana.com/wp-content/plugins/jetpack/_inc/build/lazy-images/js/lazy-images.min.js?ver=8.4.1'></script>
+<script type='text/javascript' src='https://sarkariyojana.com/wp-includes/js/wp-embed.min.js?ver=5.4'></script>
+<script async="async" type='text/javascript' src='https://sarkariyojana.com/wp-content/plugins/akismet/_inc/form.js?ver=4.1.4'></script>
+<script type='text/javascript' src='https://stats.wp.com/e-202015.js' async='async' defer='defer'></script>
+<script type='text/javascript'>_stq=window._stq||[];_stq.push(['view',{v:'ext',j:'1:8.4.1',blog:'170901665',post:'15225',tz:'5.5',srv:'sarkariyojana.com'}]);_stq.push(['clickTrackerInit','170901665','15225']);</script>
+<script type="application/javascript" src="https://sdki.truepush.com/sdk/v2.0.2/app.js" async></script>
+<script>var truepush=window.truepush||[];truepush.push(function(){truepush.Init({id:"5e50ee57f22f7036f2164ffe"},function(error){if(error)console.error(error);})})</script>
+<script>truepush.push({operation:"add-tags",data:[{tagName:"Category",tagType:"string",tagValue:"Karnataka"}],callback:function(error,response){console.log(error,response);}})</script>
+<!--<script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>-->
+</body>
+</html>

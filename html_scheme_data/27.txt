@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<title>Karnataka Mathrushree Scheme - Rs. 6000 for Pregnant Women of BPL Families</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v13.4.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Karnataka Govt. will launch Mathrushree Scheme / Maternity Benefit Scheme to provide Rs. 6,000 to pregnant women of BPL families in 6 installments (1 Nov)"/>
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<link rel="canonical" href="https://sarkariyojana.com/karnataka-mathrushree-scheme-rs-6000-aid-pregnant-women-bpl-families/"/>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//s.w.org'/>
+<link rel="alternate" type="application/rss+xml" title="सरकारी योजना - Sarkari Yojana List &amp; News &raquo; Feed" href="https://sarkariyojana.com/feed/"/>
+<link rel="alternate" type="application/rss+xml" title="सरकारी योजना - Sarkari Yojana List &amp; News &raquo; Comments Feed" href="https://sarkariyojana.com/comments/feed/"/>
+<link rel="alternate" type="application/rss+xml" title="सरकारी योजना - Sarkari Yojana List &amp; News &raquo; Karnataka Mathrushree Scheme &#8211; Rs. 6000 Aid for Pregnant Women of BPL Families Comments Feed" href="https://sarkariyojana.com/karnataka-mathrushree-scheme-rs-6000-aid-pregnant-women-bpl-families/feed/"/>
+<link rel='stylesheet' id='ez-icomoon-css' href='https://sarkariyojana.com/wp-content/plugins/easy-table-of-contents/vendor/icomoon/style.min.css' type='text/css' media='all'/>
+<link rel='stylesheet' id='ez-toc-css' href='https://sarkariyojana.com/wp-content/plugins/easy-table-of-contents/assets/css/screen.min.css' type='text/css' media='all'/>
+<style id='ez-toc-inline-css' type='text/css'>div#ez-toc-container p.ez-toc-title{font-size:100%}div#ez-toc-container p.ez-toc-title{font-weight:700}div#ez-toc-container ul li{font-size:100%}div#ez-toc-container{background:#eff9ff;border:1px solid #e5e5e5;width:100%}div#ez-toc-container p.ez-toc-title{color:#565656}div#ez-toc-container ul.ez-toc-list a{color:#06c}div#ez-toc-container ul.ez-toc-list a:hover{color:#0070a8}div#ez-toc-container ul.ez-toc-list a:visited{color:#06c}</style>
+<link rel='stylesheet' id='quickpress-css' href='https://sarkariyojana.com/wp-content/themes/quickpress-child/style.css' type='text/css' media='all'/>
+<link rel='https://api.w.org/' href='https://sarkariyojana.com/wp-json/'/>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://sarkariyojana.com/xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://sarkariyojana.com/wp-includes/wlwmanifest.xml"/> 
+<meta name="generator" content="WordPress 5.4"/>
+<link rel='shortlink' href='https://sarkariyojana.com/?p=12757'/>
+<link rel="alternate" type="application/json+oembed" href="https://sarkariyojana.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsarkariyojana.com%2Fkarnataka-mathrushree-scheme-rs-6000-aid-pregnant-women-bpl-families%2F"/>
+<link rel="alternate" type="text/xml+oembed" href="https://sarkariyojana.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsarkariyojana.com%2Fkarnataka-mathrushree-scheme-rs-6000-aid-pregnant-women-bpl-families%2F&#038;format=xml"/>
+<style type='text/css'>img#wpstats{display:none}</style><style type="text/css">.recentcomments a{display:inline!important;padding:0!important;margin:0!important}</style><style type="text/css">.broken_link,a.broken_link{text-decoration:line-through}</style>			<style type="text/css">html:not( .jetpack-lazy-images-js-enabled ):not( .js ) .jetpack-lazy-image {display:none}</style>
+			<script>document.documentElement.classList.add('jetpack-lazy-images-js-enabled');</script>
+		<link rel="amphtml" href="https://sarkariyojana.com/karnataka-mathrushree-scheme-rs-6000-aid-pregnant-women-bpl-families/amp/">
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="Karnataka Mathrushree Scheme &#8211; Rs. 6000 Aid for Pregnant Women of BPL Families"/>
+<meta property="og:url" content="https://sarkariyojana.com/karnataka-mathrushree-scheme-rs-6000-aid-pregnant-women-bpl-families/"/>
+<meta property="og:description" content="Karnataka Govt. has announced the launch of Mathrushree Scheme 2018. Under this Maternity Benefit Scheme, the state govt. will provide a total allowance of Rs. 6,000 as pregnancy aid to mother of B…"/>
+<meta property="article:published_time" content="2018-07-07T07:27:58+00:00"/>
+<meta property="article:modified_time" content="2018-07-07T07:27:58+00:00"/>
+<meta property="og:site_name" content="सरकारी योजना - Sarkari Yojana List &amp; News"/>
+<meta property="og:image" content="https://sarkariyojana.com/wp-content/uploads/2018/07/karnataka-mathrushree-scheme-2018.jpg"/>
+<meta property="og:image:alt" content="Karnataka Mathrushree Scheme 2018"/>
+<meta name="twitter:creator" content="@sarkari_yojana"/>
+<meta name="twitter:text:title" content="Karnataka Mathrushree Scheme &#8211; Rs. 6000 Aid for Pregnant Women of BPL Families"/>
+<meta name="twitter:image" content="https://sarkariyojana.com/wp-content/uploads/2018/07/karnataka-mathrushree-scheme-2018.jpg?w=640"/>
+<meta name="twitter:image:alt" content="Karnataka Mathrushree Scheme 2018"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="675"/>
+
+<!-- End Jetpack Open Graph Tags -->
+<script type="application/ld+json">
+{"@context": "https://schema.org","@type":"NewsArticle","mainEntityOfPage": {"@type": "WebPage","@id": "https://sarkariyojana.com/karnataka-mathrushree-scheme-rs-6000-aid-pregnant-women-bpl-families/"},"headline": "Karnataka Mathrushree Scheme &#8211; Rs. 6000 Aid for Pregnant Women of BPL Families","image": ["https://sarkariyojana.com/wp-content/uploads/2018/07/karnataka-mathrushree-scheme-2018.jpg"],"datePublished": "2018-07-07T12:57:58+05:30","dateModified": "2018-07-07T12:57:58+05:30 ","author": {"@type": "Person","name": "Karan Chhabra"},"publisher": {"@type": "Organization","name": "Sarkari Yojana","logo": {"@type": "ImageObject","url": "https://sarkariyojana.com/logo.png"}},"description": "Karnataka Govt. has announced the launch of Mathrushree Scheme 2018. Under this Maternity Benefit Scheme, the state govt. will provide a total allowance of Rs. 6,000 as pregnancy aid to mother of Below Poverty Line [&hellip;]","commentCount":"5"}
+</script>
+<meta name="google-site-verification" content="jNq6eclDD71dnpMabqxCl6dxTcfHm0DAb1jTpe38DrQ"/>
+<meta name="google-site-verification" content="xGX7aX_a5YiB_GuJCRoc_ifzpRymsN3jUOSBbxPbKgU"/>
+<meta name="p:domain_verify" content="8fa99d3a08132489b36df4236a53c63d"/>
+<meta name="verifyownership" content="3b064f561f68a34417f398e0219e5535"/>
+<meta name="revisit-after" content="1 days"/>
+<link rel="icon" href="https://sarkariyojana.com/wp-content/themes/quickpress-child/images/favicon.png.pagespeed.ce.8YWa_6JThZ.png" type="image/x-icon"/>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Merriweather|Noto+Sans&display=swap" rel="stylesheet">
+</head>
+<body data-rsssl=1 class="post-template-default single single-post postid-12757 single-format-standard">
+<div class="headerc">
+<header id="header">
+<div class="searchform header-search">
+<section class="search"><form role="search" method="get" id="searchform" class="searchform" action="https://sarkariyojana.com/">
+    <label class="screen-reader-text" for="s"></label>
+     <input type="search" value="" name="s" id="s" placeholder="Search Scheme Name..."/>
+     <input type="submit" id="searchsubmit" value="Search"/>
+     </form></section>  </div>
+  <div class="blog-top">
+      <a class="blogtitle" href="https://sarkariyojana.com" title="सरकारी योजना - Sarkari Yojana"><img src="https://sarkariyojana.com/wp-content/themes/quickpress-child/images/sarkari-yojana-logo.png" data-no-lazy="1" alt="Sarkari Yojana - सरकारी योजना"></a>
+  </div>
+	<div class="statediv" onClick="openmenu()">
+		<span class="select-state">STATES</span>
+	</div>
+</header>
+</div>
+<div id="page">
+<p id="breadcrumbs"><span><span><a href="https://sarkariyojana.com/">सरकारी योजना</a> » <span><a href="https://sarkariyojana.com/karnataka/">Karnataka</a> » <strong class="breadcrumb_last" aria-current="page">Karnataka Mathrushree Scheme &#8211; Rs. 6000 Aid for Pregnant Women of BPL Families</strong></span></span></span></p><div id="content" class="narrowcolumn">
+<main role="main">
+<section>
+	<article id="post-12757" class="post-12757 post type-post status-publish format-standard has-post-thumbnail hentry category-karnataka tag-scheme-for-pregnant-women">
+	<div class="entry-category"><a href="https://sarkariyojana.com/karnataka/" rel="category tag">Karnataka</a></div>
+      <h1 class="entry-title">Karnataka Mathrushree Scheme &#8211; Rs. 6000 Aid for Pregnant Women of BPL Families</h1>
+      		<div class="googleads">
+<!-- SYRLU1 -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9413286941447335" data-ad-slot="9106778305" data-ad-format="link"></ins>
+<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+</div>
+<div class="stats">
+	<div class="views"><strong>17160</strong> Views</div>
+	<a href="#respond"><strong>5 Comments</strong>Write a Comment</a>
+</div>
+<span class="lastmod lmdate"><span class="date published created">July 7, 2018</span> | <b>UPDATED ON:</b> <span class="date updated modified">July 7, 2018</span></span>	<div class="entry">
+<!-- post thumbnail -->
+<div class="fpostimage">
+<img src="https://sarkariyojana.com/wp-content/uploads/2018/07/karnataka-mathrushree-scheme-2018.jpg" alt="Karnataka Mathrushree Scheme 2018"/>
+</div>
+<div class="entry-content" id="cprint">
+		<p><a href="https://sarkariyojana.com/karnataka/">Karnataka Govt.</a> has announced the launch of Mathrushree Scheme 2018. Under this Maternity Benefit Scheme, the state govt. will provide a total allowance of Rs. 6,000 as pregnancy aid to mother of Below Poverty Line (BPL) families. This amount will be given to the pregnant women for 3 months before delivery and 3 months after delivery at Rs. 1,000 p.m. </p>
+<div class="mobaddiv250 abc">
+<!-- SY Mobile 300x250 P1 -->
+<ins class="adsbygoogle mobad" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-9413286941447335" data-ad-slot="6682993587"></ins>
+<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+</div>
+
+<p>Govt. will implement this scheme from 1 November 2018 with an allocation of Rs. 350 crore in phased manner. Govt. will increase this monthly amount from Rs. 1,000 in the upcoming 5 years in phases. This scheme is applicable for first 2 deliveries.</p>
+<p>The state govt. will transfer this amount directly into the Aadhaar-linked bank accounts of the eligible expecting mothers. </p>
+<div class="googleads">
+<!-- SYRLU2 -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9413286941447335" data-ad-slot="4369456947" data-ad-format="link"></ins>
+<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+</div>
+
+<div id="ez-toc-container" class="ez-toc-v2_0_9 counter-flat counter-decimal">
+<div class="ez-toc-title-container">
+<p class="ez-toc-title">Table of Contents</p>
+<span class="ez-toc-title-toggle"><a class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle"><i class="ez-toc-glyphicon ez-toc-icon-toggle"></i></a></span></div>
+<nav><ul class="ez-toc-list ez-toc-list-level-1"><li class="ez-toc-page-1"><a class="ez-toc-link ez-toc-heading-1" href="#karnataka-mathrushree-scheme-2018-%e2%80%93-rs-6000-maternity-benefit-scheme" title="Karnataka Mathrushree Scheme 2018 &#8211; Rs. 6000 Maternity Benefit Scheme">Karnataka Mathrushree Scheme 2018 &#8211; Rs. 6000 Maternity Benefit Scheme</a></li><li class="ez-toc-page-1"><a class="ez-toc-link ez-toc-heading-2" href="#other-schemes-for-pregnant-women-in-karnataka-%e2%80%93-maternity-benefit-scheme" title="Other Schemes for Pregnant Women in Karnataka &#8211; Maternity Benefit Scheme">Other Schemes for Pregnant Women in Karnataka &#8211; Maternity Benefit Scheme</a></li><li class="ez-toc-page-1"><a class="ez-toc-link ez-toc-heading-3" href="#sandhya-suraksha-yojana-%e2%80%93-monthly-pension-for-senior-citizens" title="Sandhya Suraksha Yojana &#8211; Monthly Pension for Senior Citizens">Sandhya Suraksha Yojana &#8211; Monthly Pension for Senior Citizens</a></li></ul></nav></div>
+<h2><span class="ez-toc-section" id="karnataka-mathrushree-scheme-2018-%e2%80%93-rs-6000-maternity-benefit-scheme"></span>Karnataka Mathrushree Scheme 2018 &#8211; Rs. 6000 Maternity Benefit Scheme</h2>
+<p>The important features and highlights of this Mathrushree Scheme are as follows:-</p> 
+<ul>
+<li>The state govt. will provide Rs. 6,000 to all the pregnant mother from BPL Families.</li>
+<li>This amount would be given in 6 installments at Rs. 6,000 p.m.</li>
+<li>Govt. will start implementing this scheme from 1 November 2018 with an outlay of Rs. 350 crore.</li>
+<li>This scheme will remain applicable only to the first two babies. Mothers having their 3rd baby will not be eligible for this scheme.</li>
+<li>Govt. will transfer this amount directly through DBT.</li>
+</ul>
+<p>All the pregnant mothers from poor families will be benefited from this scheme and this amount will assist them while their delivery. </p>
+<div class="googleads">
+<center>
+<script type="text/javascript">google_ad_client="ca-pub-3737030722290655";google_ad_slot="CM_Sarkariyojana_BTF_WC3";google_ad_width=336;google_ad_height=280;</script>
+<script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+</center>
+</div>
+
+<h3><span class="ez-toc-section" id="other-schemes-for-pregnant-women-in-karnataka-%e2%80%93-maternity-benefit-scheme"></span>Other Schemes for Pregnant Women in Karnataka &#8211; Maternity Benefit Scheme</h3>
+<p>The following schemes for pregnant women are currently running in Karnataka:-<br/>
+&#8212; Janani Suraksha Yojana (JSY)<br/>
+&#8212; Thayi bhagya<br/>
+&#8212; Pradhan Mantri Matru Vandana Yojana<br/>
+&#8212; Rashtriya Swasthya Bima Yojana<br/>
+&#8212; Janani Suraksha Yojane</p>
+<h3><span class="ez-toc-section" id="sandhya-suraksha-yojana-%e2%80%93-monthly-pension-for-senior-citizens"></span>Sandhya Suraksha Yojana &#8211; Monthly Pension for Senior Citizens</h3>
+<p>In Karnataka Budget 2018-19, HD Kumaraswamy has also announced that Sandhya Suraksha Yojana 2018. Govt. will increase the monthly pension from Rs. 600 to Rs. 1,000 from 1 November 2018 for the next 5 years. This scheme will benefit a total number of 32.92 lakh senior citizens. Govt. has allotted a budgetary provision of Rs. 660 crore for this scheme to the Revenue department.</p>
+<p>All the senior citizens earning upto Rs. 20,000 per annum and who are currently not availing any other benefits like family pension, widow pension, physically handicapped pension and old age pension are eligible. This scheme will particularly benefit small farmers, marginal farmers, agricultural labourers, weavers, fishermen, labourers from unorganised sectors (excluding building and other construction workers).</p>
+</div>
+<div class="googleads">
+<script type="text/javascript">google_ad_client="ca-pub-3737030722290655";google_ad_slot="CM_Sarkariyojana_BTF_WC2";google_ad_width=336;google_ad_height=280;</script>
+<script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+</div>
+<a href="https://sarkariyojana.com/printaspdf/?slug=karnataka-mathrushree-scheme-rs-6000-aid-pregnant-women-bpl-families" rel="nofollow noindex" target="_blank" class="saveaspdf" onclick="ga('send', 'event', 'Button', 'Click', 'DOWNLOAD PDF', 1);">SAVE AS PDF</a>
+	<p class="postmetadata inbvt">
+		There <a href="#comments">are 5 comments</a> on this article | <a href="#respond">leave a reply</a><span class="tgslist">Tags: <a href="https://sarkariyojana.com/tag/scheme-for-pregnant-women/" rel="tag">Scheme for Pregnant Women</a></span></p>
+		<div class="vcard">
+<span class="fn">Karan Chhabra</span> at <span class="org">सरकारी योजना</span>
+</div>
+	</article>
+				<div class="relcont">Related <strong>Content</strong></div>
+<div class="relatedposts">
+<ul>
+	    <li><a href="https://sarkariyojana.com/pradhanmantri-matritva-vandana-yojana-pmmvy/">प्रधानमंत्री मातृ वंदना योजना 2020 ऑनलाइन पंजीकरण फॉर्म डाउनलोड &#8211; 6,000 रूपये गर्भावस्था सहायता</a></li>
+        <li><a href="https://sarkariyojana.com/pmmvy-pregnancy-aid-scheme-registration-application-form/">प्रधानमंत्री मातृत्व (मातृ) वंदना योजना ऑनलाइन पंजीकरण फॉर्म डाउनलोड &#8211; 6000 रूपये गर्भावस्था सहायता</a></li>
+        <li><a href="https://sarkariyojana.com/surakshit-matritva-aashwasan-suman-scheme-pregnant-women/">Surakshit Matritva Aashwasan (SUMAN) Scheme for Pregnant Women</a></li>
+        <li><a href="https://sarkariyojana.com/surakshit-matritva-aashwasan-suman-yojana/">सुरक्षित मातृत्व आसवासन सुमन योजना 2019 &#8211; गर्भवती महिला, नवजात शिशुओं के लिए मुफ्त स्वास्थ्य जांच व दवाएँ</a></li>
+        <li><a href="https://sarkariyojana.com/haryana-labour-maternity-benefit-scheme-pregnant-women/">हरियाणा श्रमिक विभाग मातृत्व लाभ योजना 2019 &#8211; गर्भवती महिलाओं को 36,000 रूपये सहायता | ऑनलाइन पंजीकरण, आवेदन पत्र</a></li>
+        <li><a href="https://sarkariyojana.com/maternity-benefit-scheme-haryana-labour/">Haryana Maternity Benefit Scheme Form for Women Labour (Rs. 36,000)</a></li>
+    		</ul>
+</div>
+    	<div class="navigation singlepg">
+		  <a href="https://sarkariyojana.com/tripura-cm-b-ed-anuprerana-yojana-interest-subsidy-bank-loans-teachers/" rel="prev">CM B.Ed Anuprerana Yojana in Tripura &#8211; Interest Subsidy on Bank Loans for Teachers</a>		  <a href="https://sarkariyojana.com/madhya-pradesh-nal-jal-scheme-2018-water/" rel="next">Madhya Pradesh Nal Jal Scheme 2018 to Provide Drinking Water to every House</a>	</div>
+</section>
+</main>
+<span class="publicdisc"><strong>Disclaimer and Notice:</strong> This is not the official website for any government scheme nor associated with any Govt. body. Please do not treat this as official website and do not leave your contact / personal such as Aadhar Number or Mobile No. information in the comment below. It is not possible for us to reply to each comment/query, neither we can address the complaints regarding any scheme. We request all our visitors to visit the official website of the concerned department / authority for any complaint, query about the scheme / information published on this website.</span>
+	<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">LEAVE A COMMENT / ASK A QUESTION &#128527 <small><a rel="nofollow" id="cancel-comment-reply-link" href="/karnataka-mathrushree-scheme-rs-6000-aid-pregnant-women-bpl-families/#respond" style="display:none;">Cancel reply</a></small></h3><form action="https://sarkariyojana.com/wp-comments-post.php" method="post" id="commentform" class="comment-form"><p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" required='required'/></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="text" value="" size="30" maxlength="100" aria-describedby="email-notes" required='required'/></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="text" value="" size="30" maxlength="200"/></p>
+<p class="comment-subscription-form"><input type="checkbox" name="subscribe_comments" id="subscribe_comments" value="subscribe" style="width: auto; -moz-appearance: checkbox; -webkit-appearance: checkbox;"/> <label class="subscribe-label" id="subscribe-label" for="subscribe_comments">Notify me of follow-up comments by email.</label></p><p class="comment-subscription-form"><input type="checkbox" name="subscribe_blog" id="subscribe_blog" value="subscribe" style="width: auto; -moz-appearance: checkbox; -webkit-appearance: checkbox;"/> <label class="subscribe-label" id="subscribe-blog-label" for="subscribe_blog">Notify me of new posts by email.</label></p><p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment"/> <input type='hidden' name='comment_post_ID' value='12757' id='comment_post_ID'/>
+<input type='hidden' name='comment_parent' id='comment_parent' value='0'/>
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="c9cdf5b9aa"/></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="17"/></p></form>	</div><!-- #respond -->
+	<div id="comments" class="relcont">
+<strong>5 Comments</strong> on &ldquo;<span>Karnataka Mathrushree Scheme &#8211; Rs. 6000 Aid for Pregnant Women of BPL Families</span>&rdquo;</div>
+	<ol class="commentlist">
+	<li class="comment even thread-even depth-1" id="comment-72595" itemtype="https://schema.org/Comment" itemscope>
+				<div id="div-comment-72595" class="comment-body">
+				<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+			<cite itemprop="name" class="fn">Sirisha Y</cite> <span class="says">says:</span></div>
+		<div class="comment-meta commentmetadata"><a href="https://sarkariyojana.com/karnataka-mathrushree-scheme-rs-6000-aid-pregnant-women-bpl-families/#comment-72595">
+			<time datetime="2019-07-12T11:58:41+05:30" itemprop="datePublished">July 12, 2019, 11:58 AM</time></a></div>
+					<div class="comment-content" itemprop="text"><p>I was applied in 6th month of pregnancy now 2 months baby but still I didn&#8217;t get any money. Please do the needful</p>
+</div>
+		<span class="reply"><a rel="nofollow" class="comment-reply-link" href="#comment-72595" data-commentid="72595" data-postid="12757" data-belowelement="div-comment-72595" data-respondelement="respond" aria-label="Reply to Sirisha Y">Reply</a></span>
+				</div>       
+</li><!-- #comment-## -->
+<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-58685" itemtype="https://schema.org/Comment" itemscope>
+				<div id="div-comment-58685" class="comment-body">
+				<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+			<cite itemprop="name" class="fn">job jebaraj</cite> <span class="says">says:</span></div>
+		<div class="comment-meta commentmetadata"><a href="https://sarkariyojana.com/karnataka-mathrushree-scheme-rs-6000-aid-pregnant-women-bpl-families/#comment-58685">
+			<time datetime="2018-12-01T08:35:41+05:30" itemprop="datePublished">December 1, 2018, 8:35 AM</time></a></div>
+					<div class="comment-content" itemprop="text"><p>its great to have this schemes to all the bpl card holders and it should also  help the middle class people who are not in the situation to provide medical support for themselves and others of their family members and the lot of bpl cards have been reached to the people who are capable to run their families and help others. but still the poor peoples doesn&#8217;t have bpl cards for their medical purpose or for their livelihood</p>
+</div>
+		<span class="reply"><a rel="nofollow" class="comment-reply-link" href="#comment-58685" data-commentid="58685" data-postid="12757" data-belowelement="div-comment-58685" data-respondelement="respond" aria-label="Reply to job jebaraj">Reply</a></span>
+				</div>       
+</li><!-- #comment-## -->
+<li class="comment even thread-even depth-1" id="comment-55167" itemtype="https://schema.org/Comment" itemscope>
+				<div id="div-comment-55167" class="comment-body">
+				<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+			<cite itemprop="name" class="fn">Sowndharya</cite> <span class="says">says:</span></div>
+		<div class="comment-meta commentmetadata"><a href="https://sarkariyojana.com/karnataka-mathrushree-scheme-rs-6000-aid-pregnant-women-bpl-families/#comment-55167">
+			<time datetime="2018-09-29T10:31:53+05:30" itemprop="datePublished">September 29, 2018, 10:31 AM</time></a></div>
+					<div class="comment-content" itemprop="text"><p>Can I have  application, when I will get a application on what date</p>
+</div>
+		<span class="reply"><a rel="nofollow" class="comment-reply-link" href="#comment-55167" data-commentid="55167" data-postid="12757" data-belowelement="div-comment-55167" data-respondelement="respond" aria-label="Reply to Sowndharya">Reply</a></span>
+				</div>       
+</li><!-- #comment-## -->
+<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-52564" itemtype="https://schema.org/Comment" itemscope>
+				<div id="div-comment-52564" class="comment-body">
+				<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+			<cite itemprop="name" class="fn">Rajkumar</cite> <span class="says">says:</span></div>
+		<div class="comment-meta commentmetadata"><a href="https://sarkariyojana.com/karnataka-mathrushree-scheme-rs-6000-aid-pregnant-women-bpl-families/#comment-52564">
+			<time datetime="2018-08-24T17:34:45+05:30" itemprop="datePublished">August 24, 2018, 5:34 PM</time></a></div>
+					<div class="comment-content" itemprop="text"><p>Share new update</p>
+</div>
+		<span class="reply"><a rel="nofollow" class="comment-reply-link" href="#comment-52564" data-commentid="52564" data-postid="12757" data-belowelement="div-comment-52564" data-respondelement="respond" aria-label="Reply to Rajkumar">Reply</a></span>
+				</div>       
+</li><!-- #comment-## -->
+<li class="comment even thread-even depth-1" id="comment-51958" itemtype="https://schema.org/Comment" itemscope>
+				<div id="div-comment-51958" class="comment-body">
+				<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+			<cite itemprop="name" class="fn">pratima jagadish ranagattimath</cite> <span class="says">says:</span></div>
+		<div class="comment-meta commentmetadata"><a href="https://sarkariyojana.com/karnataka-mathrushree-scheme-rs-6000-aid-pregnant-women-bpl-families/#comment-51958">
+			<time datetime="2018-08-14T19:24:04+05:30" itemprop="datePublished">August 14, 2018, 7:24 PM</time></a></div>
+					<div class="comment-content" itemprop="text"><p>please help us to all prblem person middle class and all womens</p>
+</div>
+		<span class="reply"><a rel="nofollow" class="comment-reply-link" href="#comment-51958" data-commentid="51958" data-postid="12757" data-belowelement="div-comment-51958" data-respondelement="respond" aria-label="Reply to pratima jagadish ranagattimath">Reply</a></span>
+				</div>       
+</li><!-- #comment-## -->
+	</ol> 
+</div>
+</div>
+</div>
+<footer id="footer">
+<p><strong>सरकारी योजनाएं हिंदी में:</strong> <a href="https://sarkariyojana.com/central-government/" title="केंद्र सरकार की सरकारी योजनाएं">केंद्र सरकार</a> । <a href="https://sarkariyojana.com/central-government/pradhan-mantri-yojana-list/" title="प्रधान मंत्री योजना सूची">प्रधान मंत्री योजना सूची</a> । <a href="https://sarkariyojana.com/assam-hindi/" title="असम सरकारी योजना">असम</a> । <a href="https://sarkariyojana.com/bihar-hindi/" title="बिहार सरकारी योजना">बिहार</a> । <a href="https://sarkariyojana.com/chhattisgarh-hindi/" title="छत्तीसगढ़ सरकारी योजना">छत्तीसगढ़</a> । <a href="https://sarkariyojana.com/delhi-hindi/" title="दिल्ली सरकारी योजना">दिल्ली</a> । <a href="https://sarkariyojana.com/goa-hindi/" title="गोवा सरकारी योजना">गोवा</a> । <a href="https://sarkariyojana.com/gujarat-hindi/" title="गुजरात सरकारी योजना">गुजरात</a> । <a href="https://sarkariyojana.com/haryana-hindi/" title="हरियाणा सरकारी योजना">हरियाणा</a> । <a href="https://sarkariyojana.com/himachal-pradesh-hindi/" title="हिमाचल प्रदेश सरकारी योजना">हिमाचल प्रदेश</a> । <a href="https://sarkariyojana.com/jammu-kashmir-hindi/" title="जम्मू कश्मीर सरकारी योजना">जम्मू कश्मीर</a> । <a href="https://sarkariyojana.com/jharkhand-hindi/" title="झारखण्ड सरकारी योजना">झारखण्ड</a> । <a href="https://sarkariyojana.com/maharashtra-hindi/" title="महाराष्ट्र सरकारी योजना">महाराष्ट्र</a> । <a href="https://sarkariyojana.com/punjab-hindi/" title="पंजाब सरकारी योजना">पंजाब</a> । <a href="https://sarkariyojana.com/rajasthan-hindi/" title="राजस्थान सरकारी योजना">राजस्थान</a> । <a href="https://sarkariyojana.com/uttar-pradesh-hindi/" title="उत्तर प्रदेश सरकारी योजना">उत्तर प्रदेश</a> । <a href="https://sarkariyojana.com/uttarakhand-hindi/" title="उत्तराखंड सरकारी योजना">उत्तराखंड</a></p>
+<p><a href="https://sarkariyojana.com/about/">about</a> | <a href="https://sarkariyojana.com/contact/">contact</a> | <a href="https://sarkariyojana.com/privacy-policy/">privacy policy</a> | <a href="https://sarkariyojana.com/disclaimer/">disclaimer</a></p>
+<p>
+<strong>Registered Company Name:</strong> W3BRAIN LLP
+<strong>Address:</strong> 1st Floor, Above Pizza Bite, Bhardwaj Tower, Opposite Bus Stand, Palwal, 121102, HR, India<br/>	
+&copy; Copyright 2020 - sarkariyojana.com 
+</p>
+<p class="discl"><strong>DISCLAIMER:</strong> This is neither the official website nor linked to any Government organization, agency, office or official in any way. This is a public website and author share information about government schemes on this website. All the logos/images posted on this website are the property of their actual copyright/trademark owners.</p>
+<p><a href="https://sarkariyojana.com/tag/sarkari-yojana-hindi/" target="_blank">सरकारी योजना हिंदी में</a> | <a href="http://www.pmujjwalayojana.in" target="_blank" rel="noopener">PM Ujjwala Yojana</a></p>
+<!--<p><a href="//www.dmca.com/Protection/Status.aspx?ID=5c273b95-7a38-473f-987f-ae396bdf1068" title="DMCA.com Protection Status" class="dmca-badge"> <img src="//images.dmca.com/Badges/_dmca_premi_badge_4.png?ID=5c273b95-7a38-473f-987f-ae396bdf1068" alt="DMCA.com Protection Status"></a></p>
+--></footer>
+<a href="#" id="back-to-top" title="Back to top"></a>
+<nav id="menu-header" class="menu-header">
+<span class="close-select-state" onClick="closemenu()">X</span>
+  <!-- Header Menu -->
+<ul id="menu-main-menu" class="nav navbar-nav">
+<li><a href="https://sarkariyojana.com/tag/sarkari-yojana-list/" title="Government Schemes List">Sarkari Yojana List</a></li>
+<li><a href="https://sarkariyojana.com/central-government/" title="Central Government Schemes">Central Government</a></li>
+<li><a href="https://sarkariyojana.com/andhra-pradesh/" title="Andhra Pradesh Government Schemes">Andhra Pradesh</a></li>
+<li><a href="https://sarkariyojana.com/assam/" title="Assam Government Schemes">Assam</a></li>
+<li><a href="https://sarkariyojana.com/arunachal-pradesh/" title="Arunachal Government Schemes">Arunachal Pradesh</a></li>	
+<li><a href="https://sarkariyojana.com/bihar/" title="Bihar Sarkari Yojana">Bihar</a></li>
+<li><a href="https://sarkariyojana.com/chhattisgarh/" title="Chhattisgarh Sarkari Yojana">Chhattisgarh</a></li>
+<li><a href="https://sarkariyojana.com/delhi/" title="Delhi Government Schemes">Delhi</a></li>
+<li><a href="https://sarkariyojana.com/goa/" title="Goa Government Schemes">Goa</a></li>
+<li><a href="https://sarkariyojana.com/gujarat/" title="Gujarat Government Schemes">Gujarat</a></li>
+<li><a href="https://sarkariyojana.com/haryana/" title="Haryana Sarkari Yojana">Haryana</a></li>
+<li><a href="https://sarkariyojana.com/himachal-pradesh/" title="Himachal Pradesh Government Schemes">Himachal Pradesh</a></li>
+<li><a href="https://sarkariyojana.com/jammu-kashmir/" title="J&K Government Schemes">Jammu Kashmir</a></li>
+<li><a href="https://sarkariyojana.com/jharkhand/" title="Jharkhand Sarkari Yojana">Jharkhand</a></li>
+<li><a href="https://sarkariyojana.com/karnataka/" title="Karnataka Government Schemes">Karnataka</a></li>
+<li><a href="https://sarkariyojana.com/madhya-pradesh/" title="MP Sarkari Yojana">Madhya Pradesh</a></li>
+<li><a href="https://sarkariyojana.com/kerala/" title="Kerala Government Schemes">Kerala</a></li>
+<li><a href="https://sarkariyojana.com/maharashtra/" title="Maharashtra Government Schemes">Maharashtra</a></li>
+<li><a href="https://sarkariyojana.com/manipur/" title="Manipur Government Schemes">Manipur</a></li>
+<li><a href="https://sarkariyojana.com/meghalaya/" title="Meghalaya Government Schemes">Meghalaya</a></li>
+<li><a href="https://sarkariyojana.com/mizoram/" title="Mizoram Government Schemes">Mizoram</a></li>
+<li><a href="https://sarkariyojana.com/odisha/" title="Odisha Government Schemes">Odisha</a></li>
+<li><a href="https://sarkariyojana.com/punjab/" title="Punjab Government Schemes">Punjab</a></li>
+<li><a href="https://sarkariyojana.com/rajasthan/" title="Rajasthan Government Schemes">Rajasthan</a></li>
+<li><a href="https://sarkariyojana.com/tamilnadu/" title="Tamilnadu Government Schemes">Tamil Nadu</a></li>
+<li><a href="https://sarkariyojana.com/telangana/" title="Telangana Government Schemes">Telangana</a></li>
+<li><a href="https://sarkariyojana.com/tripura/" title="Tripura Government Schemes">Tripura</a></li>
+<li><a href="https://sarkariyojana.com/uttar-pradesh/" title="Uttar Pradesh Sarkari Yojana">Uttar Pradesh</a></li>
+<li><a href="https://sarkariyojana.com/uttarakhand/" title="Uttarakhand Government Schemes">Uttarakhand</a></li>
+<li><a href="https://sarkariyojana.com/west-bengal/" title="West Bengal Government Schemes">West Bengal</a></li>
+<li><a href="https://sarkariyojana.com/disclaimer/">Disclaimer</a></li>
+<li><a href="https://sarkariyojana.com/contact/">Contact Us</a></li>
+<li><a href="https://sarkariyojana.com/about/">About Us</a></li>
+</ul>
+</nav>
+<div class="dwnapp">
+<a href="https://play.google.com/store/apps/details?id=com.w3brain.sarkariyojana&hl=en" target="_blank" rel="noopener"><img src="https://sarkariyojana.com/wp-content/themes/quickpress-child/images/sarkari-yojana-app-download.png" data-no-lazy="1" alt="Sarkari Yojana App Download"/></a>
+</div>
+<div id="shareThis"></div>
+<div id="support" class=""><span id="close" onclick="closeshare()">CLOSE</span><b>SHARE ON:</b> <button onclick="sharefb()" class="fbsharebtn">Facebook</button><button class="washarebtn" onclick="shareWhatsapp()">WhatsApp</button><button class="washarebtnd" onclick="shareWhatsappD()">WhatsApp</button></div>
+<script>
+var shareButton=document.getElementById("shareThis"),supported=document.getElementById("support");function sharefb(){window.open("https://www.facebook.com/sharer/sharer.php?u="+window.location.href+"&t="+document.title),ga("send","event","Button","Click","FB SHARE",1)}function shareWhatsapp(){window.open("whatsapp://send?text="+document.title+" - "+window.location.href),ga("send","event","Button","Click","WHATSAPP SHARE",1)}function shareWhatsappD(){window.open("https://wa.me/?text="+document.title+" - "+window.location.href),ga("send","event","Button","Click","WHATSAPP SHARE DESKTOP",1)}function closeshare(){document.getElementById("shareThis").style.display="block",document.getElementById("support").style.bottom="-200px"}shareButton.addEventListener("click",e=>{if(navigator.share){var t=document.querySelector("link[rel=canonical]")?document.querySelector("link[rel=canonical]").href:window.location.href;navigator.share({title:document.title,text:document.title,url:t}).then(()=>{console.log("Successful Sharing")}).catch(console.error)}else supported.style.bottom="34px",shareButton.style.display="none"});
+</script>
+<script>function openmenu(){document.getElementById("menu-header").style.left="0px"}function closemenu(){document.getElementById("menu-header").style.left="-100%"}function expandsylist(){document.getElementById("sylistover").style.height="100%",document.getElementById("showfull").style.display="none",document.getElementById("hidefull").style.display="block"}function closesylist(){window.matchMedia("(max-width: 768px)").matches?document.getElementById("sylistover").style.height="200px":document.getElementById("sylistover").style.height="500px",document.getElementById("showfull").style.display="block",document.getElementById("hidefull").style.display="none"}(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create','UA-73005060-1','auto');ga('send','pageview');</script>
+<script>if(document.location.protocol!="https:"){document.location=document.URL.replace(/^http:/i,"https:");}</script><script type='text/javascript' src='https://sarkariyojana.com/wp-includes/js/comment-reply.min.js?ver=5.4'></script>
+<script type='text/javascript' src='https://sarkariyojana.com/wp-content/plugins/jetpack/_inc/build/lazy-images/js/lazy-images.min.js?ver=8.4.1'></script>
+<script type='text/javascript' src='https://sarkariyojana.com/wp-includes/js/wp-embed.min.js?ver=5.4'></script>
+<script type='text/javascript' src='https://sarkariyojana.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://sarkariyojana.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://sarkariyojana.com/wp-content/plugins/easy-table-of-contents/vendor/smooth-scroll/jquery.smooth-scroll.min.js?ver=2.2.0'></script>
+<script type='text/javascript' src='https://sarkariyojana.com/wp-content/plugins/easy-table-of-contents/vendor/js-cookie/js.cookie.min.js?ver=2.2.1'></script>
+<script type='text/javascript' src='https://sarkariyojana.com/wp-content/plugins/easy-table-of-contents/vendor/sticky-kit/jquery.sticky-kit.min.js?ver=1.9.2'></script>
+<script type='text/javascript'>//<![CDATA[
+var ezTOC={"smooth_scroll":"1","visibility_hide_by_default":"1","width":"100%","scroll_offset":"65"};
+//]]></script>
+<script type='text/javascript' src='https://sarkariyojana.com/wp-content/plugins/easy-table-of-contents/assets/js/front.min.js?ver=2.0.9-1586418817'></script>
+<script async="async" type='text/javascript' src='https://sarkariyojana.com/wp-content/plugins/akismet/_inc/form.js?ver=4.1.4'></script>
+<script type='text/javascript' src='https://stats.wp.com/e-202015.js' async='async' defer='defer'></script>
+<script type='text/javascript'>_stq=window._stq||[];_stq.push(['view',{v:'ext',j:'1:8.4.1',blog:'170901665',post:'12757',tz:'5.5',srv:'sarkariyojana.com'}]);_stq.push(['clickTrackerInit','170901665','12757']);</script>
+<script type="application/javascript" src="https://sdki.truepush.com/sdk/v2.0.2/app.js" async></script>
+<script>var truepush=window.truepush||[];truepush.push(function(){truepush.Init({id:"5e50ee57f22f7036f2164ffe"},function(error){if(error)console.error(error);})})</script>
+<script>truepush.push({operation:"add-tags",data:[{tagName:"Category",tagType:"string",tagValue:"Karnataka"}],callback:function(error,response){console.log(error,response);}})</script>
+<!--<script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>-->
+</body>
+</html>

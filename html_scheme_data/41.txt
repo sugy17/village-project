@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<title>Tenders Soon Release to Construct 1 lakh Homes for Urban Poor Karnataka</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v13.4.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="The state government is going to release the tenders to the construct of more 1 Lakh houses under CM housing scheme for the urban poor in Karnataka state"/>
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<link rel="canonical" href="https://sarkariyojana.com/karnataka-tenders-construct-1-lakh-homes/"/>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//s.w.org'/>
+<link rel="alternate" type="application/rss+xml" title="सरकारी योजना - Sarkari Yojana List &amp; News &raquo; Feed" href="https://sarkariyojana.com/feed/"/>
+<link rel="alternate" type="application/rss+xml" title="सरकारी योजना - Sarkari Yojana List &amp; News &raquo; Comments Feed" href="https://sarkariyojana.com/comments/feed/"/>
+<link rel="alternate" type="application/rss+xml" title="सरकारी योजना - Sarkari Yojana List &amp; News &raquo; Tenders Soon Release to Construct 1 lakh Homes for Urban Poor in Karnataka Comments Feed" href="https://sarkariyojana.com/karnataka-tenders-construct-1-lakh-homes/feed/"/>
+<link rel='stylesheet' id='ez-icomoon-css' href='https://sarkariyojana.com/wp-content/plugins/easy-table-of-contents/vendor/icomoon/style.min.css' type='text/css' media='all'/>
+<link rel='stylesheet' id='ez-toc-css' href='https://sarkariyojana.com/wp-content/plugins/easy-table-of-contents/assets/css/screen.min.css' type='text/css' media='all'/>
+<style id='ez-toc-inline-css' type='text/css'>div#ez-toc-container p.ez-toc-title{font-size:100%}div#ez-toc-container p.ez-toc-title{font-weight:700}div#ez-toc-container ul li{font-size:100%}div#ez-toc-container{background:#eff9ff;border:1px solid #e5e5e5;width:100%}div#ez-toc-container p.ez-toc-title{color:#565656}div#ez-toc-container ul.ez-toc-list a{color:#06c}div#ez-toc-container ul.ez-toc-list a:hover{color:#0070a8}div#ez-toc-container ul.ez-toc-list a:visited{color:#06c}</style>
+<link rel='stylesheet' id='quickpress-css' href='https://sarkariyojana.com/wp-content/themes/quickpress-child/style.css' type='text/css' media='all'/>
+<link rel='https://api.w.org/' href='https://sarkariyojana.com/wp-json/'/>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://sarkariyojana.com/xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://sarkariyojana.com/wp-includes/wlwmanifest.xml"/> 
+<meta name="generator" content="WordPress 5.4"/>
+<link rel='shortlink' href='https://sarkariyojana.com/?p=5239'/>
+<link rel="alternate" type="application/json+oembed" href="https://sarkariyojana.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsarkariyojana.com%2Fkarnataka-tenders-construct-1-lakh-homes%2F"/>
+<link rel="alternate" type="text/xml+oembed" href="https://sarkariyojana.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsarkariyojana.com%2Fkarnataka-tenders-construct-1-lakh-homes%2F&#038;format=xml"/>
+<style type='text/css'>img#wpstats{display:none}</style><style type="text/css">.recentcomments a{display:inline!important;padding:0!important;margin:0!important}</style><style type="text/css">.broken_link,a.broken_link{text-decoration:line-through}</style>			<style type="text/css">html:not( .jetpack-lazy-images-js-enabled ):not( .js ) .jetpack-lazy-image {display:none}</style>
+			<script>document.documentElement.classList.add('jetpack-lazy-images-js-enabled');</script>
+		<link rel="amphtml" href="https://sarkariyojana.com/karnataka-tenders-construct-1-lakh-homes/amp/">
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="Tenders Soon Release to Construct 1 lakh Homes for Urban Poor in Karnataka"/>
+<meta property="og:url" content="https://sarkariyojana.com/karnataka-tenders-construct-1-lakh-homes/"/>
+<meta property="og:description" content="The state government of Karnataka has announced to construct 1,00,000 homes for the urban poor in Bengaluru city. The government has given the title the scheme &#8220;Chief Minister’s 1 Lakh Bengal…"/>
+<meta property="article:published_time" content="2017-12-04T06:55:44+00:00"/>
+<meta property="article:modified_time" content="2017-12-04T06:57:58+00:00"/>
+<meta property="og:site_name" content="सरकारी योजना - Sarkari Yojana List &amp; News"/>
+<meta property="og:image" content="https://sarkariyojana.com/wp-content/uploads/2017/09/karnataka-housing-scheme.png"/>
+<meta property="og:image:alt" content="Karnataka housing Scheme"/>
+<meta name="twitter:creator" content="@sarkari_yojana"/>
+<meta name="twitter:text:title" content="Tenders Soon Release to Construct 1 lakh Homes for Urban Poor in Karnataka"/>
+<meta name="twitter:image" content="https://sarkariyojana.com/wp-content/uploads/2017/09/karnataka-housing-scheme.png?w=640"/>
+<meta name="twitter:image:alt" content="Karnataka housing Scheme"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="675"/>
+
+<!-- End Jetpack Open Graph Tags -->
+<script type="application/ld+json">
+{"@context": "https://schema.org","@type":"NewsArticle","mainEntityOfPage": {"@type": "WebPage","@id": "https://sarkariyojana.com/karnataka-tenders-construct-1-lakh-homes/"},"headline": "Tenders Soon Release to Construct 1 lakh Homes for Urban Poor in Karnataka","image": ["https://sarkariyojana.com/wp-content/uploads/2017/09/karnataka-housing-scheme.png"],"datePublished": "2017-12-04T12:25:44+05:30","dateModified": "2017-12-04T12:27:58+05:30 ","author": {"@type": "Person","name": "Rajesh Kumar"},"publisher": {"@type": "Organization","name": "Sarkari Yojana","logo": {"@type": "ImageObject","url": "https://sarkariyojana.com/logo.png"}},"description": "The state government of Karnataka has announced to construct 1,00,000 homes for the urban poor in Bengaluru city. The government has given the title the scheme &#8220;Chief Minister’s 1 Lakh Bengaluru Housing Scheme&#8221; for urban [&hellip;]","commentCount":"15"}
+</script>
+<meta name="google-site-verification" content="jNq6eclDD71dnpMabqxCl6dxTcfHm0DAb1jTpe38DrQ"/>
+<meta name="google-site-verification" content="xGX7aX_a5YiB_GuJCRoc_ifzpRymsN3jUOSBbxPbKgU"/>
+<meta name="p:domain_verify" content="8fa99d3a08132489b36df4236a53c63d"/>
+<meta name="verifyownership" content="3b064f561f68a34417f398e0219e5535"/>
+<meta name="revisit-after" content="1 days"/>
+<link rel="icon" href="https://sarkariyojana.com/wp-content/themes/quickpress-child/images/favicon.png" type="image/x-icon"/>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Merriweather|Noto+Sans&display=swap" rel="stylesheet">
+</head>
+<body data-rsssl=1 class="post-template-default single single-post postid-5239 single-format-standard">
+<div class="headerc">
+<header id="header">
+<div class="searchform header-search">
+<section class="search"><form role="search" method="get" id="searchform" class="searchform" action="https://sarkariyojana.com/">
+    <label class="screen-reader-text" for="s"></label>
+     <input type="search" value="" name="s" id="s" placeholder="Search Scheme Name..."/>
+     <input type="submit" id="searchsubmit" value="Search"/>
+     </form></section>  </div>
+  <div class="blog-top">
+      <a class="blogtitle" href="https://sarkariyojana.com" title="सरकारी योजना - Sarkari Yojana"><img src="https://sarkariyojana.com/wp-content/themes/quickpress-child/images/sarkari-yojana-logo.png" data-no-lazy="1" alt="Sarkari Yojana - सरकारी योजना"></a>
+  </div>
+	<div class="statediv" onClick="openmenu()">
+		<span class="select-state">STATES</span>
+	</div>
+</header>
+</div>
+<div id="page">
+<p id="breadcrumbs"><span><span><a href="https://sarkariyojana.com/">सरकारी योजना</a> » <span><a href="https://sarkariyojana.com/karnataka/">Karnataka</a> » <strong class="breadcrumb_last" aria-current="page">Tenders Soon Release to Construct 1 lakh Homes for Urban Poor in Karnataka</strong></span></span></span></p><div id="content" class="narrowcolumn">
+<main role="main">
+<section>
+	<article id="post-5239" class="post-5239 post type-post status-publish format-standard has-post-thumbnail hentry category-karnataka tag-housing-scheme tag-pradhan-mantri-awas-yojana">
+	<div class="entry-category"><a href="https://sarkariyojana.com/karnataka/" rel="category tag">Karnataka</a></div>
+      <h1 class="entry-title">Tenders Soon Release to Construct 1 lakh Homes for Urban Poor in Karnataka</h1>
+      		<div class="googleads">
+<!-- SYRLU1 -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9413286941447335" data-ad-slot="9106778305" data-ad-format="link"></ins>
+<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+</div>
+<div class="stats">
+	<div class="views"><strong>4060</strong> Views</div>
+	<a href="#respond"><strong>15 Comments</strong>Write a Comment</a>
+</div>
+<span class="lastmod lmdate"><span class="date published created">December 4, 2017</span> | <b>UPDATED ON:</b> <span class="date updated modified">December 4, 2017</span></span>	<div class="entry">
+<!-- post thumbnail -->
+<div class="fpostimage">
+<img src="https://sarkariyojana.com/wp-content/uploads/2017/09/karnataka-housing-scheme.png" alt="Karnataka housing Scheme"/>
+</div>
+<div class="entry-content" id="cprint">
+		<p>The state government of Karnataka has announced to construct 1,00,000 homes for the urban poor in Bengaluru city. The government has given the title the scheme &#8220;Chief Minister’s 1 Lakh Bengaluru Housing Scheme&#8221; for urban poor. Earlier, the govt. has assured the people of the state that their government will construct a total of 7,00,000 homes. Out of which this total, about 6,00,00 in rural areas and 1,00,000 in Bengaluru city will construct the homes.  </p>
+<div class="mobaddiv250 abc">
+<!-- SY Mobile 300x250 P1 -->
+<ins class="adsbygoogle mobad" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-9413286941447335" data-ad-slot="6682993587"></ins>
+<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+</div>
+
+<p>Although, the government has informed that they gave the approval this housing scheme 0n 29 September. In addition, they will soon release the date of tenders bidding for the implementation of the scheme. This project will be completed in next 24 months. The government will spend Rs. 5500 crore on the project.</p>
+<p>The benefit of the housing scheme is for those people who have been residing in Bengaluru for over five years but do not have any home and living in slum areas and those are falling below the poverty line. The beneficiary will be shortlisted by the government and they get a home in three &#8211; storey buildings.</p>
+<div class="googleads">
+<!-- SYRLU2 -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9413286941447335" data-ad-slot="4369456947" data-ad-format="link"></ins>
+<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+</div>
+
+<h2>Subsidy for Chief Minister’s Housing Scheme</h2>
+<p>Below given the details of subsidy which will be provided to the beneficiary of the housing scheme:-</p> 
+<ul>
+<li>The cost of each house is Rs. 5.50 lakh.</li>
+<li>The subsidy of Rs. 2.7 lakh for the citizen of general category.</li>
+<li>In addition, the citizen of scheduled caste and scheduled tribe category will get Rs. 3.7 lakh.</li>
+<li>Moreover, the beneficiary is also eligible to apply for loans for the remaining amount in the bank of state.</li>
+</ul>
+<p>As per the released notice, the government will acquire around 1,100 acres of land in the state for the construct of these houses. However, the government has already carried out the process to ascertain the several locations and some 431 acres of land have got approval for the construction of houses. </p>
+<div class="googleads">
+<center>
+<script type="text/javascript">google_ad_client="ca-pub-3737030722290655";google_ad_slot="CM_Sarkariyojana_BTF_WC3";google_ad_width=336;google_ad_height=280;</script>
+<script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+</center>
+</div>
+
+<p>However, the state govt. will provide 80% of the housing complexes to the BPL families those who are residing in the limits of BBMP. The remaining to the beneficiaries who are residing in the Bengaluru Metropolitan Region. This housing scheme will target economically and weaker section of the society. They will be eligible to avail the benefit of the government scheme. </p>
+</div>
+<div class="googleads">
+<script type="text/javascript">google_ad_client="ca-pub-3737030722290655";google_ad_slot="CM_Sarkariyojana_BTF_WC2";google_ad_width=336;google_ad_height=280;</script>
+<script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+</div>
+<a href="https://sarkariyojana.com/printaspdf/?slug=karnataka-tenders-construct-1-lakh-homes" rel="nofollow noindex" target="_blank" class="saveaspdf" onclick="ga('send', 'event', 'Button', 'Click', 'DOWNLOAD PDF', 1);">SAVE AS PDF</a>
+	<p class="postmetadata inbvt">
+		There <a href="#comments">are 15 comments</a> on this article | <a href="#respond">leave a reply</a><span class="tgslist">Tags: <a href="https://sarkariyojana.com/tag/housing-scheme/" rel="tag">Housing Schemes</a>, <a href="https://sarkariyojana.com/tag/pradhan-mantri-awas-yojana/" rel="tag">Pradhan Mantri Awas Yojana</a></span></p>
+		<div class="vcard">
+<span class="fn">Rajesh Kumar</span> at <span class="org">सरकारी योजना</span>
+</div>
+	</article>
+				<div class="relcont">Related <strong>Content</strong></div>
+<div class="relatedposts">
+<ul>
+	    <li><a href="https://sarkariyojana.com/wb-snehaloy-housing-scheme/">West Bengal Snehaloy Housing Scheme 2020 Online Application / Registration Form</a></li>
+        <li><a href="https://sarkariyojana.com/check-name-pmay-list-beneficiaries-pmaymis/">PMAY &#8211; U List of Beneficiaries 2020 &#8211; Check Name on pmaymis.gov.in (PM Awas Yojana List)</a></li>
+        <li><a href="https://sarkariyojana.com/pradhan-mantri-awas-yojana-online-application-forms-pmaymis-gov/">Pradhan Mantri Awas Yojana Online Application Forms 2020 on pmaymis.gov.in</a></li>
+        <li><a href="https://sarkariyojana.com/track-application-status-pradhan-mantri-awas-yojana-urban/">Track Application Status of Pradhan Mantri Awas Yojana &#8211; Urban 2020</a></li>
+        <li><a href="https://sarkariyojana.com/list-cities-selected-pradhan-mantri-awas-yojana/">[UPDATED] List of Cities Selected Under Pradhan Mantri Awas Yojana (PMAY-U)</a></li>
+        <li><a href="https://sarkariyojana.com/dda-housing-scheme-latest-news/">DDA Housing Scheme 2020 Latest News for 5,000 Flats in Jasola, Dwarka &#038; Narela Regions</a></li>
+    		</ul>
+</div>
+    	<div class="navigation singlepg">
+		  <a href="https://sarkariyojana.com/100-dial-scheme-mitra-kaksh-haryana-government/" rel="prev">100 Dial Scheme and Mitra Kaksh in Haryana to Provide Justice on Time</a>		  <a href="https://sarkariyojana.com/pmay-urban-subsidy-scheme-homebuyers/" rel="next">PMAY (Urban) Subsidy Scheme to Cover 1.12 Lakh Homebuyers</a>	</div>
+</section>
+</main>
+<span class="publicdisc"><strong>Disclaimer and Notice:</strong> This is not the official website for any government scheme nor associated with any Govt. body. Please do not treat this as official website and do not leave your contact / personal such as Aadhar Number or Mobile No. information in the comment below. It is not possible for us to reply to each comment/query, neither we can address the complaints regarding any scheme. We request all our visitors to visit the official website of the concerned department / authority for any complaint, query about the scheme / information published on this website.</span>
+	<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">LEAVE A COMMENT / ASK A QUESTION &#128527 <small><a rel="nofollow" id="cancel-comment-reply-link" href="/karnataka-tenders-construct-1-lakh-homes/#respond" style="display:none;">Cancel reply</a></small></h3><form action="https://sarkariyojana.com/wp-comments-post.php" method="post" id="commentform" class="comment-form"><p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" required='required'/></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="text" value="" size="30" maxlength="100" aria-describedby="email-notes" required='required'/></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="text" value="" size="30" maxlength="200"/></p>
+<p class="comment-subscription-form"><input type="checkbox" name="subscribe_comments" id="subscribe_comments" value="subscribe" style="width: auto; -moz-appearance: checkbox; -webkit-appearance: checkbox;"/> <label class="subscribe-label" id="subscribe-label" for="subscribe_comments">Notify me of follow-up comments by email.</label></p><p class="comment-subscription-form"><input type="checkbox" name="subscribe_blog" id="subscribe_blog" value="subscribe" style="width: auto; -moz-appearance: checkbox; -webkit-appearance: checkbox;"/> <label class="subscribe-label" id="subscribe-blog-label" for="subscribe_blog">Notify me of new posts by email.</label></p><p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment"/> <input type='hidden' name='comment_post_ID' value='5239' id='comment_post_ID'/>
+<input type='hidden' name='comment_parent' id='comment_parent' value='0'/>
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="afa8e5b4f0"/></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="36"/></p></form>	</div><!-- #respond -->
+	<div id="comments" class="relcont">
+<strong>15 Comments</strong> on &ldquo;<span>Tenders Soon Release to Construct 1 lakh Homes for Urban Poor in Karnataka</span>&rdquo;</div>
+	<ol class="commentlist">
+	<li class="comment even thread-even depth-1" id="comment-57748" itemtype="https://schema.org/Comment" itemscope>
+				<div id="div-comment-57748" class="comment-body">
+				<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+			<cite itemprop="name" class="fn">nitesh wargoda</cite> <span class="says">says:</span></div>
+		<div class="comment-meta commentmetadata"><a href="https://sarkariyojana.com/karnataka-tenders-construct-1-lakh-homes/#comment-57748">
+			<time datetime="2018-11-11T17:37:00+05:30" itemprop="datePublished">November 11, 2018, 5:37 PM</time></a></div>
+					<div class="comment-content" itemprop="text"><p>How do we apply for housing scheme in karnataka from belgaum distrist for own house devolpment.</p>
+</div>
+		<span class="reply"><a rel="nofollow" class="comment-reply-link" href="#comment-57748" data-commentid="57748" data-postid="5239" data-belowelement="div-comment-57748" data-respondelement="respond" aria-label="Reply to nitesh wargoda">Reply</a></span>
+				</div>       
+</li><!-- #comment-## -->
+<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-55524" itemtype="https://schema.org/Comment" itemscope>
+				<div id="div-comment-55524" class="comment-body">
+				<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+			<cite itemprop="name" class="fn">HEENA KAUSAR</cite> <span class="says">says:</span></div>
+		<div class="comment-meta commentmetadata"><a href="https://sarkariyojana.com/karnataka-tenders-construct-1-lakh-homes/#comment-55524">
+			<time datetime="2018-10-05T13:41:36+05:30" itemprop="datePublished">October 5, 2018, 1:41 PM</time></a></div>
+					<div class="comment-content" itemprop="text"><p>This Karnataka government is waste why only for Bangalore housing project you must give houses  for all poor People of Karnataka  who don&#8217;t have there own house this government is not good Bangalore is developed city now u develope other&#8217; city&#8217;s also shame on u help the poor people first.</p>
+</div>
+		<span class="reply"><a rel="nofollow" class="comment-reply-link" href="#comment-55524" data-commentid="55524" data-postid="5239" data-belowelement="div-comment-55524" data-respondelement="respond" aria-label="Reply to HEENA KAUSAR">Reply</a></span>
+				</div>       
+</li><!-- #comment-## -->
+<li class="comment even thread-even depth-1" id="comment-42619" itemtype="https://schema.org/Comment" itemscope>
+				<div id="div-comment-42619" class="comment-body">
+				<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+			<cite itemprop="name" class="fn">Umme salma</cite> <span class="says">says:</span></div>
+		<div class="comment-meta commentmetadata"><a href="https://sarkariyojana.com/karnataka-tenders-construct-1-lakh-homes/#comment-42619">
+			<time datetime="2018-02-15T11:09:29+05:30" itemprop="datePublished">February 15, 2018, 11:09 AM</time></a></div>
+					<div class="comment-content" itemprop="text"><p>Respected sir,</p>
+<p>   Poor people in Bangalore will not a single paisa from gvt, there are many people who have there own house get free support from government, they get free home, bpl card everything</p>
+</div>
+		<span class="reply"><a rel="nofollow" class="comment-reply-link" href="#comment-42619" data-commentid="42619" data-postid="5239" data-belowelement="div-comment-42619" data-respondelement="respond" aria-label="Reply to Umme salma">Reply</a></span>
+				</div>       
+</li><!-- #comment-## -->
+<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-40992" itemtype="https://schema.org/Comment" itemscope>
+				<div id="div-comment-40992" class="comment-body">
+				<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+			<cite itemprop="name" class="fn">Rohim SK</cite> <span class="says">says:</span></div>
+		<div class="comment-meta commentmetadata"><a href="https://sarkariyojana.com/karnataka-tenders-construct-1-lakh-homes/#comment-40992">
+			<time datetime="2018-01-11T22:27:50+05:30" itemprop="datePublished">January 11, 2018, 10:27 PM</time></a></div>
+					<div class="comment-content" itemprop="text"><p>Rohim SK belly serpir,pi samsergoj,po,nimtita,distik mursidabad pin 742224</p>
+</div>
+		<span class="reply"><a rel="nofollow" class="comment-reply-link" href="#comment-40992" data-commentid="40992" data-postid="5239" data-belowelement="div-comment-40992" data-respondelement="respond" aria-label="Reply to Rohim SK">Reply</a></span>
+				</div>       
+</li><!-- #comment-## -->
+<li class="comment even thread-even depth-1" id="comment-39920" itemtype="https://schema.org/Comment" itemscope>
+				<div id="div-comment-39920" class="comment-body">
+				<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+			<cite itemprop="name" class="fn">Prashant kumar</cite> <span class="says">says:</span></div>
+		<div class="comment-meta commentmetadata"><a href="https://sarkariyojana.com/karnataka-tenders-construct-1-lakh-homes/#comment-39920">
+			<time datetime="2017-12-20T09:05:03+05:30" itemprop="datePublished">December 20, 2017, 9:05 AM</time></a></div>
+					<div class="comment-content" itemprop="text"><p>New eskim ki jankari chahiye</p>
+</div>
+		<span class="reply"><a rel="nofollow" class="comment-reply-link" href="#comment-39920" data-commentid="39920" data-postid="5239" data-belowelement="div-comment-39920" data-respondelement="respond" aria-label="Reply to Prashant kumar">Reply</a></span>
+				</div>       
+</li><!-- #comment-## -->
+<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-39918" itemtype="https://schema.org/Comment" itemscope>
+				<div id="div-comment-39918" class="comment-body">
+				<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+			<cite itemprop="name" class="fn">Prashant kumar</cite> <span class="says">says:</span></div>
+		<div class="comment-meta commentmetadata"><a href="https://sarkariyojana.com/karnataka-tenders-construct-1-lakh-homes/#comment-39918">
+			<time datetime="2017-12-20T08:56:39+05:30" itemprop="datePublished">December 20, 2017, 8:56 AM</time></a></div>
+					<div class="comment-content" itemprop="text"><p>Uttar Pradesh scheme plane</p>
+</div>
+		<span class="reply"><a rel="nofollow" class="comment-reply-link" href="#comment-39918" data-commentid="39918" data-postid="5239" data-belowelement="div-comment-39918" data-respondelement="respond" aria-label="Reply to Prashant kumar">Reply</a></span>
+				</div>       
+</li><!-- #comment-## -->
+<li class="comment even thread-even depth-1" id="comment-39707" itemtype="https://schema.org/Comment" itemscope>
+				<div id="div-comment-39707" class="comment-body">
+				<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+			<cite itemprop="name" class="fn">prabhakar</cite> <span class="says">says:</span></div>
+		<div class="comment-meta commentmetadata"><a href="https://sarkariyojana.com/karnataka-tenders-construct-1-lakh-homes/#comment-39707">
+			<time datetime="2017-12-15T14:32:42+05:30" itemprop="datePublished">December 15, 2017, 2:32 PM</time></a></div>
+					<div class="comment-content" itemprop="text"><p>I AM SC I Want home<br/>
+i am sc</p>
+</div>
+		<span class="reply"><a rel="nofollow" class="comment-reply-link" href="#comment-39707" data-commentid="39707" data-postid="5239" data-belowelement="div-comment-39707" data-respondelement="respond" aria-label="Reply to prabhakar">Reply</a></span>
+				</div>       
+</li><!-- #comment-## -->
+<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-39597" itemtype="https://schema.org/Comment" itemscope>
+				<div id="div-comment-39597" class="comment-body">
+				<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+			<cite itemprop="name" class="fn">Kedar</cite> <span class="says">says:</span></div>
+		<div class="comment-meta commentmetadata"><a href="https://sarkariyojana.com/karnataka-tenders-construct-1-lakh-homes/#comment-39597">
+			<time datetime="2017-12-13T13:47:45+05:30" itemprop="datePublished">December 13, 2017, 1:47 PM</time></a></div>
+					<div class="comment-content" itemprop="text"><p>I am Karnataka state chikodi taluka and.              Which bank</p>
+</div>
+		<span class="reply"><a rel="nofollow" class="comment-reply-link" href="#comment-39597" data-commentid="39597" data-postid="5239" data-belowelement="div-comment-39597" data-respondelement="respond" aria-label="Reply to Kedar">Reply</a></span>
+				</div>       
+</li><!-- #comment-## -->
+<li class="comment even thread-even depth-1" id="comment-39248" itemtype="https://schema.org/Comment" itemscope>
+				<div id="div-comment-39248" class="comment-body">
+				<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+			<cite itemprop="name" class="fn">SUJATHA S</cite> <span class="says">says:</span></div>
+		<div class="comment-meta commentmetadata"><a href="https://sarkariyojana.com/karnataka-tenders-construct-1-lakh-homes/#comment-39248">
+			<time datetime="2017-12-06T17:12:10+05:30" itemprop="datePublished">December 6, 2017, 5:12 PM</time></a></div>
+					<div class="comment-content" itemprop="text"><p>How do we apply for housing scheme in karnataka?</p>
+</div>
+		<span class="reply"><a rel="nofollow" class="comment-reply-link" href="#comment-39248" data-commentid="39248" data-postid="5239" data-belowelement="div-comment-39248" data-respondelement="respond" aria-label="Reply to SUJATHA S">Reply</a></span>
+				</div>       
+<ul class="children">
+<li class="comment byuser comment-author-karanchhabra odd alt depth-2" id="comment-39253" itemtype="https://schema.org/Comment" itemscope>
+				<div id="div-comment-39253" class="comment-body">
+				<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+			<cite itemprop="name" class="fn">Karan Chhabra</cite> <span class="says">says:</span></div>
+		<div class="comment-meta commentmetadata"><a href="https://sarkariyojana.com/karnataka-tenders-construct-1-lakh-homes/#comment-39253">
+			<time datetime="2017-12-06T18:36:25+05:30" itemprop="datePublished">December 6, 2017, 6:36 PM</time></a></div>
+					<div class="comment-content" itemprop="text"><p>Sujatha, please see the post <a href="https://sarkariyojana.com/karnataka-chief-ministers-1-lakh-bengaluru-housing-scheme-application-form/" rel="nofollow" target="_blank">Karnataka Housing Scheme Application Form</a></p>
+</div>
+		<span class="reply"><a rel="nofollow" class="comment-reply-link" href="#comment-39253" data-commentid="39253" data-postid="5239" data-belowelement="div-comment-39253" data-respondelement="respond" aria-label="Reply to Karan Chhabra">Reply</a></span>
+				</div>       
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+<li class="comment even thread-odd thread-alt depth-1" id="comment-39235" itemtype="https://schema.org/Comment" itemscope>
+				<div id="div-comment-39235" class="comment-body">
+				<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+			<cite itemprop="name" class="fn">Prithviraj</cite> <span class="says">says:</span></div>
+		<div class="comment-meta commentmetadata"><a href="https://sarkariyojana.com/karnataka-tenders-construct-1-lakh-homes/#comment-39235">
+			<time datetime="2017-12-06T10:18:18+05:30" itemprop="datePublished">December 6, 2017, 10:18 AM</time></a></div>
+					<div class="comment-content" itemprop="text"><p>How to apply Chief &#8220;Minister’s Housing Scheme&#8221;..?????</p>
+</div>
+		<span class="reply"><a rel="nofollow" class="comment-reply-link" href="#comment-39235" data-commentid="39235" data-postid="5239" data-belowelement="div-comment-39235" data-respondelement="respond" aria-label="Reply to Prithviraj">Reply</a></span>
+				</div>       
+</li><!-- #comment-## -->
+<li class="comment odd alt thread-even depth-1" id="comment-39232" itemtype="https://schema.org/Comment" itemscope>
+				<div id="div-comment-39232" class="comment-body">
+				<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+			<cite itemprop="name" class="fn">Deepa.A</cite> <span class="says">says:</span></div>
+		<div class="comment-meta commentmetadata"><a href="https://sarkariyojana.com/karnataka-tenders-construct-1-lakh-homes/#comment-39232">
+			<time datetime="2017-12-06T09:45:50+05:30" itemprop="datePublished">December 6, 2017, 9:45 AM</time></a></div>
+					<div class="comment-content" itemprop="text"><p>How to Apply in Karnataka. Please Give me the details.</p>
+</div>
+		<span class="reply"><a rel="nofollow" class="comment-reply-link" href="#comment-39232" data-commentid="39232" data-postid="5239" data-belowelement="div-comment-39232" data-respondelement="respond" aria-label="Reply to Deepa.A">Reply</a></span>
+				</div>       
+</li><!-- #comment-## -->
+<li class="comment even thread-odd thread-alt depth-1" id="comment-39219" itemtype="https://schema.org/Comment" itemscope>
+				<div id="div-comment-39219" class="comment-body">
+				<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+			<cite itemprop="name" class="fn">Ramesha</cite> <span class="says">says:</span></div>
+		<div class="comment-meta commentmetadata"><a href="https://sarkariyojana.com/karnataka-tenders-construct-1-lakh-homes/#comment-39219">
+			<time datetime="2017-12-06T00:50:36+05:30" itemprop="datePublished">December 6, 2017, 12:50 AM</time></a></div>
+					<div class="comment-content" itemprop="text"><p>Please provide the online applying link</p>
+</div>
+		<span class="reply"><a rel="nofollow" class="comment-reply-link" href="#comment-39219" data-commentid="39219" data-postid="5239" data-belowelement="div-comment-39219" data-respondelement="respond" aria-label="Reply to Ramesha">Reply</a></span>
+				</div>       
+</li><!-- #comment-## -->
+<li class="comment odd alt thread-even depth-1" id="comment-39136" itemtype="https://schema.org/Comment" itemscope>
+				<div id="div-comment-39136" class="comment-body">
+				<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+			<cite itemprop="name" class="fn">Meghashree</cite> <span class="says">says:</span></div>
+		<div class="comment-meta commentmetadata"><a href="https://sarkariyojana.com/karnataka-tenders-construct-1-lakh-homes/#comment-39136">
+			<time datetime="2017-12-04T17:59:33+05:30" itemprop="datePublished">December 4, 2017, 5:59 PM</time></a></div>
+					<div class="comment-content" itemprop="text"><p>How do we apply for housing scheme in karnataka?</p>
+</div>
+		<span class="reply"><a rel="nofollow" class="comment-reply-link" href="#comment-39136" data-commentid="39136" data-postid="5239" data-belowelement="div-comment-39136" data-respondelement="respond" aria-label="Reply to Meghashree">Reply</a></span>
+				</div>       
+</li><!-- #comment-## -->
+<li class="comment even thread-odd thread-alt depth-1" id="comment-39118" itemtype="https://schema.org/Comment" itemscope>
+				<div id="div-comment-39118" class="comment-body">
+				<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+			<cite itemprop="name" class="fn">shaikh moin shaikh</cite> <span class="says">says:</span></div>
+		<div class="comment-meta commentmetadata"><a href="https://sarkariyojana.com/karnataka-tenders-construct-1-lakh-homes/#comment-39118">
+			<time datetime="2017-12-04T12:49:11+05:30" itemprop="datePublished">December 4, 2017, 12:49 PM</time></a></div>
+					<div class="comment-content" itemprop="text"><p>Maharashtra me koi eskim nahi has</p>
+<p>Kya</p>
+</div>
+		<span class="reply"><a rel="nofollow" class="comment-reply-link" href="#comment-39118" data-commentid="39118" data-postid="5239" data-belowelement="div-comment-39118" data-respondelement="respond" aria-label="Reply to shaikh moin shaikh">Reply</a></span>
+				</div>       
+</li><!-- #comment-## -->
+	</ol> 
+</div>
+</div>
+</div>
+<footer id="footer">
+<p><strong>सरकारी योजनाएं हिंदी में:</strong> <a href="https://sarkariyojana.com/central-government/" title="केंद्र सरकार की सरकारी योजनाएं">केंद्र सरकार</a> । <a href="https://sarkariyojana.com/central-government/pradhan-mantri-yojana-list/" title="प्रधान मंत्री योजना सूची">प्रधान मंत्री योजना सूची</a> । <a href="https://sarkariyojana.com/assam-hindi/" title="असम सरकारी योजना">असम</a> । <a href="https://sarkariyojana.com/bihar-hindi/" title="बिहार सरकारी योजना">बिहार</a> । <a href="https://sarkariyojana.com/chhattisgarh-hindi/" title="छत्तीसगढ़ सरकारी योजना">छत्तीसगढ़</a> । <a href="https://sarkariyojana.com/delhi-hindi/" title="दिल्ली सरकारी योजना">दिल्ली</a> । <a href="https://sarkariyojana.com/goa-hindi/" title="गोवा सरकारी योजना">गोवा</a> । <a href="https://sarkariyojana.com/gujarat-hindi/" title="गुजरात सरकारी योजना">गुजरात</a> । <a href="https://sarkariyojana.com/haryana-hindi/" title="हरियाणा सरकारी योजना">हरियाणा</a> । <a href="https://sarkariyojana.com/himachal-pradesh-hindi/" title="हिमाचल प्रदेश सरकारी योजना">हिमाचल प्रदेश</a> । <a href="https://sarkariyojana.com/jammu-kashmir-hindi/" title="जम्मू कश्मीर सरकारी योजना">जम्मू कश्मीर</a> । <a href="https://sarkariyojana.com/jharkhand-hindi/" title="झारखण्ड सरकारी योजना">झारखण्ड</a> । <a href="https://sarkariyojana.com/maharashtra-hindi/" title="महाराष्ट्र सरकारी योजना">महाराष्ट्र</a> । <a href="https://sarkariyojana.com/punjab-hindi/" title="पंजाब सरकारी योजना">पंजाब</a> । <a href="https://sarkariyojana.com/rajasthan-hindi/" title="राजस्थान सरकारी योजना">राजस्थान</a> । <a href="https://sarkariyojana.com/uttar-pradesh-hindi/" title="उत्तर प्रदेश सरकारी योजना">उत्तर प्रदेश</a> । <a href="https://sarkariyojana.com/uttarakhand-hindi/" title="उत्तराखंड सरकारी योजना">उत्तराखंड</a></p>
+<p><a href="https://sarkariyojana.com/about/">about</a> | <a href="https://sarkariyojana.com/contact/">contact</a> | <a href="https://sarkariyojana.com/privacy-policy/">privacy policy</a> | <a href="https://sarkariyojana.com/disclaimer/">disclaimer</a></p>
+<p>
+<strong>Registered Company Name:</strong> W3BRAIN LLP
+<strong>Address:</strong> 1st Floor, Above Pizza Bite, Bhardwaj Tower, Opposite Bus Stand, Palwal, 121102, HR, India<br/>	
+&copy; Copyright 2020 - sarkariyojana.com 
+</p>
+<p class="discl"><strong>DISCLAIMER:</strong> This is neither the official website nor linked to any Government organization, agency, office or official in any way. This is a public website and author share information about government schemes on this website. All the logos/images posted on this website are the property of their actual copyright/trademark owners.</p>
+<p><a href="https://sarkariyojana.com/tag/sarkari-yojana-hindi/" target="_blank">सरकारी योजना हिंदी में</a> | <a href="http://www.pmujjwalayojana.in" target="_blank" rel="noopener">PM Ujjwala Yojana</a></p>
+<!--<p><a href="//www.dmca.com/Protection/Status.aspx?ID=5c273b95-7a38-473f-987f-ae396bdf1068" title="DMCA.com Protection Status" class="dmca-badge"> <img src="//images.dmca.com/Badges/_dmca_premi_badge_4.png?ID=5c273b95-7a38-473f-987f-ae396bdf1068" alt="DMCA.com Protection Status"></a></p>
+--></footer>
+<a href="#" id="back-to-top" title="Back to top"></a>
+<nav id="menu-header" class="menu-header">
+<span class="close-select-state" onClick="closemenu()">X</span>
+  <!-- Header Menu -->
+<ul id="menu-main-menu" class="nav navbar-nav">
+<li><a href="https://sarkariyojana.com/tag/sarkari-yojana-list/" title="Government Schemes List">Sarkari Yojana List</a></li>
+<li><a href="https://sarkariyojana.com/central-government/" title="Central Government Schemes">Central Government</a></li>
+<li><a href="https://sarkariyojana.com/andhra-pradesh/" title="Andhra Pradesh Government Schemes">Andhra Pradesh</a></li>
+<li><a href="https://sarkariyojana.com/assam/" title="Assam Government Schemes">Assam</a></li>
+<li><a href="https://sarkariyojana.com/arunachal-pradesh/" title="Arunachal Government Schemes">Arunachal Pradesh</a></li>	
+<li><a href="https://sarkariyojana.com/bihar/" title="Bihar Sarkari Yojana">Bihar</a></li>
+<li><a href="https://sarkariyojana.com/chhattisgarh/" title="Chhattisgarh Sarkari Yojana">Chhattisgarh</a></li>
+<li><a href="https://sarkariyojana.com/delhi/" title="Delhi Government Schemes">Delhi</a></li>
+<li><a href="https://sarkariyojana.com/goa/" title="Goa Government Schemes">Goa</a></li>
+<li><a href="https://sarkariyojana.com/gujarat/" title="Gujarat Government Schemes">Gujarat</a></li>
+<li><a href="https://sarkariyojana.com/haryana/" title="Haryana Sarkari Yojana">Haryana</a></li>
+<li><a href="https://sarkariyojana.com/himachal-pradesh/" title="Himachal Pradesh Government Schemes">Himachal Pradesh</a></li>
+<li><a href="https://sarkariyojana.com/jammu-kashmir/" title="J&K Government Schemes">Jammu Kashmir</a></li>
+<li><a href="https://sarkariyojana.com/jharkhand/" title="Jharkhand Sarkari Yojana">Jharkhand</a></li>
+<li><a href="https://sarkariyojana.com/karnataka/" title="Karnataka Government Schemes">Karnataka</a></li>
+<li><a href="https://sarkariyojana.com/madhya-pradesh/" title="MP Sarkari Yojana">Madhya Pradesh</a></li>
+<li><a href="https://sarkariyojana.com/kerala/" title="Kerala Government Schemes">Kerala</a></li>
+<li><a href="https://sarkariyojana.com/maharashtra/" title="Maharashtra Government Schemes">Maharashtra</a></li>
+<li><a href="https://sarkariyojana.com/manipur/" title="Manipur Government Schemes">Manipur</a></li>
+<li><a href="https://sarkariyojana.com/meghalaya/" title="Meghalaya Government Schemes">Meghalaya</a></li>
+<li><a href="https://sarkariyojana.com/mizoram/" title="Mizoram Government Schemes">Mizoram</a></li>
+<li><a href="https://sarkariyojana.com/odisha/" title="Odisha Government Schemes">Odisha</a></li>
+<li><a href="https://sarkariyojana.com/punjab/" title="Punjab Government Schemes">Punjab</a></li>
+<li><a href="https://sarkariyojana.com/rajasthan/" title="Rajasthan Government Schemes">Rajasthan</a></li>
+<li><a href="https://sarkariyojana.com/tamilnadu/" title="Tamilnadu Government Schemes">Tamil Nadu</a></li>
+<li><a href="https://sarkariyojana.com/telangana/" title="Telangana Government Schemes">Telangana</a></li>
+<li><a href="https://sarkariyojana.com/tripura/" title="Tripura Government Schemes">Tripura</a></li>
+<li><a href="https://sarkariyojana.com/uttar-pradesh/" title="Uttar Pradesh Sarkari Yojana">Uttar Pradesh</a></li>
+<li><a href="https://sarkariyojana.com/uttarakhand/" title="Uttarakhand Government Schemes">Uttarakhand</a></li>
+<li><a href="https://sarkariyojana.com/west-bengal/" title="West Bengal Government Schemes">West Bengal</a></li>
+<li><a href="https://sarkariyojana.com/disclaimer/">Disclaimer</a></li>
+<li><a href="https://sarkariyojana.com/contact/">Contact Us</a></li>
+<li><a href="https://sarkariyojana.com/about/">About Us</a></li>
+</ul>
+</nav>
+<div class="dwnapp">
+<a href="https://play.google.com/store/apps/details?id=com.w3brain.sarkariyojana&hl=en" target="_blank" rel="noopener"><img src="https://sarkariyojana.com/wp-content/themes/quickpress-child/images/sarkari-yojana-app-download.png" data-no-lazy="1" alt="Sarkari Yojana App Download"/></a>
+</div>
+<div id="shareThis"></div>
+<div id="support" class=""><span id="close" onclick="closeshare()">CLOSE</span><b>SHARE ON:</b> <button onclick="sharefb()" class="fbsharebtn">Facebook</button><button class="washarebtn" onclick="shareWhatsapp()">WhatsApp</button><button class="washarebtnd" onclick="shareWhatsappD()">WhatsApp</button></div>
+<script>
+var shareButton=document.getElementById("shareThis"),supported=document.getElementById("support");function sharefb(){window.open("https://www.facebook.com/sharer/sharer.php?u="+window.location.href+"&t="+document.title),ga("send","event","Button","Click","FB SHARE",1)}function shareWhatsapp(){window.open("whatsapp://send?text="+document.title+" - "+window.location.href),ga("send","event","Button","Click","WHATSAPP SHARE",1)}function shareWhatsappD(){window.open("https://wa.me/?text="+document.title+" - "+window.location.href),ga("send","event","Button","Click","WHATSAPP SHARE DESKTOP",1)}function closeshare(){document.getElementById("shareThis").style.display="block",document.getElementById("support").style.bottom="-200px"}shareButton.addEventListener("click",e=>{if(navigator.share){var t=document.querySelector("link[rel=canonical]")?document.querySelector("link[rel=canonical]").href:window.location.href;navigator.share({title:document.title,text:document.title,url:t}).then(()=>{console.log("Successful Sharing")}).catch(console.error)}else supported.style.bottom="34px",shareButton.style.display="none"});
+</script>
+<script>function openmenu(){document.getElementById("menu-header").style.left="0px"}function closemenu(){document.getElementById("menu-header").style.left="-100%"}function expandsylist(){document.getElementById("sylistover").style.height="100%",document.getElementById("showfull").style.display="none",document.getElementById("hidefull").style.display="block"}function closesylist(){window.matchMedia("(max-width: 768px)").matches?document.getElementById("sylistover").style.height="200px":document.getElementById("sylistover").style.height="500px",document.getElementById("showfull").style.display="block",document.getElementById("hidefull").style.display="none"}(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create','UA-73005060-1','auto');ga('send','pageview');</script>
+<script>if(document.location.protocol!="https:"){document.location=document.URL.replace(/^http:/i,"https:");}</script><script type='text/javascript' src='https://sarkariyojana.com/wp-includes/js/comment-reply.min.js?ver=5.4'></script>
+<script type='text/javascript' src='https://sarkariyojana.com/wp-content/plugins/jetpack/_inc/build/lazy-images/js/lazy-images.min.js?ver=8.4.1'></script>
+<script type='text/javascript' src='https://sarkariyojana.com/wp-includes/js/wp-embed.min.js?ver=5.4'></script>
+<script async="async" type='text/javascript' src='https://sarkariyojana.com/wp-content/plugins/akismet/_inc/form.js?ver=4.1.4'></script>
+<script type='text/javascript' src='https://stats.wp.com/e-202015.js' async='async' defer='defer'></script>
+<script type='text/javascript'>_stq=window._stq||[];_stq.push(['view',{v:'ext',j:'1:8.4.1',blog:'170901665',post:'5239',tz:'5.5',srv:'sarkariyojana.com'}]);_stq.push(['clickTrackerInit','170901665','5239']);</script>
+<script type="application/javascript" src="https://sdki.truepush.com/sdk/v2.0.2/app.js" async></script>
+<script>var truepush=window.truepush||[];truepush.push(function(){truepush.Init({id:"5e50ee57f22f7036f2164ffe"},function(error){if(error)console.error(error);})})</script>
+<script>truepush.push({operation:"add-tags",data:[{tagName:"Category",tagType:"string",tagValue:"Karnataka"}],callback:function(error,response){console.log(error,response);}})</script>
+<!--<script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>-->
+</body>
+</html>

@@ -1,5 +1,5 @@
 from flask_cors import CORS
-from flask import Flask, json, jsonify, request, abort
+from flask import Flask, json, request, abort
 
 import aiohttp
 from bs4 import BeautifulSoup
@@ -34,15 +34,10 @@ class SCHEME:
 
     def parse_contentPage(self):
         soup = SCHEME.clean_content(self.html_data)
-        tables, table, row = [], [], []
-        table_ctr = -1
         element_count = -1
         section_count = 0
         section = 'section-' + str(0)
         js = {section: {}}
-        for k in soup.findAll('table'):
-            tables.append(table)
-        # print(table)
         for child in soup.recursiveChildGenerator():
             name = getattr(child, 'name', None)
             parents = [getattr(p, 'name', None) for p in child.find_parents()]

@@ -309,11 +309,13 @@ app = Flask(__name__)
 CORS(app)
 
 
-@app.route("/api/<i>/content")
-def send_content(i):
+@app.route("/api/content")
+def send_content():
     try:
-        schemeid = i  # request.get_json()
-        return str(SCHEME.LIST[int(schemeid)].content)  # c.OrderedDict(scheme_content[int(i)])#scheme_content[int(i)]
+        req_data=request.get_json()
+        schemeid = int(req_data['schemeId'])
+        return json.jsonify(
+            SCHEME.LIST[int(schemeid)].content)  # c.OrderedDict(scheme_content[int(i)])#scheme_content[int(i)]
     except Exception as e:
         return str(repr(e))
 

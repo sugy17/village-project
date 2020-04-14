@@ -58,7 +58,7 @@ The request must be of the format:
 
 ```json
 {
-  "schemeId": "006a7f12-4475-5f8c-8569-2f7e2cfc121f"
+  "schemeId": "2"
 }
 ```
 

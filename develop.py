@@ -86,7 +86,10 @@ class SCHEME:
                 elif 'table' == name:
                     table_ctr += 1
                     element_count += 1
-                    js[section]['table-' + str(element_count)] = tables[table_ctr]
+                    js[section]['table-' + str(element_count)]={}
+                    js[section]['table-' + str(element_count)]['row'] = len(tables[table_ctr])
+                    js[section]['table-' + str(element_count)]['column'] = len(tables[table_ctr][0])
+                    js[section]['table-' + str(element_count)]['data'] = tables[table_ctr]
                     #js[section]['table-' + str(element_count)] = tables[table_ctr]
                     element_count += 1
                     #print('table::',tables[table_ctr])

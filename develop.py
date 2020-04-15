@@ -53,7 +53,7 @@ class SCHEME:
                     part = SCHEME.img_regx.sub(' ', part)
                     element_count += 1
                     js[section]['normal-' + str(element_count)] = part
-                    element_count = SCHEME.image_handle(soup, js, section, element_count, res)
+                    element_count = SCHEME.image_handle(js, section, element_count, res)
                     # js[section]['normal-'+str(element_count)]=html2markdown.convert(str(child))
                     # print(parents, '------------', child.name, '::', md(str(child)))
                 elif name[0] == 'h' and len(name) == 2:
@@ -63,29 +63,18 @@ class SCHEME:
                     js[section] = {}
                 elif name == 'table':
                     element_count += 1
-                    table = []
-                    for i in child.findAll('tr'):
-                        row = []
-                        for j in i.children:
-                            if not str(j).isspace():
-                                row.append(md(j))
-                        table.append(row)
-                    js[section]['table-' + str(element_count)] = {'row': len(table),
-                                                                  'column': len(table[0]),
-                                                                  'data': table}
-                    # js[section]['table-' + str(element_count)] = tables[table_ctr]
-                    # print('table::',tables[table_ctr])
+                    SCHEME.table_handle(child, js, section, element_count)
                 elif name == 'li':
                     part = md(str(child))
                     res = SCHEME.img_regx.search(part)
                     part = SCHEME.img_regx.sub(' ', part)
                     element_count += 1
                     js[section]['listElement-' + str(element_count)] = part
-                    element_count = SCHEME.image_handle(soup, js, section, element_count, res)
+                    element_count = SCHEME.image_handle(js, section, element_count, res)
                     # js[section]['listElement-' + str(element_count)] = html2markdown.convert(str(child))
                     # print(parents, '------------', 'li', '::', md(str(child)))
                 elif name == 'img' and 'p' not in parents and 'li' not in parents:
-                    element_count = SCHEME.image_handle(soup, js, section, element_count, md(str(child)))
+                    element_count = SCHEME.image_handle(js, section, element_count, md(str(child)))
             elif not child.isspace() and len(child) > 0:  # leaf node, don't print spaces
                 if 'table' in parents or 'li' in parents or 'a' in parents or 'article' in child.parent.name or 'p' in parents:
                     continue
@@ -102,7 +91,7 @@ class SCHEME:
         # self.nested_content = js
 
     @staticmethod
-    def image_handle(soup, js, section, element_count, res):
+    def image_handle(js: dict, section: str, element_count: int, res) -> int:
         """Check if markdown data contains image and add it to json"""
         try:
             img_md = res.group(0)
@@ -115,6 +104,22 @@ class SCHEME:
             pass
         finally:
             return element_count
+
+    @staticmethod
+    def table_handle(child, js, section, element_count) -> None:
+        """add table into the json (dict)"""
+        table = []
+        for i in child.findAll('tr'):
+            row = []
+            for j in i.children:
+                if not str(j).isspace():
+                    row.append(md(j))
+            table.append(row)
+        js[section]['table-' + str(element_count)] = {'row': len(table),
+                                                      'column': len(table[0]),
+                                                      'data': table}
+    # js[section]['table-' + str(element_count)] = tables[table_ctr]
+    # print('table::',tables[table_ctr])
 
     @staticmethod
     def clean_content(page: str) -> BeautifulSoup:

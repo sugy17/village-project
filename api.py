@@ -11,15 +11,6 @@ from bs4 import BeautifulSoup
 import html2markdown
 from markdownify import markdownify as md
 
-# import collections as c
-
-img_regx = re.compile(r'(?:!\[(.*?)\]\((.*?)\)).*',
-                      re.DOTALL)  # ('(?:\\(|:\\s+)(?!http)([^\\s]+\\.(?:jpe?g|gif|png|svg|pdf))')#
-comments = re.compile(r'<!--.*-->')
-
-
-# regx_stripHtmlTags=re.compile(r'<.*?>|::after')
-# regx2=re.compile(r'<li>[^<][^(<.*?>)]*<[^(/)]')
 
 class SCHEME:
     """This class contains all scheme data related behaviours and objects"""
@@ -34,10 +25,14 @@ class SCHEME:
         # self.nested_content = {}
         self.html_data = ""
 
+    img_regx = re.compile(r'(?:!\[(.*?)\]\((.*?)\)).*',
+                          re.DOTALL)  # ('(?:\\(|:\\s+)(?!http)([^\\s]+\\.(?:jpe?g|gif|png|svg|pdf))')#
+    comments = re.compile(r'<!--.*-->')
     stop_flag = False
     LIST = []
 
     def parse_contentPage(self) -> None:
+        """Parses html content into required json"""
         soup = SCHEME.clean_content(self.html_data)
         element_count = -1
         section_count = 0
@@ -54,19 +49,11 @@ class SCHEME:
             if name is not None:
                 if name == 'p' and 'li' not in parents:
                     part = md(str(child))
-                    res = img_regx.search(part)
-                    part = img_regx.sub(' ', part)
+                    res = SCHEME.img_regx.search(part)
+                    part = SCHEME.img_regx.sub(' ', part)
                     element_count += 1
                     js[section]['normal-' + str(element_count)] = part
-                    try:
-                        img_md = res.group(0)
-                        img_link = re.search(r'\\(.*\\)', img_md, re.DOTALL)
-                        img_desc = re.sub(r'.*\\)', '', img_md, re.DOTALL)
-                        element_count += 1
-                        js[section]['image-' + str(element_count)] = {'link': img_link.group(0)[1:][:-1],
-                                                                      'textUnderImage': img_desc}
-                    except:
-                        pass
+                    element_count = SCHEME.image_handle(js, section, element_count, res)
                     # js[section]['normal-'+str(element_count)]=html2markdown.convert(str(child))
                     # print(parents, '------------', child.name, '::', md(str(child)))
                 elif name[0] == 'h' and len(name) == 2:
@@ -90,31 +77,15 @@ class SCHEME:
                     # print('table::',tables[table_ctr])
                 elif name == 'li':
                     part = md(str(child))
-                    res = img_regx.search(part)
-                    part = img_regx.sub(' ', part)
+                    res = SCHEME.img_regx.search(part)
+                    part = SCHEME.img_regx.sub(' ', part)
                     element_count += 1
                     js[section]['listElement-' + str(element_count)] = part
-                    try:
-                        img_md = res.group(0)
-                        img_link = re.search('\\(.*\\)', img_md, re.DOTALL)
-                        img_desc = re.sub('.*\\)', '', img_md, re.DOTALL)
-                        element_count += 1
-                        js[section]['image-' + str(element_count)] = {'link': img_link.group(0)[1:][:-1],
-                                                                      'textUnderImage': img_desc}
-                    except:
-                        pass
+                    element_count = SCHEME.image_handle(js, section, element_count, res)
                     # js[section]['listElement-' + str(element_count)] = html2markdown.convert(str(child))
                     # print(parents, '------------', 'li', '::', md(str(child)))
                 elif name == 'img' and 'p' not in parents and 'li' not in parents:
-                    try:
-                        img_md = md(str(child))
-                        img_link = re.search('\\(.*\\)', img_md, re.DOTALL)
-                        img_desc = re.sub('.*\\)', '', img_md, re.DOTALL)
-                        element_count += 1
-                        js[section]['image-' + str(element_count)] = {'link': img_link.group(0)[1:][:-1],
-                                                                      'textUnderImage': img_desc}
-                    except:
-                        pass
+                    element_count = SCHEME.image_handle(js, section, element_count, md(str(child)))
             elif not child.isspace() and len(child) > 0:  # leaf node, don't print spaces
                 if 'table' in parents or 'li' in parents or 'a' in parents or 'article' in child.parent.name or 'p' in parents:
                     continue
@@ -131,9 +102,25 @@ class SCHEME:
         # self.nested_content = js
 
     @staticmethod
+    def image_handle(js, section, element_count, res):
+        """Check if markdown data contains image and add it to json"""
+        try:
+            img_md = res.group(0)
+            img_link = re.search(r'\(.*\)', img_md, re.DOTALL)
+            img_desc = re.sub(r'.*\)', '', img_md, re.DOTALL)
+            element_count += 1
+            js[section]['image-' + str(element_count)] = {'link': img_link.group(0)[1:][:-1],
+                                                          'textUnderImage': img_desc}
+        except:
+            pass
+        finally:
+            return element_count
+
+    @staticmethod
     def clean_content(page: str) -> BeautifulSoup:
+        """Extracts neccesary html content and removes ads and other unnecessary components"""
         soup = BeautifulSoup(page, "html.parser")
-        soup = BeautifulSoup(comments.sub("", str(soup.findAll("article")[0])), "html.parser")
+        soup = BeautifulSoup(SCHEME.comments.sub("", str(soup.findAll("article")[0])), "html.parser")
         for tag in soup.findAll("div", {"class": "googleads"}):
             tag.replaceWith("")
         for tag in soup.findAll("div", {"class": "mobaddiv250 abc"}):
@@ -181,6 +168,7 @@ class SCHEME:
 
     @staticmethod
     async def async_prepare_content(loop) -> None:
+        """Prepare the deatiled description for all schemems"""
         # scheme_link=[scheme_link[0]]
         for scheme in SCHEME.LIST:
             page = await loop.create_task(SCHEME.get_page(scheme.link))
@@ -189,6 +177,7 @@ class SCHEME:
 
     @staticmethod
     def parse_IndexPage(page: str) -> tuple:
+        """Parses the page containing the list of schemes"""
         try:
             soup = BeautifulSoup(page, "html.parser")
             # print(soup.find_all('div',{'class':'divTableCell'}))
@@ -213,10 +202,11 @@ class SCHEME:
 
     @staticmethod
     async def async_prepare_index(loop) -> None:
+        """Create short details about schemes in SCHEME.LIST """
         tasks = []
         i = 1
         # print('\n' + "https://sarkariyojana.com/karnataka/")
-        while not SCHEME.stop_flag and i < 2:
+        while not SCHEME.stop_flag and i < 5:
             tasks.append(
                 (
                     loop.create_task(
@@ -231,13 +221,13 @@ class SCHEME:
             links, imgs, desc = SCHEME.parse_IndexPage(page)
             if links is None or imgs is None:
                 continue
-            tasks = []
+            img_tasks = []
             j = 0
             for link in links:
-                tasks.append((loop.create_task(SCHEME.get_page(imgs[j], True)), j))
+                img_tasks.append((loop.create_task(SCHEME.get_page(imgs[j], True)), j))
                 j += 1
-            for task, j in tasks:
-                img = await task
+            for img_task, j in img_tasks:
+                img = await img_task
                 link = links[j]
                 img = base64.b64encode(img).decode("utf-8")
                 title = desc[j]
@@ -246,6 +236,7 @@ class SCHEME:
 
     @staticmethod
     async def get_page(url: str, get_blob=False):
+        """gets a page"""
         async with aiohttp.ClientSession() as session:
             try:
                 async with session.get(url) as resp:
@@ -254,22 +245,25 @@ class SCHEME:
             except:
                 SCHEME.stop_flag = True
                 return None
-# end of class SCEHEME
 
-# gathering data
+
+""" end of class SCEHEME"""
+
+"""gathering data"""
 SCHEME.stop_flag = False
 SCHEME.LIST.clear()
 loop = asyncio.get_event_loop()
 loop.run_until_complete(SCHEME.async_prepare_index(loop))
 loop.run_until_complete(SCHEME.async_prepare_content(loop))
 
-# setting up end point
+"""setting up end point"""
 app = Flask(__name__)
 CORS(app)
 
 
 @app.route("/api/content")
 def send_content() -> json:
+    """recive json containing schemeid and send scheme content"""
     try:
         req_data = request.get_json()
         scheme_id = int(req_data['schemeId'])
@@ -286,6 +280,7 @@ def send_content() -> json:
 
 @app.route("/api/list")
 def send_list() -> json:
+    """send a list of schemes and relevent data"""
     try:
         li = []
         for scheme in SCHEME.LIST:

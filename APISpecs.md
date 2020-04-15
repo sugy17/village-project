@@ -52,7 +52,7 @@ If there is an error, 400 or 401 as appropriate will be returned.
 
 Public Endpoint for retreving data for a given schemeId
 
-## Method: GET
+## Method: POST
 
 The request must be of the format:
 
@@ -60,6 +60,10 @@ The request must be of the format:
 {
   "schemeId": "2"
 }
+```
+Sample CURL request:
+```commandline
+curl localhost:5000/api/content -d '{"schemeId": "0"}' -H 'Content-Type: application/json'
 ```
 
 On 200, A sample Response:

@@ -53,7 +53,10 @@ class SCHEME:
                     part = SCHEME.img_regx.sub(' ', part)
                     element_count += 1
                     js[section]['normal-' + str(element_count)] = part
-                    element_count = SCHEME.image_handle(js, section, element_count, res)
+                    try:
+                        element_count =SCHEME.image_handle(js, section, element_count, res.group(0))
+                    except:
+                        pass
                     # js[section]['normal-'+str(element_count)]=html2markdown.convert(str(child))
                     # print(parents, '------------', child.name, '::', md(str(child)))
                 elif name[0] == 'h' and len(name) == 2:
@@ -70,7 +73,10 @@ class SCHEME:
                     part = SCHEME.img_regx.sub(' ', part)
                     element_count += 1
                     js[section]['listElement-' + str(element_count)] = part
-                    element_count = SCHEME.image_handle(js, section, element_count, res)
+                    try:
+                        element_count = SCHEME.image_handle(js, section, element_count, res.group(0))
+                    except:
+                        pass
                     # js[section]['listElement-' + str(element_count)] = html2markdown.convert(str(child))
                     # print(parents, '------------', 'li', '::', md(str(child)))
                 elif name == 'img' and 'p' not in parents and 'li' not in parents:
@@ -91,10 +97,9 @@ class SCHEME:
         # self.nested_content = js
 
     @staticmethod
-    def image_handle(js: dict, section: str, element_count: int, res) -> int:
+    def image_handle(js: dict, section: str, element_count: int, img_md: str) -> int:
         """Check if markdown data contains image and add it to json"""
         try:
-            img_md = res.group(0)
             img_link = re.search(r'\(.*\)', img_md, re.DOTALL)
             img_desc = re.sub(r'.*\)', '', img_md, re.DOTALL)
             element_count += 1
@@ -120,6 +125,7 @@ class SCHEME:
                                                       'data': table}
     # js[section]['table-' + str(element_count)] = tables[table_ctr]
     # print('table::',tables[table_ctr])
+
 
     @staticmethod
     def clean_content(page: str) -> BeautifulSoup:

@@ -25,8 +25,7 @@ class SCHEME:
         # self.nested_content = {}
         self.html_data = ""
 
-    img_regx = re.compile(r'(?:!\[(.*?)\]\((.*?)\)).*',
-                          re.DOTALL)  # ('(?:\\(|:\\s+)(?!http)([^\\s]+\\.(?:jpe?g|gif|png|svg|pdf))')#
+    img_regx = re.compile(r'(?:!\[(.*?)\]\((.*?)\)).*', re.DOTALL)
     comments = re.compile("<!--.*-->")
     stop_flag = False
     LIST = []
@@ -53,11 +52,8 @@ class SCHEME:
                     part = SCHEME.img_regx.sub(' ', part)
                     element_count += 1
                     js[section]['normal-' + str(element_count)] = part
-                    try:
-                        element_count =SCHEME.image_handle(js, section, element_count, res.group(0))
-                    except:
-                        pass
-                    # js[section]['normal-'+str(element_count)]=html2markdown.convert(str(child))
+                    if res is not None:
+                        element_count = SCHEME.image_handle(js, section, element_count, res.group(0))
                     # print(parents, '------------', child.name, '::', md(str(child)))
                 elif name[0] == 'h' and len(name) == 2:
                     section = 'section-' + str(section_count)
@@ -73,18 +69,14 @@ class SCHEME:
                     part = SCHEME.img_regx.sub(' ', part)
                     element_count += 1
                     js[section]['listElement-' + str(element_count)] = part
-                    try:
+                    if res is not None:
                         element_count = SCHEME.image_handle(js, section, element_count, res.group(0))
-                    except:
-                        pass
-                    # js[section]['listElement-' + str(element_count)] = html2markdown.convert(str(child))
                     # print(parents, '------------', 'li', '::', md(str(child)))
                 elif name == 'img' and 'p' not in parents and 'li' not in parents:
                     element_count = SCHEME.image_handle(js, section, element_count, md(str(child)))
             elif not child.isspace() and len(child) > 0:  # leaf node, don't print spaces
                 if 'table' in parents or 'li' in parents or 'a' in parents or 'article' in child.parent.name or 'p' in parents:
                     continue
-                # js[section][child.parent.name+'-'+str(element_count)]=md(str(child.parent))
                 element_count += 1
                 if len(child.parent.name) == 2 and child.parent.name[0] == 'h':
                     js[section]['title-' + str(element_count)] = html2markdown.convert(
@@ -99,16 +91,12 @@ class SCHEME:
     @staticmethod
     def image_handle(js: dict, section: str, element_count: int, img_md: str) -> int:
         """Check if markdown data contains image and add it to json"""
-        try:
-            img_link = re.search(r'\(.*\)', img_md, re.DOTALL)
-            img_desc = re.sub(r'.*\)', '', img_md, re.DOTALL)
-            element_count += 1
-            js[section]['image-' + str(element_count)] = {'link': img_link.group(0)[1:][:-1],
-                                                          'textUnderImage': img_desc}
-        except:
-            pass
-        finally:
-            return element_count
+        img_link = re.search(r'\(.*\)', img_md, re.DOTALL)
+        img_desc = re.sub(r'.*\)', '', img_md, re.DOTALL)
+        element_count += 1
+        js[section]['image-' + str(element_count)] = {'link': img_link.group(0)[1:][:-1],
+                                                      'textUnderImage': img_desc}
+        return element_count
 
     @staticmethod
     def table_handle(child, js, section, element_count) -> None:
@@ -123,6 +111,7 @@ class SCHEME:
         js[section]['table-' + str(element_count)] = {'row': len(table),
                                                       'column': len(table[0]),
                                                       'data': table}
+
     # js[section]['table-' + str(element_count)] = tables[table_ctr]
     # print('table::',tables[table_ctr])
 
@@ -265,22 +254,16 @@ class SCHEME:
                 return None
 
 
-""" End of SCHEME def"""
+# end of SCHEME def
 
-""" Gather data"""
-index_pages = []
-SCHEME.LIST.clear()
+# gathering data
 SCHEME.stop_flag = False
-loop = asyncio.get_event_loop()
-loop.run_until_complete(
-    SCHEME.async_prepare_index(loop)
-)
-loop.run_until_complete(
-    SCHEME.async_prepare_content(loop)
-)
-""" Gather data complete"""
+SCHEME.LIST.clear()
+my_loop = asyncio.get_event_loop()
+my_loop.run_until_complete(SCHEME.async_prepare_index(my_loop))
+my_loop.run_until_complete(SCHEME.async_prepare_content(my_loop))
 
-""" Setting up endpoints"""
+# Setting up endpoints
 app = Flask(__name__)
 CORS(app)
 

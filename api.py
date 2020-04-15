@@ -227,6 +227,8 @@ class SCHEME:
                 j += 1
             for img_task, j in img_tasks:
                 img = await img_task
+                if img is None:
+                    img = await loop.create_task(SCHEME.get_page(imgs[j], True))
                 link = links[j]
                 img = base64.b64encode(img).decode("utf-8")
                 title = desc[j]

@@ -9,11 +9,9 @@ import re
 import html2markdown
 from markdownify import markdownify as md
 
-# import collections as c
-
 img_regx = re.compile('(?:!\[(.*?)\]\((.*?)\)).*',
                       re.DOTALL)  # ('(?:\\(|:\\s+)(?!http)([^\\s]+\\.(?:jpe?g|gif|png|svg|pdf))')#
-comments = re.compile(r"<!--.*-->")
+comments = re.compile("<!--.*-->")
 
 
 # regx_stripHtmlTags=re.compile(r'<.*?>|::after')
@@ -258,24 +256,26 @@ class SCHEME:
             except:
                 stop_flag = True
                 return None
-###End of SCHEME defination
 
 
-###Gather data
+# End of SCHEME defination
+
+
+# Gather data
 index_pages = []
 SCHEME.LIST.clear()
 stop_flag = False
 loop = asyncio.get_event_loop()
 loop.run_until_complete(SCHEME.async_prepare_index(loop))
 loop.run_until_complete(SCHEME.async_prepare_content(loop))
-###Gather data complete
+# Gather data complete
 
-###Open endpoints
+#Open endpoints
 app = Flask(__name__)
 CORS(app)
 
 
-@app.route("/api/content")
+@app.route("/api/content", methods=['POST'])
 def send_content():
     try:
         req_data = request.get_json()  # schemeid = i  #
@@ -283,6 +283,7 @@ def send_content():
         return json.jsonify(
             SCHEME.LIST[int(schemeid)].content)  # c.OrderedDict(scheme_content[int(i)])#scheme_content[int(i)]
     except Exception as e:
+        return str(e)
         abort(400)
 
 

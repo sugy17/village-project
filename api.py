@@ -317,7 +317,7 @@ def send_content():
         return json.jsonify(
             SCHEME.LIST[int(schemeid)].content)  # c.OrderedDict(scheme_content[int(i)])#scheme_content[int(i)]
     except Exception as e:
-        return str(repr(e))
+        return json.jsonify(message=str(repr(e)))
 
 
 @app.route("/api/list")
@@ -328,7 +328,7 @@ def send_list():
             li.append({'title': scheme.title, 'image': scheme.img, 'schemeid': scheme.schemeid})
         return json.jsonify(li)
     except Exception as e:
-        return str(repr(e))
+        return json.jsonify(message=str(repr(e)))
 
 
 if __name__ == "__main__":

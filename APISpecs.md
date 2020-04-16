@@ -1,6 +1,6 @@
 # Recomended API formatting.
 
-# /list
+# api/list
 
 Public Endpoint that does the following:
 
@@ -48,7 +48,7 @@ Sample Response on 200.
 
 If there is an error, 400 or 401 as appropriate will be returned.
 
-# /Content
+# api/content
 
 Public Endpoint for retreving data for a given schemeId
 

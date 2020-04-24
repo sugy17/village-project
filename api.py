@@ -88,7 +88,7 @@ class SCHEME:
                 else:
                     js[section][child.parent.name + '-' + str(element_count)] = html2markdown.convert(
                         str(child.parent).replace('\n', ' '))
-        #print(self.schemeid, js)
+        # print(self.schemeid, js)
         self.content = js
         # self.nested_content = js
 
@@ -265,12 +265,15 @@ def send_content() -> json:
     try:
         req_data = request.get_json()  # schemeid = i  #
         schemeid = int(req_data['schemeId'])
+        data = app.config['shared_data'][int(schemeid)].content
+        return json.jsonify(data)  # c.OrderedDict(scheme_content[int(i)])#scheme_content[int(i)]
+    except IndexError :
         return json.jsonify(
-            app.config['shared_data'][int(schemeid)].content
-        )  # c.OrderedDict(scheme_content[int(i)])#scheme_content[int(i)]
+            message="please wait...updating"
+        )
     except Exception as e:
         return json.jsonify(
-            message=str(e)
+            message=repr(e)
         )
 
 

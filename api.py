@@ -259,20 +259,18 @@ app = Flask(__name__)
 CORS(app)
 
 
-@app.route("/content")
+@app.route("/content", methods=['POST'])
 def send_content() -> json:
     """recive json containing schemeid and send scheme content"""
     try:
-        req_data = request.get_json()
-        scheme_id = int(req_data['schemeId'])
+        req_data = request.get_json()  # schemeid = i  #
+        schemeid = int(req_data['schemeId'])
         return json.jsonify(
-            app.config['shared_data'][int(scheme_id)].content
+            app.config['shared_data'][int(schemeid)].content
         )  # c.OrderedDict(scheme_content[int(i)])#scheme_content[int(i)]
     except Exception as e:
         return json.jsonify(
-            message=str(
-                repr(e)
-            )
+            message=str(e)
         )
 
 

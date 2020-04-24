@@ -273,7 +273,7 @@ def send_content() -> json:
         req_data = request.get_json()  # schemeid = i  #
         schemeid = int(req_data['schemeId'])
         return json.jsonify(
-            SCHEME.LIST[int(schemeid)].content
+            app.config['shared_data'][int(schemeid)].content
         )  # c.OrderedDict(scheme_content[int(i)])#scheme_content[int(i)]
     except Exception as e:
         return json.jsonify(
@@ -323,7 +323,7 @@ async def main():
         main function - starts flask on a new process and updates
                         data every 5 seconds.
     """
-    multiprocessing.set_start_method('spawn')
+    #multiprocessing.set_start_method('spawn')
     shared_list = multiprocessing.Manager().list()
     multiprocessing.Process(target=execute_flask, args=(shared_list,), name='FlaskProcess').start()
     my_loop = asyncio.get_event_loop()
@@ -335,7 +335,7 @@ async def main():
         await SCHEME.async_prepare_content(my_loop)
         shared_list[:] = []
         shared_list.extend(SCHEME.LIST)
-        await asyncio.sleep(5)
+        await asyncio.sleep(10000)
         # process = psutil.Process(os.getpid())
         # print(process.memory_info().rss)
 

@@ -63,7 +63,7 @@ The request must be of the format:
 ```
 Sample CURL request:
 ```commandline
-curl localhost:5000/content -d '{"schemeId": "0"}' -H 'Content-Type: application/json'
+curl curl "localhost:5000/content" -d "{ \"schemeId\": \"0\" }" -H "Content-Type: application/json"
 ```
 
 On 200, A sample Response:

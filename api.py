@@ -1,6 +1,10 @@
-"""This module extracts data and opens end point"""
+"""
+    This module extracts data and opens end point.Also updates
+    the data periodically every 24 hrs.
+"""
 
 import asyncio
+import multiprocessing
 import re
 import base64
 from flask_cors import CORS
@@ -84,7 +88,7 @@ class SCHEME:
                 else:
                     js[section][child.parent.name + '-' + str(element_count)] = html2markdown.convert(
                         str(child.parent).replace('\n', ' '))
-        print(js)
+        #print(self.schemeid, js)
         self.content = js
         # self.nested_content = js
 
@@ -137,27 +141,25 @@ class SCHEME:
             temp = tag["src"]
             tag.attrs = {}
             tag["src"] = temp
-        try:
-            soup.find("a", {"class": "saveaspdf"}).replaceWith("")
-        except:
-            pass
+        tag = soup.find("a", {"class": "saveaspdf"})
+        if tag is not None:
+            tag.replaceWith("")
         for tag in soup.findAll("img"):
             temp = tag["src"]
             tag.attrs = {}
             tag["src"] = temp
         for tag in soup.findAll():
-            try:
+            if "src" in tag.attrs:
                 temp = tag["src"]
                 tag.attrs = {}
                 tag["src"] = temp
-            except:
-                try:
-                    temp = tag["href"]
-                    tag.attrs = {}
-                    if not str(temp).startswith("#"):
-                        tag["href"] = temp
-                except:
-                    tag.attrs = {}
+            elif "href" in tag.attrs:
+                temp = tag["href"]
+                tag.attrs = {}
+                if not str(temp).startswith("#"):
+                    tag["href"] = temp
+            else:
+                tag.attrs = {}
         for tag in soup.findAll('small'):
             tag.name = 'p'
         for tag in soup.findAll('div'):
@@ -190,11 +192,12 @@ class SCHEME:
             for i in data:
                 isoup = BeautifulSoup(str(i), "html.parser")
                 links.append(isoup.find("a")["href"])
-                imgs.append(isoup.findAll("div")[0].find("img")["src"])
+                divs = isoup.findAll("div")
+                imgs.append(divs[0].find("img")["src"])
                 try:
-                    desc.append(isoup.findAll("div")[2].find("p").text)
+                    desc.append(divs[2].find("p").text)
                 except:
-                    desc.append(isoup.findAll("div")[1].find("p").text)
+                    desc.append(divs[1].find("p").text)
             return links, imgs, desc
         except:
             return None, None, None
@@ -250,26 +253,20 @@ class SCHEME:
 
 # end of SCHEME def
 
-# gathering data
-SCHEME.stop_flag = False
-SCHEME.LIST.clear()
-my_loop = asyncio.get_event_loop()
-my_loop.run_until_complete(SCHEME.async_prepare_index(my_loop))
-my_loop.run_until_complete(SCHEME.async_prepare_content(my_loop))
 
 # setting up end point
 app = Flask(__name__)
 CORS(app)
 
 
-@app.route("/api/content")
+@app.route("/content")
 def send_content() -> json:
     """recive json containing schemeid and send scheme content"""
     try:
         req_data = request.get_json()
         scheme_id = int(req_data['schemeId'])
         return json.jsonify(
-            SCHEME.LIST[int(scheme_id)].content
+            app.config['shared_data'][int(scheme_id)].content
         )  # c.OrderedDict(scheme_content[int(i)])#scheme_content[int(i)]
     except Exception as e:
         return json.jsonify(
@@ -279,12 +276,12 @@ def send_content() -> json:
         )
 
 
-@app.route("/api/list")
+@app.route("/list")
 def send_list() -> json:
     """send a list of schemes and relevent data"""
     try:
         li = []
-        for scheme in SCHEME.LIST:
+        for scheme in app.config['shared_data']:
             li.append(
                 {
                     'title': scheme.title,
@@ -300,5 +297,31 @@ def send_list() -> json:
         )
 
 
-if __name__ == "__main__":
+def execute_flask(shared_list):
+    """function to execute flask"""
+    app.config['shared_data'] = shared_list
     app.run()
+
+
+async def main():
+    """
+        main function - starts flask on a new process and updates
+                        data every 24 hrs.
+    """
+    multiprocessing.set_start_method('spawn')
+    shared_list = multiprocessing.Manager().list()
+    multiprocessing.Process(target=execute_flask, args=(shared_list,), name='FlaskProcess').start()
+    my_loop = asyncio.get_event_loop()
+    while True:
+        # gathering data
+        SCHEME.stop_flag = False
+        SCHEME.LIST.clear()
+        await SCHEME.async_prepare_index(my_loop)
+        await SCHEME.async_prepare_content(my_loop)
+        shared_list[:] = []
+        shared_list.extend(SCHEME.LIST)
+        await asyncio.sleep(86400)
+
+
+if __name__ == "__main__":
+    asyncio.run(main())

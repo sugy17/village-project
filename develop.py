@@ -1,7 +1,12 @@
-"""This test module extracts data from local files and opens end point"""
+"""
+    This test module extracts data from local files and opens end point.
+    Also updates the data periodically every 5 SECONDS .
+"""
 
 import asyncio
+import multiprocessing
 import re
+
 from flask_cors import CORS
 from flask import Flask, json, request  # , abort
 
@@ -11,6 +16,9 @@ from bs4 import BeautifulSoup
 import html2markdown
 from markdownify import markdownify as md
 
+
+import os
+#import psutil
 
 class SCHEME:
     """This class contains all scheme data related behaviours and objects"""
@@ -84,7 +92,7 @@ class SCHEME:
                 else:
                     js[section][child.parent.name + '-' + str(element_count)] = html2markdown.convert(
                         str(child.parent).replace('\n', ' '))
-        print(js)
+        #print(self.schemeid, js)
         self.content = js
         # self.nested_content = js
 
@@ -112,9 +120,6 @@ class SCHEME:
                                                       'column': len(table[0]),
                                                       'data': table}
 
-    # js[section]['table-' + str(element_count)] = tables[table_ctr]
-    # print('table::',tables[table_ctr])
-
     @staticmethod
     def clean_content(page: str) -> BeautifulSoup:
         """Extracts neccesary html content and removes ads and other unnecessary components"""
@@ -137,27 +142,25 @@ class SCHEME:
             temp = tag["src"]
             tag.attrs = {}
             tag["src"] = temp
-        try:
-            soup.find("a", {"class": "saveaspdf"}).replaceWith("")
-        except:
-            pass
+        tag = soup.find("a", {"class": "saveaspdf"})
+        if tag is not None:
+            tag.replaceWith("")
         for tag in soup.findAll("img"):
             temp = tag["src"]
             tag.attrs = {}
             tag["src"] = temp
         for tag in soup.findAll():
-            try:
+            if "src" in tag.attrs:
                 temp = tag["src"]
                 tag.attrs = {}
                 tag["src"] = temp
-            except:
-                try:
-                    temp = tag["href"]
-                    tag.attrs = {}
-                    if not str(temp).startswith("#"):
-                        tag["href"] = temp
-                except:
-                    tag.attrs = {}
+            elif "href" in tag.attrs:
+                temp = tag["href"]
+                tag.attrs = {}
+                if not str(temp).startswith("#"):
+                    tag["href"] = temp
+            else:
+                tag.attrs = {}
         for tag in soup.findAll('small'):
             tag.name = 'p'
         for tag in soup.findAll('div'):
@@ -176,7 +179,7 @@ class SCHEME:
             scheme.parse_contentPage()
 
     @staticmethod
-    def parse_IndexPage(page: str):
+    def parse_IndexPage(page: str) -> tuple:
         """Parses the page containing the list of schemes"""
         try:
             soup = BeautifulSoup(page, "html.parser")
@@ -191,11 +194,12 @@ class SCHEME:
             for i in data:
                 isoup = BeautifulSoup(str(i), "html.parser")
                 links.append(isoup.find("a")["href"])
-                imgs.append(isoup.findAll("div")[0].find("img")["src"])
+                divs = isoup.findAll("div")
+                imgs.append(divs[0].find("img")["src"])
                 try:
-                    desc.append(isoup.findAll("div")[2].find("p").text)
+                    desc.append(divs[2].find("p").text)
                 except:
-                    desc.append(isoup.findAll("div")[1].find("p").text)
+                    desc.append(divs[1].find("p").text)
             return links, imgs, desc
         except:
             return None, None, None
@@ -256,19 +260,13 @@ class SCHEME:
 
 # end of SCHEME def
 
-# gathering data
-SCHEME.stop_flag = False
-SCHEME.LIST.clear()
-my_loop = asyncio.get_event_loop()
-my_loop.run_until_complete(SCHEME.async_prepare_index(my_loop))
-my_loop.run_until_complete(SCHEME.async_prepare_content(my_loop))
 
 # Setting up endpoints
 app = Flask(__name__)
 CORS(app)
 
 
-@app.route("/api/content", methods=['POST'])
+@app.route("/content", methods=['POST'])
 def send_content() -> json:
     """recive json containing schemeid and send scheme content"""
     try:
@@ -284,12 +282,12 @@ def send_content() -> json:
         # abort(400)
 
 
-@app.route("/api/list")
+@app.route("/list")
 def send_list() -> json:
     """send a list of schemes and relevent data"""
     try:
         li = []
-        for scheme in SCHEME.LIST:
+        for scheme in app.config['shared_data']:
             li.append(
                 {
                     'title': scheme.title,
@@ -297,13 +295,50 @@ def send_list() -> json:
                     'schemeid': scheme.schemeid
                 }
             )
+        # process = psutil.Process(os.getpid())
+        # print(process.memory_info().rss)
         return json.jsonify(li)
     except Exception as e:
         return json.jsonify(
-            message=str(e)
+            message=str(repr(e))
         )
         # abort(400)
 
 
-if __name__ == "__main__":
+@app.route("/")
+def hi():
+    return "Hello world"
+
+
+def execute_flask(shared_list):
+    """function to execute flask"""
+    app.config['shared_data'] = shared_list
+    # process = psutil.Process(os.getpid())
+    # print(process.memory_info().rss)
     app.run()
+
+
+async def main():
+    """
+        main function - starts flask on a new process and updates
+                        data every 5 seconds.
+    """
+    multiprocessing.set_start_method('spawn')
+    shared_list = multiprocessing.Manager().list()
+    multiprocessing.Process(target=execute_flask, args=(shared_list,), name='FlaskProcess').start()
+    my_loop = asyncio.get_event_loop()
+    while True:
+        # gathering data
+        SCHEME.stop_flag = False
+        SCHEME.LIST.clear()
+        await SCHEME.async_prepare_index(my_loop)
+        await SCHEME.async_prepare_content(my_loop)
+        shared_list[:] = []
+        shared_list.extend(SCHEME.LIST)
+        await asyncio.sleep(5)
+        # process = psutil.Process(os.getpid())
+        # print(process.memory_info().rss)
+
+
+if __name__ == "__main__":
+    asyncio.run(main())

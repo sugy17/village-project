@@ -267,7 +267,7 @@ def send_content() -> json:
         schemeid = int(req_data['schemeId'])
         data = app.config['shared_data'][int(schemeid)].content
         return json.jsonify(data)  # c.OrderedDict(scheme_content[int(i)])#scheme_content[int(i)]
-    except IndexError :
+    except IndexError:
         return json.jsonify(
             message="please wait...updating"
         )

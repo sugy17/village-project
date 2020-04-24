@@ -92,7 +92,7 @@ class SCHEME:
                 else:
                     js[section][child.parent.name + '-' + str(element_count)] = html2markdown.convert(
                         str(child.parent).replace('\n', ' '))
-        print(self.schemeid, js)
+        #print(self.schemeid, js)
         self.content = js
         # self.nested_content = js
 

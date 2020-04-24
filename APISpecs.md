@@ -1,6 +1,6 @@
 # Recomended API formatting.
 
-# api/list
+# /list
 
 Public Endpoint that does the following:
 
@@ -48,7 +48,7 @@ Sample Response on 200.
 
 If there is an error, 400 or 401 as appropriate will be returned.
 
-# api/content
+# /content
 
 Public Endpoint for retreving data for a given schemeId
 
@@ -63,7 +63,7 @@ The request must be of the format:
 ```
 Sample CURL request:
 ```commandline
-curl localhost:5000/api/content -d '{"schemeId": "0"}' -H 'Content-Type: application/json'
+curl localhost:5000/content -d '{"schemeId": "0"}' -H 'Content-Type: application/json'
 ```
 
 On 200, A sample Response:

@@ -92,7 +92,7 @@ class SCHEME:
                 else:
                     js[section][child.parent.name + '-' + str(element_count)] = html2markdown.convert(
                         str(child.parent).replace('\n', ' '))
-        #print(self.schemeid, js)
+        print(self.schemeid, js)
         self.content = js
         # self.nested_content = js
 
@@ -173,7 +173,7 @@ class SCHEME:
         """Prepare the deatiled description for all schemems"""
         # scheme_link=[scheme_link[0]]
         for scheme in SCHEME.LIST:
-            page = await loop.create_task(SCHEME.get_page(scheme.link))
+            page = await asyncio.ensure_future(SCHEME.get_page(scheme.link))
             scheme.html_data = page
             scheme.html_data = open('html_scheme_data/' + str(scheme.schemeid) + '.txt', encoding='utf-8').read()
             scheme.parse_contentPage()
@@ -213,7 +213,7 @@ class SCHEME:
         while not SCHEME.stop_flag and i < 6:
             tasks.append(
                 (
-                    loop.create_task(
+                    asyncio.ensure_future(
                         SCHEME.get_page("https://sarkariyojana.com/karnataka/page/" + str(i))
                     ),
                     i,
@@ -230,7 +230,7 @@ class SCHEME:
             j = 0
             for link in links:
                 img_tasks.append(
-                    (loop.create_task(SCHEME.get_page(imgs[j], True)), j)
+                    (asyncio.ensure_future(SCHEME.get_page(imgs[j], True)), j)
                 )
                 j += 1
             for img_task, j in img_tasks:
@@ -343,4 +343,5 @@ async def main():
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    my_loop = asyncio.get_event_loop()
+    my_loop.run_until_complete(main())

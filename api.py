@@ -88,7 +88,7 @@ class SCHEME:
                 else:
                     js[section][child.parent.name + '-' + str(element_count)] = html2markdown.convert(
                         str(child.parent).replace('\n', ' '))
-        # print(self.schemeid, js)
+        print(self.schemeid, js)
         self.content = js
         # self.nested_content = js
 
@@ -172,7 +172,7 @@ class SCHEME:
         """Prepare the deatiled description for all schemems"""
         # scheme_link=[scheme_link[0]]
         for scheme in SCHEME.LIST:
-            page = await loop.create_task(SCHEME.get_page(scheme.link))
+            page = await asyncio.ensure_future(SCHEME.get_page(scheme.link))
             scheme.html_data = page
             scheme.parse_contentPage()
 
@@ -211,7 +211,7 @@ class SCHEME:
         while not SCHEME.stop_flag and i < 5:
             tasks.append(
                 (
-                    loop.create_task(
+                    asyncio.ensure_future(
                         SCHEME.get_page("https://sarkariyojana.com/karnataka/page/" + str(i))
                     ),
                     i,
@@ -226,12 +226,12 @@ class SCHEME:
             img_tasks = []
             j = 0
             for link in links:
-                img_tasks.append((loop.create_task(SCHEME.get_page(imgs[j], True)), j))
+                img_tasks.append((asyncio.ensure_future(SCHEME.get_page(imgs[j], True)), j))
                 j += 1
             for img_task, j in img_tasks:
                 img = await img_task
                 if img is None:
-                    img = await loop.create_task(SCHEME.get_page(imgs[j], True))
+                    img = await asyncio.ensure_future(SCHEME.get_page(imgs[j], True))
                 link = links[j]
                 img = base64.b64encode(img).decode("utf-8")
                 title = desc[j]
@@ -325,4 +325,5 @@ async def main():
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    my_loop = asyncio.get_event_loop()
+    my_loop.run_until_complete(main())

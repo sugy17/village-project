@@ -309,7 +309,7 @@ async def main():
         main function - starts flask on a new process and updates
                         data every 24 hrs.
     """
-    multiprocessing.set_start_method('spawn')
+    #multiprocessing.set_start_method('spawn')
     shared_list = multiprocessing.Manager().list()
     multiprocessing.Process(target=execute_flask, args=(shared_list,), name='FlaskProcess').start()
     my_loop = asyncio.get_event_loop()

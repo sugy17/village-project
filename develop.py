@@ -8,7 +8,7 @@ import multiprocessing
 import re
 
 from flask_cors import CORS
-from flask import Flask, json, request  # , abort
+from flask import Flask, json, request, abort
 
 import aiohttp
 from bs4 import BeautifulSoup
@@ -30,7 +30,6 @@ class SCHEME:
         self.title = title
         self.img = img
         self.content = {}
-        # self.nested_content = {}
         self.html_data = ""
 
     img_regx = re.compile(r'(?:!\[(.*?)\]\((.*?)\)).*', re.DOTALL)
@@ -43,7 +42,7 @@ class SCHEME:
         soup = SCHEME.clean_content(self.html_data)
         element_count = -1
         section_count = 0
-        section = str(0).zfill(3)+'-section'
+        section = str(0).zfill(3) + '-section'
         js = {
             section: {}
         }
@@ -59,12 +58,12 @@ class SCHEME:
                     res = SCHEME.img_regx.search(part)
                     part = SCHEME.img_regx.sub(' ', part)
                     element_count += 1
-                    js[section][str(element_count).zfill(3)+'-normal'] = part
+                    js[section][str(element_count).zfill(3) + '-normal'] = part.rstrip()
                     if res is not None:
                         element_count = SCHEME.image_handle(js, section, element_count, res.group(0))
                     # print(parents, '------------', child.name, '::', md(str(child)))
                 elif name[0] == 'h' and len(name) == 2:
-                    section = str(section_count).zfill(3)+'-section'
+                    section = str(section_count).zfill(3) + '-section'
                     section_count += 1
                     element_count = -1
                     js[section] = {}
@@ -76,7 +75,7 @@ class SCHEME:
                     res = SCHEME.img_regx.search(part)
                     part = SCHEME.img_regx.sub(' ', part)
                     element_count += 1
-                    js[section][str(element_count).zfill(3)+'-listElement'] = part
+                    js[section][str(element_count).zfill(3) + '-listElement'] = part.rstrip()
                     if res is not None:
                         element_count = SCHEME.image_handle(js, section, element_count, res.group(0))
                     # print(parents, '------------', 'li', '::', md(str(child)))
@@ -87,16 +86,13 @@ class SCHEME:
                     continue
                 element_count += 1
                 if len(child.parent.name) == 2 and child.parent.name[0] == 'h':
-                    js[section][str(element_count).zfill(3)+'-title'] = html2markdown.convert(
-                        str(child.parent).replace('\n', ' '))
+                    js[section][str(element_count).zfill(3) + '-title'] = html2markdown.convert(
+                        str(child.parent).replace('\n', ' ')).rstrip()
                 else:
-                    js[section][str(element_count).zfill(3) + '-' +child.parent.name] = html2markdown.convert(
-                        str(child.parent).replace('\n', ' '))
-        #self.content = SCHEME.li_to_list(js)
-        print(self.schemeid, js)
-        # self.nested_content = js
-
-
+                    js[section][str(element_count).zfill(3) + '-' + child.parent.name] = html2markdown.convert(
+                        str(child.parent).replace('\n', ' ')).rstrip()
+        self.content = js
+        # print(self.schemeid, js)
 
     @staticmethod
     def image_handle(js: dict, section: str, element_count: int, img_md: str) -> int:
@@ -105,10 +101,10 @@ class SCHEME:
         img_desc = re.sub(r'.*\)', '', img_md, re.DOTALL).rstrip()
         element_count += 1
         if len(img_desc) > 0:
-            js[section][str(element_count).zfill(3)+'-image'] = {'link': img_link.group(0)[1:][:-1],
-                                                          'textUnderImage': img_desc}
+            js[section][str(element_count).zfill(3) + '-image'] = {'link': img_link.group(0)[1:][:-1],
+                                                                   'textUnderImage': img_desc.rstrip()}
         else:
-            js[section][str(element_count).zfill(3)+'-image'] = {'link': img_link.group(0)[1:][:-1]}
+            js[section][str(element_count).zfill(3) + '-image'] = {'link': img_link.group(0)[1:][:-1]}
         return element_count
 
     @staticmethod
@@ -119,11 +115,11 @@ class SCHEME:
             row = []
             for j in i.children:
                 if not str(j).isspace():
-                    row.append(md(j))
+                    row.append(md(j).rstrip())
             table.append(row)
-        js[section][str(element_count).zfill(3)+'-table'] = {'row': len(table),
-                                                      'column': len(table[0]),
-                                                      'data': table}
+        js[section][str(element_count).zfill(3) + '-table'] = {'row': len(table),
+                                                               'column': len(table[0]),
+                                                               'data': table}
 
     @staticmethod
     def clean_content(page: str) -> BeautifulSoup:
@@ -277,16 +273,13 @@ def send_content() -> json:
     try:
         req_data = request.get_json()  # schemeid = i  #
         schemeid = int(req_data['schemeId'])
+        print(schemeid)
         data = app.config['shared_data'][int(schemeid)].content
         return json.jsonify(data)  # c.OrderedDict(scheme_content[int(i)])#scheme_content[int(i)]
     except IndexError:
-        return json.jsonify(
-            message="please wait...updating"
-        )
-    except Exception as e:
-        return json.jsonify(
-            message=repr(e)
-        )
+        abort(503)
+    except:
+        abort(401)
 
 
 @app.route("/list")
@@ -304,12 +297,11 @@ def send_list() -> json:
             )
         # process = psutil.Process(os.getpid())
         # print(process.memory_info().rss)
+        if len(li) == 0:
+            abort(503)
         return json.jsonify(li)
-    except Exception as e:
-        return json.jsonify(
-            message=str(repr(e))
-        )
-        # abort(400)
+    except:
+        abort(401)
 
 
 @app.route("/")
@@ -330,9 +322,9 @@ async def main():
         main function - starts flask on a new process and updates
                         data every 5 seconds.
     """
-    # multiprocessing.set_start_method('spawn')
+    multiprocessing.set_start_method('spawn')
     shared_list = multiprocessing.Manager().list()
-    #multiprocessing.Process(target=execute_flask, args=(shared_list,), name='FlaskProcess').start()
+    multiprocessing.Process(target=execute_flask, args=(shared_list,), name='FlaskProcess').start()
     my_loop = asyncio.get_event_loop()
     while True:
         # gathering data

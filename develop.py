@@ -334,7 +334,7 @@ async def main():
         await SCHEME.async_prepare_content(my_loop)
         shared_list[:] = []
         shared_list.extend(SCHEME.LIST)
-        await asyncio.sleep(100000)
+        await asyncio.sleep(5)
         # process = psutil.Process(os.getpid())
         # print(process.memory_info().rss)
 

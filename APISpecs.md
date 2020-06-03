@@ -1,5 +1,52 @@
 # Recomended API formatting.
 
+# ```/search/<phrase>```
+
+Public Endpoint for searching a pharse in scheme data.Pass the pharse to be searched in the url in place of <phrase>.
+Returns a list of objects (best matching first).
+The list will have 9 or less objects.
+Note:the method of sending the <pharse> will change, this is just an initail implementation.
+
+## Method: GET
+
+Sample Response on 200.
+
+```jsonc
+[
+  {
+    "title": "lkUsXxOgXJIlnBeFhD",
+    "image": "jOJURJdCq",
+    "schemeId": "7738ca8b-c5f4-5460-8424-b52bbcd09b3e"
+  },
+  {
+    "title": "NRGNGoZwuONcuXRm",
+    "image": "ImDMmMRoYdTjSShsDRzS",
+    "schemeId": "7ba64ea5-f188-56ce-8fc6-5972b7189e3b"
+  },
+  {
+    "title": "FNkRRrTmUxdifkIiO",
+    "image": "kyIqAPLQUIPu",
+    "schemeId": "03d87d3c-f7b9-581b-a2e3-a9d9908f5dad"
+  },
+  {
+    "title": "RReZrHfwvGKRomVUjB",
+    "image": "ziPGbZawxQByHt",
+    "schemeId": "dcafd6fc-2bb0-5f05-a900-187b1e7ab5d7"
+  },
+  {
+    "title": "srEBJFkLinHwfMmLs",
+    "image": "gbRmrZZymcTa",
+    "schemeId": "7cd25152-8429-572b-9790-385577463683"
+  },
+  {
+    "title": "rpeMesVodr",
+    "image": "bosopYRY",
+    "schemeId": "5f28d4f7-f192-5f35-8b9b-166c132d85f4"
+  } //...
+]
+```
+
+
 # /list
 
 Public Endpoint that does the following:
@@ -11,7 +58,7 @@ Public Endpoint that does the following:
 
 Sample Response on 200.
 
-```json
+```jsonc
 [
   {
     "title": "lkUsXxOgXJIlnBeFhD",
@@ -68,7 +115,7 @@ curl curl "localhost:5000/content" -d "{ \"schemeId\": \"0\" }" -H "Content-Type
 
 On 200, A sample Response:
 
-```json
+```jsonc
 {
   "section-n": {
     "title-n": "", //Title of the current section.
@@ -77,7 +124,7 @@ On 200, A sample Response:
     "title-n":"", ////Title of the current section.
     "normal-n": "",//markdown data to be displayed.(Will mostly contain textual data and styling info,incase something goes wrong ,might contain an image link also (in markdown )
     "image-n":{
-      "link": "", //link to image (plane link and not in markdown)
+      "encoded_string": "", //base64(byte stream decoded to utf-8) encoded image (plane link and not in markdown)
       "textUnderImage": "", //markdown data to be displayed under the image  
       }
     "normal-n": "",//markdown data to be displayed.(Will mostly contain textual data and styling info,incase something goes wrong ,might contain an image link also (in markdown )

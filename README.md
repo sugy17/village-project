@@ -8,14 +8,16 @@
 
 >Develop a progressive web app.
 
->Develop an interface for clients.
+>Develop backend for populating data.
 
 ### Current aims:
 
->Find sources consisting data releted to schemes.
+>improve searching.
 
->Scrape for scheme related data from sources for Karanata.
+>make scrapping more robust and accurate.
+
+>change method of stroing content-store scrapped data on disk.
 
 ### Progress:
 
-Scrapping https://sarkariyojana.com/karnataka/
+Sucessfully extracting data from https://sarkariyojana.com/karnataka/ and implemented web app.

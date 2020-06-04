@@ -338,15 +338,24 @@ def send_content() -> json:
 def send_list() -> json:
     """send a list of schemes and relevent data"""
     try:
+        try:
+            req_range = [int(i) for i in request.args.get('range').split('-')]
+            req_range.sort()
+        except:
+            req_range = [0, len(app.config['shared_data'])]
         li = []
-        for scheme in app.config['shared_data']:
-            li.append(
-                {
-                    'title': scheme.title,
-                    'encoded_image': scheme.img,
-                    'schemeid': scheme.schemeid
-                }
-            )
+        for i in range(req_range[0],req_range[1]):
+            try:
+                scheme = app.config['shared_data'][i]
+                li.append(
+                    {
+                        'title': scheme.title,
+                        'encoded_image': scheme.img,
+                        'schemeid': scheme.schemeid
+                    }
+                )
+            except:
+                pass
         # process = psutil.Process(os.getpid())
         # print(process.memory_info().rss)
         if len(li) == 0:
@@ -356,10 +365,12 @@ def send_list() -> json:
         abort(401)
 
 
-@app.route("/search/<phrase>")
-def search(phrase) -> json:
+@app.route("/search")
+def search() -> json:
     """recive json containing search key word and send scheme list"""
     try:
+        phrase=request.args.get('phrase')
+        #print(phrase)
         Ratios = process.extract(phrase, [str(i.schemeid).zfill(3)+i.search_data for i in app.config['shared_data']],limit=9)
         data=[]
         for i,ratio in Ratios:
@@ -406,7 +417,7 @@ async def main():
         # with open('SCHEMES.data', 'wb') as filehandle:
         #     # store the data as binary data stream
         #     pickle.dump(SCHEME.LIST, filehandle)
-        print('created pkl file')
+        #print('created pkl file')
         await asyncio.sleep(50000)
         # process = psutil.Process(os.getpid())
         # print(process.memory_info().rss)

@@ -1,11 +1,11 @@
 # Recomended API formatting.
 
-# ```/search/<phrase>```
+# ```/search```
 
-Public Endpoint for searching a pharse in scheme data.Pass the pharse to be searched in the url in place of <phrase>.
+Public Endpoint for searching a pharse in scheme data.Send the search phrase as a parameter named 'phrase'.
 Returns a list of objects (best matching first).
 The list will have 9 or less objects.
-Note:the method of sending the <pharse> will change, this is just an initail implementation.
+for eg- /search?phrase=housing
 
 ## Method: GET
 
@@ -51,8 +51,11 @@ Sample Response on 200.
 
 Public Endpoint that does the following:
 
+- Takes a parameter called 'range' (for eg,range=5-7 ) and returns list objects with schemeids 5-6.
+- If no range is passed , returns the the complete list.
 - Returns a list of objects that each have an image(if needed) and a title only.
 - Returns the list of objects in order of date, latest first.
+for eg- /list?range=3-5
 
 ## Method: GET
 
@@ -110,7 +113,7 @@ The request must be of the format:
 ```
 Sample CURL request:
 ```commandline
-curl curl "localhost:5000/content" -d "{ \"schemeId\": \"0\" }" -H "Content-Type: application/json"
+curl curl "localhost:5000/content" -d "{ \"schemeId\": \"2\" }" -H "Content-Type: application/json"
 ```
 
 On 200, A sample Response:

@@ -330,7 +330,11 @@ def send_content() -> json:
 def send_list() -> json:
     """send a list of schemes and relevent data"""
     try:
-        req_range=[int(i) for i in request.args.get('range').split('-')]
+        try:
+            req_range = [int(i) for i in request.args.get('range').split('-')]
+            req_range.sort()
+        except:
+            req_range = [0, len(app.config['shared_data'])]
         li = []
         for i in range(req_range[0],req_range[1]):
             try:

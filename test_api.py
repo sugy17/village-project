@@ -330,15 +330,20 @@ def send_content() -> json:
 def send_list() -> json:
     """send a list of schemes and relevent data"""
     try:
+        req_range=[int(i) for i in request.args.get('range').split('-')]
         li = []
-        for scheme in app.config['shared_data']:
-            li.append(
-                {
-                    'title': scheme.title,
-                    'encoded_image': scheme.img,
-                    'schemeid': scheme.schemeid
-                }
-            )
+        for i in range(req_range[0],req_range[1]):
+            try:
+                scheme = app.config['shared_data'][i]
+                li.append(
+                    {
+                        'title': scheme.title,
+                        'encoded_image': scheme.img,
+                        'schemeid': scheme.schemeid
+                    }
+                )
+            except:
+                pass
         # process = psutil.Process(os.getpid())
         # print(process.memory_info().rss)
         if len(li) == 0:
@@ -348,10 +353,12 @@ def send_list() -> json:
         abort(401)
 
 
-@app.route("/search/<phrase>")
-def search(phrase) -> json:
+@app.route("/search")
+def search() -> json:
     """recive json containing search key word and send scheme list"""
     try:
+        phrase=request.args.get('phrase')
+        #print(phrase)
         Ratios = process.extract(phrase, [str(i.schemeid).zfill(3)+i.search_data for i in app.config['shared_data']],limit=9)
         data=[]
         for i,ratio in Ratios:
@@ -367,8 +374,7 @@ def search(phrase) -> json:
         return json.jsonify(data)
     except IndexError:
         abort(503)
-    except Exception as e:
-        #print(repr(e))
+    except:
         abort(401)
 
 
@@ -396,7 +402,7 @@ async def main():
         #await SCHEME.async_prepare_content()
         await asyncio.sleep(2)
         SCHEME.LIST = pickle.load(open("SCHEMES.data", "rb"))
-        print('loaded pkl file')
+        #print('loaded pkl file')
         shared_list[:] = []
         shared_list.extend(SCHEME.LIST)
         await asyncio.sleep(70000)

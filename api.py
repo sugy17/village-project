@@ -378,7 +378,7 @@ def search() -> json:
                 data.append(
                     {
                         'title': app.config['shared_data'][int(i[:3])].title,
-                        'image': app.config['shared_data'][int(i[:3])].img,
+                        'encoded_image': app.config['shared_data'][int(i[:3])].img,
                         'schemeid': int(i[:3])
                     }
                 )

@@ -34,7 +34,7 @@ Sample Response on 200.
   {
     "title": "lkUsXxOgXJIlnBeFhD",
     "image": "jOJURJdCq",
-    "schemeId": "7738ca8b-c5f4-5460-8424-b52bbcd09b3e"
+    "schemeId": "https://sarkariyojana.com/apply-karnataka-rupees-5000-scheme-driver-barbers-dhobi/"
   },
   {
     "title": "NRGNGoZwuONcuXRm",
@@ -90,7 +90,7 @@ Sample Response on 200.
   {
     "title": "lkUsXxOgXJIlnBeFhD",
     "image": "jOJURJdCq",
-    "schemeId": "7738ca8b-c5f4-5460-8424-b52bbcd09b3e"
+    "schemeId": "https://sarkariyojana.com/apply-karnataka-rupees-5000-scheme-driver-barbers-dhobi/"
   },
   {
     "title": "NRGNGoZwuONcuXRm",
@@ -131,7 +131,7 @@ Request parameter is schemeId.
 
 Sample CURL request:
 ```commandline
-curl "https://village.rxav.pw/karnataka/content?schemeId=2"
+curl "https://village.rxav.pw/karnataka/content?schemeId=https://sarkariyojana.com/apply-karnataka-rupees-5000-scheme-driver-barbers-dhobi/"
 ```
 
 On 200, A sample Response:

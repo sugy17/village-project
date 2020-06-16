@@ -1,13 +1,31 @@
 # Recomended API formatting.
 
-# ```/search```
+# ```/regions```
+
+Endpoint that returns list of avaliable regions.
+
+## Method: GET
+
+Sample Response on 200.
+
+```jsonc
+["karnataka","central-government"]
+```
+
+# ```/<region>/search```
 
 Public Endpoint for searching a pharse in scheme data.Send the search phrase as a parameter named 'phrase'.
 Returns a list of objects (best matching first).
 The list will have 9 or less objects.
-for eg- /search?phrase=housing
+\<region\> specifies the region to be searched.
+for eg- /karnataka/search?phrase=housing
 
 ## Method: GET
+
+Sample CURL request:
+```commandline
+curl "https://village.rxav.pw/karnataka/search?phrase=lockdown"
+```
 
 Sample Response on 200.
 
@@ -47,17 +65,23 @@ Sample Response on 200.
 ```
 
 
-# /list
+# ```/<region>/list```
 
 Public Endpoint that does the following:
 
+- \<region\> takes the region values.
 - Takes a parameter called 'range' (for eg,range=5-7 ) and returns list objects with schemeids 5-6.
 - If no range is passed , returns the the complete list.
 - Returns a list of objects that each have an image(if needed) and a title only.
 - Returns the list of objects in order of date, latest first.
-for eg- /list?range=3-5
+for eg- /karnataka/list?range=3-5
 
 ## Method: GET
+
+Sample CURL request:
+```commandline
+curl "https://village.rxav.pw/karnataka/list"
+```
 
 Sample Response on 200.
 
@@ -96,24 +120,18 @@ Sample Response on 200.
 ]
 ```
 
-If there is an error, 400 or 401 as appropriate will be returned.
 
-# /content
+# ```/<region>/content```
 
-Public Endpoint for retreving data for a given schemeId
+Public Endpoint for retreving data for a given schemeId.
 
-## Method: POST
+## Method: GET
 
-The request must be of the format:
+Request parameter is schemeId.
 
-```json
-{
-  "schemeId": "2"
-}
-```
 Sample CURL request:
 ```commandline
-curl curl "localhost:5000/content" -d "{ \"schemeId\": \"2\" }" -H "Content-Type: application/json"
+curl "https://village.rxav.pw/karnataka/content?schemeId=2"
 ```
 
 On 200, A sample Response:
@@ -147,6 +165,8 @@ On 200, A sample Response:
   }
 }
 ```
+
+If there is an error, 400 or 401 or 503 as appropriate will be returned.
 
 -n indicates the position of the key in a json.Styling and Font will be indicated in the markdown.
 

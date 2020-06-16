@@ -1,3 +1,8 @@
+"""
+    This module extracts data and opens end point.Also updates
+    the data periodically every 24 hrs.
+"""
+
 import asyncio
 import html
 import multiprocessing
@@ -13,6 +18,7 @@ from markdownify import markdownify as md
 
 from fuzzywuzzy import process
 import pickle
+
 
 class SCHEME:
     """This class contains all scheme data related behaviours and objects"""
@@ -32,7 +38,8 @@ class SCHEME:
     comments = re.compile(r'<!--.*-->')
 
     REGIONS = ["karnataka","central-government"]
-    LIST = {region: [] for region in REGIONS}
+    LIST = {region: {} for region in REGIONS}
+    KEYS={region: [] for region in REGIONS}
 
     async def parse_contentPage(self) -> None:
         """Parses html content into required json"""
@@ -122,7 +129,7 @@ class SCHEME:
                     element_count = await SCHEME.image_handle(js, section, element_count, md(str(child)))
         # js = json.jsonify(js)
         self.content = js
-        print(js)
+        #print(js)
         self.title = js['000-section']['000-title']
 
     @staticmethod
@@ -213,7 +220,7 @@ class SCHEME:
     async def async_prepare_content(region) -> None:
         """Prepare the deatiled description for all schemems"""
         # scheme_link=[scheme_link[0]]
-        for scheme in SCHEME.LIST[region]:
+        for key,scheme in SCHEME.LIST[region].items():
             page = await asyncio.ensure_future(SCHEME.get_page(scheme.link))
             scheme.html_data = page
             await scheme.parse_contentPage()
@@ -264,7 +271,8 @@ class SCHEME:
                 except:
                     img = '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'
                 title = desc[j]
-                SCHEME.LIST[region].append(SCHEME(len(SCHEME.LIST[region]), link, title, img))
+                SCHEME.LIST[region][link]=(SCHEME(link, link, title, img))
+                SCHEME.KEYS[region]=SCHEME.KEYS[region]+[link,]
 
     @staticmethod
     async def get_page(url: str):
@@ -307,8 +315,8 @@ CORS(app)
 def send_content(region) -> json:
     """recive json containing schemeid and send scheme content"""
     try:
-        schemeid = int(request.args.get('schemeId'))  # schemeid = i  #
-        data = app.config['shared_data'][region][int(schemeid)].content
+        schemeid = request.args.get('schemeId')  # schemeid = i  #
+        data = app.config['shared_data'][region][schemeid].content
         return json.jsonify(data)  # c.OrderedDict(scheme_content[int(i)])#scheme_content[int(i)]
     except IndexError:
         abort(503)
@@ -326,9 +334,10 @@ def send_list(region) -> json:
         except:
             req_range = [0, len(app.config['shared_data'][region])]
         li = []
-        for i in range(req_range[0], req_range[1]):
-            try:
-                scheme = app.config['shared_data'][region][i]
+        i=0
+        try:
+            for i in range(req_range[0], req_range[1]):
+                scheme = app.config['shared_data'][region][app.config['shared_keys'][region][i]]
                 li.append(
                     {
                         'title': scheme.title,
@@ -336,8 +345,8 @@ def send_list(region) -> json:
                         'schemeid': scheme.schemeid
                     }
                 )
-            except:
-                pass
+        except:
+            pass
         # process = psutil.Process(os.getpid())
         # print(process.memory_info().rss)
         if len(li) == 0:
@@ -353,16 +362,17 @@ def search(region) -> json:
     try:
         phrase = request.args.get('phrase')
         # print(phrase)
-        Ratios = process.extract(phrase, [str(i.schemeid).zfill(3) + i.search_data for i in app.config['shared_data'][region]],
+        Ratios = process.extract(phrase, [i.schemeid+"----" + i.search_data for key,i in app.config['shared_data'][region].items()],
                                  limit=9)
         data = []
         for i, ratio in Ratios:
             if ratio > 50:
+                id=re.findall('(.*?)----', i)[0]
                 data.append(
                     {
-                        'title': app.config['shared_data'][region][int(i[:3])].title,
-                        'image': app.config['shared_data'][region][int(i[:3])].img,
-                        'schemeid': int(i[:3])
+                        'title': app.config['shared_data'][region][id].title,
+                        'image': app.config['shared_data'][region][id].img,
+                        'schemeid': id
                     }
                 )
         # print(*Ratios, sep='\n', end='\n')
@@ -372,14 +382,18 @@ def search(region) -> json:
     except:
         abort(401)
 
+@app.route("/regions")
+def send_regions():
+    return json.jsonify(SCHEME.REGIONS)
 
-def execute_flask(shared_list):
+def execute_flask(shared_list,key_list):
     """function to execute flask"""
     app.config['shared_data'] = shared_list
+    app.config['shared_keys'] = key_list
     # process = psutil.Process(os.getpid())
     # print(process.memory_info().rss)
     app.run()
-# end of SCHEME def
+
 
 async def main():
     """
@@ -388,24 +402,24 @@ async def main():
     """
     multiprocessing.set_start_method('spawn')
     shared_list = multiprocessing.Manager().dict(SCHEME.LIST)
-    # for region in SCHEME.REGIONS:
-    #     shared_list[region]=[]
-    multiprocessing.Process(target=execute_flask, args=(shared_list,), name='FlaskProcess').start()
+    shared_key_list = multiprocessing.Manager().dict(SCHEME.KEYS)
+    multiprocessing.Process(target=execute_flask, args=(shared_list,shared_key_list), name='FlaskProcess').start()
     while True:
         # gathering data
+        # gathering data
         await asyncio.sleep(2)
-        SCHEME.LIST = pickle.load(open("SCHEMES.data", "rb"))
+        SCHEME.LIST,SCHEME.KEYS = pickle.load(open("SCHEMES.data", "rb"))
         for region in SCHEME.REGIONS:
-            shared_list[region][:] = []
-            shared_list[region]+=SCHEME.LIST[region]
-            # print(shared_list[region])
-            # print(SCHEME.LIST[region])
+            shared_list[region]=SCHEME.LIST[region].copy()
+            shared_key_list[region]=SCHEME.KEYS[region].copy()
         print('loaded pkl file')
         await asyncio.sleep(50000)
         # process = psutil.Process(os.getpid())
         # print(process.memory_info().rss)
 
-#myntra.com Godofwar@123
+
 if __name__ == "__main__":
     my_loop = asyncio.get_event_loop()
     my_loop.run_until_complete(main())
+
+

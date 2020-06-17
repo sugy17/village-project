@@ -33,32 +33,32 @@ Sample Response on 200.
 [
   {
     "title": "lkUsXxOgXJIlnBeFhD",
-    "image": "jOJURJdCq",
-    "schemeId": "https://sarkariyojana.com/apply-karnataka-rupees-5000-scheme-driver-barbers-dhobi/"
+    "encoded_image": "jOJURJdCq",
+    "schemeId": "https---sarkariyojana.com-apply-karnataka-rupees-5000-scheme-driver-barbers-dhobi-"
   },
   {
     "title": "NRGNGoZwuONcuXRm",
-    "image": "ImDMmMRoYdTjSShsDRzS",
+    "encoded_image": "ImDMmMRoYdTjSShsDRzS",
     "schemeId": "7ba64ea5-f188-56ce-8fc6-5972b7189e3b"
   },
   {
     "title": "FNkRRrTmUxdifkIiO",
-    "image": "kyIqAPLQUIPu",
+    "encoded_image": "kyIqAPLQUIPu",
     "schemeId": "03d87d3c-f7b9-581b-a2e3-a9d9908f5dad"
   },
   {
     "title": "RReZrHfwvGKRomVUjB",
-    "image": "ziPGbZawxQByHt",
+    "encoded_image": "ziPGbZawxQByHt",
     "schemeId": "dcafd6fc-2bb0-5f05-a900-187b1e7ab5d7"
   },
   {
     "title": "srEBJFkLinHwfMmLs",
-    "image": "gbRmrZZymcTa",
+    "encoded_image": "gbRmrZZymcTa",
     "schemeId": "7cd25152-8429-572b-9790-385577463683"
   },
   {
     "title": "rpeMesVodr",
-    "image": "bosopYRY",
+    "encoded_image": "bosopYRY",
     "schemeId": "5f28d4f7-f192-5f35-8b9b-166c132d85f4"
   } //...
 ]
@@ -70,11 +70,13 @@ Sample Response on 200.
 Public Endpoint that does the following:
 
 - \<region\> takes the region values.
-- Takes a parameter called 'range' (for eg,range=5-7 ) and returns list objects with schemeids 5-6.
+- Takes a parameter called 'range' (for eg,range=5 ) and returns list objects with schemeids 5 from lastest .
 - If no range is passed , returns the the complete list.
-- Returns a list of objects that each have an image(if needed) and a title only.
+- If no schemeId is passed, range number of schemes is returned from latest data
+- Returns a list of objects having thre below structure.
 - Returns the list of objects in order of date, latest first.
-for eg- /karnataka/list?range=3-5
+for eg- /karnataka/list?range=3
+for eg- /karnataka/list?schemeId=https---sarkariyojana.com-apply-karnataka-rupees-5000-scheme-driver-barbers-dhobi-&range=3
 
 ## Method: GET
 
@@ -89,32 +91,32 @@ Sample Response on 200.
 [
   {
     "title": "lkUsXxOgXJIlnBeFhD",
-    "image": "jOJURJdCq",
-    "schemeId": "https://sarkariyojana.com/apply-karnataka-rupees-5000-scheme-driver-barbers-dhobi/"
+    "encoded_image": "jOJURJdCq",
+    "schemeId": "https---sudhwduheiuh--svdj"
   },
   {
     "title": "NRGNGoZwuONcuXRm",
-    "image": "ImDMmMRoYdTjSShsDRzS",
+    "encoded_image": "ImDMmMRoYdTjSShsDRzS",
     "schemeId": "7ba64ea5-f188-56ce-8fc6-5972b7189e3b"
   },
   {
     "title": "FNkRRrTmUxdifkIiO",
-    "image": "kyIqAPLQUIPu",
+    "encoded_image": "kyIqAPLQUIPu",
     "schemeId": "03d87d3c-f7b9-581b-a2e3-a9d9908f5dad"
   },
   {
     "title": "RReZrHfwvGKRomVUjB",
-    "image": "ziPGbZawxQByHt",
+    "encoded_image": "ziPGbZawxQByHt",
     "schemeId": "dcafd6fc-2bb0-5f05-a900-187b1e7ab5d7"
   },
   {
     "title": "srEBJFkLinHwfMmLs",
-    "image": "gbRmrZZymcTa",
+    "encoded_image": "gbRmrZZymcTa",
     "schemeId": "7cd25152-8429-572b-9790-385577463683"
   },
   {
     "title": "rpeMesVodr",
-    "image": "bosopYRY",
+    "encoded_image": "bosopYRY",
     "schemeId": "5f28d4f7-f192-5f35-8b9b-166c132d85f4"
   } //...
 ]
@@ -131,7 +133,7 @@ Request parameter is schemeId.
 
 Sample CURL request:
 ```commandline
-curl "https://village.rxav.pw/karnataka/content?schemeId=https://sarkariyojana.com/apply-karnataka-rupees-5000-scheme-driver-barbers-dhobi/"
+curl "https://village.rxav.pw/karnataka/content?schemeId=https---sarkariyojana.com-apply-karnataka-rupees-5000-scheme-driver-barbers-dhobi-"
 ```
 
 On 200, A sample Response:
@@ -139,13 +141,13 @@ On 200, A sample Response:
 ```jsonc
 {
   "section-n": {
-    "title-n": "", //Title of the current section.
+    "title-n": "", //Title of the current section not in markdown.
   },
   "section-n":{
     "title-n":"", ////Title of the current section.
     "normal-n": "",//markdown data to be displayed.(Will mostly contain textual data and styling info,incase something goes wrong ,might contain an image link also (in markdown )
     "image-n":{
-      "encoded_string": "", //base64(byte stream decoded to utf-8) encoded image (plane link and not in markdown)
+      "encoded_image": "", //base64(byte stream decoded to utf-8) encoded image 
       "textUnderImage": "", //markdown data to be displayed under the image  
       }
     "normal-n": "",//markdown data to be displayed.(Will mostly contain textual data and styling info,incase something goes wrong ,might contain an image link also (in markdown )

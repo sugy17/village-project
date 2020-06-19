@@ -9,6 +9,8 @@ import multiprocessing
 import os
 import re
 import base64
+import sys
+
 from flask_cors import CORS
 from flask import Flask, json, request, abort
 import aiohttp
@@ -17,8 +19,19 @@ from bs4 import BeautifulSoup
 import html2markdown
 from markdownify import markdownify as md
 
-from fuzzywuzzy import process
 import pickle
+
+from whoosh import index
+from whoosh.qparser import QueryParser
+from whoosh.index import create_in
+from whoosh.fields import *
+
+def handle_exception(e, risk='notify'):
+    if risk == 'notify':
+        exc_type, exc_obj, exc_tb = sys.exc_info()
+        fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
+        print(fname, exc_tb.tb_lineno, exc_type, e)
+    pass
 
 
 class SCHEME:
@@ -31,18 +44,21 @@ class SCHEME:
         self.title = title
         self.img = img
         self.search_data = ""
+        self.html_data= ""
 
     img_regx = re.compile(r'(?:!\[(.*?)\]\((.*?)\)).*', re.DOTALL)
     comments = re.compile(r'<!--.*-->')
 
-    REGIONS = REGIONS = ['karnataka', 'central-government','andhra-pradesh','arunachal-pradesh','assam','bihar','chhattisgarh','delhi','goa','gujarat','haryana','himachal-pradesh','jammu-kashmir','jharkhand','kerala','madhya-pradesh','maharashtra','manipur','meghalaya','mizoram','odisha','punjab','rajasthan','tamilnadu','telangana','tripura','uttar-pradesh','uttarakhand','west-bengal']
-    LIST = {region: {} for region in REGIONS}
-    KEYS = {region: [] for region in REGIONS}
+    REGIONS = ['karnataka', 'andhra-pradesh', 'arunachal-pradesh', 'assam', 'bihar',
+                         'chhattisgarh', 'delhi', 'goa', 'gujarat', 'haryana', 'himachal-pradesh', 'jammu-kashmir',
+                         'jharkhand', 'kerala', 'madhya-pradesh', 'maharashtra', 'manipur', 'meghalaya', 'mizoram',
+                         'odisha', 'punjab', 'rajasthan', 'tamilnadu', 'telangana', 'tripura', 'uttar-pradesh',
+                         'uttarakhand', 'west-bengal','central-government']
 
-    async def parse_contentPage(self, html_data) -> dict:
+    async def parse_contentPage(self) -> dict:
         """Parses html content into required json"""
         try:
-            soup = SCHEME.clean_content(html_data)
+            soup = SCHEME.clean_content(self.html_data)
             self.search_data = soup.text
             element_count = -1
             section_count = 0
@@ -96,7 +112,7 @@ class SCHEME:
                             html2markdown.convert(
                                 str(child.parent).replace('\n', ' ')).rstrip())
             if len(js) == 1 and len(js['000-section']) == 1:  ##incase necessary data is removed while cleaning
-                soup = BeautifulSoup(html_data, "html.parser")
+                soup = BeautifulSoup(self.html_data, "html.parser")
                 soup = BeautifulSoup(SCHEME.comments.sub("", str(soup.findAll("article")[0])), "html.parser")
                 self.search_data = soup.text
                 section = '000-section'
@@ -131,19 +147,22 @@ class SCHEME:
             # print(js)
             self.title = js['000-section']['000-title']
             return js
-        except:
+        except Exception as e:
+            handle_exception(e)
             return None
+
     @staticmethod
     async def image_handle(js: dict, section: str, element_count: int, img_md: str) -> int:
         """Check if markdown data contains image and add it to json (dict)"""
         img_link = re.search(r'\(.*\)', img_md)
-        img_desc = re.sub(r'.*\)', '', img_md, re.DOTALL).rstrip()
+        img_desc = re.sub(r'.*\)', 'content', img_md, re.DOTALL).rstrip()
         element_count += 1
         img_url = img_link.group(0)[1:][:-1]
         img = await SCHEME.get_img(img_url)
         try:
             img = base64.b64encode(img).decode('utf-8')
-        except:
+        except Exception as e:
+            handle_exception(e)
             print('error' + '\n\n' + img_url, '\n', js['000-section']['000-title'])
         if len(img_desc) > 0:
             js[section][str(element_count).zfill(3) + '-image'] = {'encoded_image': img,
@@ -217,27 +236,13 @@ class SCHEME:
                 tag.unwrap()
             try:
                 soup.findAll("p")[-1].replaceWith("")
-            except:
+            except Exception as e:
+                handle_exception(e)
                 pass
             return soup
-        except:
+        except Exception as e:
+            handle_exception(e)
             return None
-
-    @staticmethod
-    async def async_prepare_content(region) -> None:
-        """Prepare the deatiled description for all schemems"""
-        # scheme_link=[scheme_link[0]]
-        for key, scheme in SCHEME.LIST[region].items():
-            page=None
-            for i in range(0,4):
-                page = await asyncio.ensure_future(SCHEME.get_page(scheme.link))
-                if page is not None:
-                    break
-            js = await scheme.parse_contentPage(page)
-            if js is not None:
-                SCHEME.create_file(region, scheme.schemeid, js)
-            else:
-                SCHEME.create_file(region, scheme.schemeid, {"000-Section":{"000-title":"Data uavaliable"}})
 
     @staticmethod
     def parse_IndexPage(page: str) -> tuple:
@@ -249,25 +254,45 @@ class SCHEME:
                 data = (
                     soup.findAll("div", {"class": "tabcontent"})[0].find("ul").findAll("li")
                 )
-            except:
+            except Exception as e:
+                handle_exception(e)
                 data = soup.findAll("div", {"class": "tabccontainer"})[0].findAll("li")
             links, imgs, desc = [], [], []
             for i in data:
                 isoup = BeautifulSoup(str(i), "html.parser")
-                links.append(isoup.find("a")["href"])
+                try:
+                    link = isoup.find("a")["href"]
+                    links.append(link)
+                except Exception as e:
+                    handle_exception(e, "expected")
+                    links.append()
                 divs = isoup.findAll("div")
-                imgs.append(divs[0].find("img")["src"])
+                try:
+                    img_link = divs[0].find("img")["src"]
+                    imgs.append(img_link)
+                except Exception as e:
+                    handle_exception(e, "expected")
+                    imgs.append(
+                        'https://image.shutterstock.com/image-vector/no-image-available-sign-absence-260nw-373243873.jpg')
                 try:
                     desc.append(divs[2].find("p").text)
-                except:
-                    desc.append(divs[1].find("p").text)
+                except Exception as e:
+                    handle_exception(e,'expected')
+                    try:
+                        desc.append(divs[1].find("p").text)
+                    except Exception as e:
+                        handle_exception(e)
+                        desc.append("N/A")
             return links, imgs, desc
-        except:
+        except Exception as e:
+            handle_exception(e)
             return None, None, None
 
     @staticmethod
-    async def async_prepare_index(region) -> None:
-        """Create short details about schemes in SCHEME.LIST[region] """
+    async def async_scrap_data(region,keys) -> list:
+        """Create create/upadate data """
+        stop_flag = False
+        key_buffer=[]
         for i in range(1, 1000):
             page = await asyncio.ensure_future(
                 SCHEME.get_page("https://sarkariyojana.com/" + region + "/page/" + str(i)))
@@ -277,33 +302,8 @@ class SCHEME:
                 break
             img_tasks = []
             for j in range(0, len(links)):
-                img_tasks.append((asyncio.ensure_future(SCHEME.get_img(imgs[j])), j))
-            for img_task, j in img_tasks:
-                img = await img_task
-                link = links[j]
-                try:
-                    img = base64.b64encode(img).decode("utf-8")
-                except:
-                    img = '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'
-                title = desc[j]
-                key=link.replace('/', '-').replace('\\', '-').replace(':', '-')
-                SCHEME.LIST[region][key] = (SCHEME(key, link, title, img))
-                SCHEME.KEYS[region] = SCHEME.KEYS[region] + [key, ]
-
-    @staticmethod
-    async def async_update(region) -> None:
-        """Create short details about schemes in SCHEME.LIST[region] """
-        stop_flag=False
-        for i in range(1, 1000):
-            page = await asyncio.ensure_future(
-                SCHEME.get_page("https://sarkariyojana.com/" + region + "/page/" + str(i)))
-            links, imgs, desc = SCHEME.parse_IndexPage(page)
-            if links is None or imgs is None or desc is None:
-                break
-            img_tasks = []
-            for j in range(0, len(links)):
-                if links[j].replace('/', '-').replace('\\', '-').replace(':', '-') in SCHEME.LIST[region]:
-                    stop_flag=True
+                if links[j].replace('/', '-').replace('\\', '-').replace(':', '-') in keys:
+                    stop_flag = True
                     break
                 img_tasks.append((asyncio.ensure_future(SCHEME.get_img(imgs[j])), j))
             for img_task, j in img_tasks:
@@ -311,23 +311,56 @@ class SCHEME:
                 link = links[j]
                 try:
                     img = base64.b64encode(img).decode("utf-8")
-                except:
+                except Exception as e:
+                    handle_exception(e)
                     img = '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'
                 title = desc[j]
                 key = link.replace('/', '-').replace('\\', '-').replace(':', '-')
-                SCHEME.LIST[region][key] = (SCHEME(key, link, title, img))
-                SCHEME.KEYS[region] = SCHEME.KEYS[region] + [key, ]
-                for key, scheme in SCHEME.LIST[region].items():
-                    page = None
-                    for i in range(0, 4):
-                        page = await asyncio.ensure_future(SCHEME.get_page(scheme.link))
-                        if page is not None:
-                            break
-                    js = await scheme.parse_contentPage(page)
-                    SCHEME.create_file(region, scheme.schemeid, js)
-            print(region, i)
+                scheme = SCHEME(key, link, title, img)
+                SCHEME.create_file('DATA', region, {'title': scheme.title,'encoded_image': scheme.img,'schemeId': scheme.schemeid}, scheme,'index')
+                page = None
+                for k in range(0, 4):
+                    page = await asyncio.ensure_future(SCHEME.get_page(scheme.link))
+                    if page is not None:
+                        break
+                scheme.html_data=page
+                js = await scheme.parse_contentPage()
+                if js is not None:
+                    SCHEME.create_file('DATA', region, js, scheme,'content')
+                else:
+                    SCHEME.create_file('DATA', region, {"000-Section": {"000-title": "Data uavaliable"}}, scheme,'content')
+                try:
+                    json.dump({'search_data':scheme.search_data}, open(os.path.join('DATA', region, scheme.schemeid, 'search_data'), 'w'))
+                except Exception as e:
+                    handle_exception(e)
+                try:
+                    json.dump({'html_data':scheme.html_data}, open(os.path.join('DATA', region, scheme.schemeid, 'html_data'), 'w'))
+                except Exception as e:
+                    handle_exception(e)
+                SCHEME.create_search_index(region,scheme)
+                key_buffer.append(key)
             if stop_flag:
                 break
+        return key_buffer
+
+    @staticmethod
+    def create_search_index(region,scheme):
+        ix = None
+        try:
+            ix = index.open_dir(os.path.join("indexdir", region))
+        except Exception as e:
+            handle_exception(e)
+            whooshSchema = Schema(schemeId=ID(stored=True), content=TEXT)
+            try:
+                os.mkdir(os.path.join("indexdir", region))
+            except Exception as e:
+                handle_exception(e)
+                pass
+                ix = create_in(os.path.join("indexdir", region), whooshSchema)
+        finally:
+            with ix.writer() as w:
+                w.add_document(schemeId=scheme.schemeid,
+                               content=open(os.path.join("DATA", region, scheme.schemeid, 'search_data')).read())
 
     @staticmethod
     async def get_page(url: str):
@@ -337,7 +370,8 @@ class SCHEME:
                 async with session.get(url) as resp:
                     resp.raise_for_status()
                     return await resp.text()
-            except:
+            except Exception as e:
+                handle_exception(e)
                 return None
 
     @staticmethod
@@ -345,33 +379,40 @@ class SCHEME:
         """get img from url"""
         async with aiohttp.ClientSession() as session:
             try:
-                async with session.get(url) as resp:
-                    resp.raise_for_status()
-                    img = await resp.read()
-                    if img is not None:
+                try:
+                    async with session.get(url) as resp:
+                        resp.raise_for_status()
+                        img = await resp.read()
+                        if img is not None:
+                            return img
+                except Exception as e:
+                    handle_exception(e)
+                    async with session.get(url) as resp:
+                        resp.raise_for_status()
+                        img = await resp.read()
                         return img
-                async with session.get(url) as resp:
-                    resp.raise_for_status()
-                    img = await resp.read()
-                    return img
-            except:
+            except Exception as e:
+                handle_exception(e)
                 return b'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'
 
     @staticmethod
-    def create_file(region, schemeId, js):
+    def create_file(root, region, js, scheme,content_type=None):
         try:
-            os.mkdir('DATA')
-            os.mkdir(os.path.join('DATA', region))
-        except:
+            os.mkdir(root)
+        except Exception as e:
+            handle_exception(e, 'expected')
             pass
         try:
-            os.mkdir(os.path.join('DATA', region))
-        except:
+            os.mkdir(os.path.join(root, region))
+        except Exception as e:
+            handle_exception(e, 'expected')
             pass
-        file_path = os.path.join(region, schemeId)
-        file_path = os.path.join('DATA', file_path)
-        with open(file_path, 'w') as fp:
-            json.dump(js, fp)
+        try:
+            os.mkdir(os.path.join(root, region,scheme.schemeid))
+        except Exception as e:
+            handle_exception(e, 'expected')
+            pass
+        json.dump(js, open(os.path.join(root, region, scheme.schemeid, content_type), 'w'))
 
 
 # end of SCHEME def
@@ -387,14 +428,13 @@ def send_content(region) -> json:
     """recive json containing schemeid and send scheme content"""
     try:
         schemeid = request.args.get('schemeId')  # schemeid = i  #
-        file_path = os.path.join(region, schemeid)
-        file_path = os.path.join('DATA', file_path)
-        with open(file_path) as fp:
-            data = json.load(fp)
+        data = json.load(open(os.path.join('DATA', region, schemeid,'content')))
         return json.jsonify(data)  # c.OrderedDict(scheme_content[int(i)])#scheme_content[int(i)]
-    except IndexError:
+    except IndexError as e:
+        handle_exception(e)
         abort(503)
-    except:
+    except Exception as e:
+        handle_exception(e)
         abort(401)
 
 
@@ -408,57 +448,48 @@ def send_list(region) -> json:
             try:
                 fromSchemeid = request.args.get('fromSchemeid')
                 offset = app.config['shared_keys'][region].index(fromSchemeid)
-            except:
+            except Exception as e:
+                handle_exception(e)
                 pass
-        except:
-            req_range = len(app.config['shared_data'][region])
+        except Exception as e:
+            handle_exception(e)
+            req_range = 40 #len(app.config['shared_keys'][region])
         li = []
         try:
             for i in range(1, req_range + 1):
-                scheme = app.config['shared_data'][region][app.config['shared_keys'][region][i + offset]]
-                li.append(
-                    {
-                        'title': scheme.title,
-                        'encoded_image': scheme.img,
-                        'schemeId': scheme.schemeid
-                    }
-                )
-        except:
+                li.append(json.load(open(os.path.join('DATA', region,app.config['shared_keys'][region][i + offset], 'index'))))
+        except Exception as e:
+            handle_exception(e)
             pass
         # process = psutil.Process(os.getpid())
         # print(process.memory_info().rss)
         if len(li) == 0:
             abort(503)
         return json.jsonify(li)
-    except:
+    except Exception as e:
+        handle_exception(e)
         abort(401)
 
 
 @app.route("/<region>/search")
 def search(region) -> json:
-    """recive json containing search key word and send scheme list"""
+    """recive get req containing search key word and send scheme list"""
     try:
         phrase = request.args.get('phrase')
-        # print(phrase)
-        Ratios = process.extract(phrase, [i.schemeid + "----" + i.search_data for key, i in
-                                          app.config['shared_data'][region].items()],
-                                 limit=9)
         data = []
-        for i, ratio in Ratios:
-            if ratio > 50:
-                id = re.findall('(.*?)----', i)[0]
-                data.append(
-                    {
-                        'title': app.config['shared_data'][region][id].title,
-                        'image': app.config['shared_data'][region][id].img,
-                        'schemeid': id
-                    }
-                )
-        # print(*Ratios, sep='\n', end='\n')
+        ix = index.open_dir(os.path.join("indexdir", region))
+        with ix.searcher() as searcher:
+            query = QueryParser("content", ix.schema).parse(phrase)
+            results = searcher.search(query)
+            for hit in results:
+                #print(hit['schemeId'])
+                data.append(json.load(open(os.path.join('DATA', region,hit['schemeId'],'index'))))
         return json.jsonify(data)
-    except IndexError:
+    except IndexError as e:
+        handle_exception(e)
         abort(503)
-    except:
+    except Exception as e:
+        handle_exception(e)
         abort(401)
 
 
@@ -467,9 +498,8 @@ def send_regions():
     return json.jsonify(SCHEME.REGIONS)
 
 
-def execute_flask(shared_list, key_list):
+def execute_flask(key_list):
     """function to execute flask"""
-    app.config['shared_data'] = shared_list
     app.config['shared_keys'] = key_list
     # process = psutil.Process(os.getpid())
     # print(process.memory_info().rss)
@@ -479,39 +509,28 @@ def execute_flask(shared_list, key_list):
 async def main():
     """
         main function - starts flask on a new process and updates
-                        data every 5 seconds.
+                        data every 50000 seconds.
     """
     multiprocessing.set_start_method('spawn')
-    shared_list = multiprocessing.Manager().dict(SCHEME.LIST)
-    shared_key_list = multiprocessing.Manager().dict(SCHEME.KEYS)
-    multiprocessing.Process(target=execute_flask, args=(shared_list,shared_key_list), name='FlaskProcess').start()
-    # gathering data
+    shared_key_list = multiprocessing.Manager().dict({region: [] for region in SCHEME.REGIONS})
+    multiprocessing.Process(target=execute_flask, args=(shared_key_list,), name='FlaskProcess').start()
+    # load key data
+    keys = {region: [] for region in SCHEME.REGIONS}
     try:
-        os.mkdir('DATA')
-        for region in SCHEME.REGIONS:
-            SCHEME.LIST[region].clear()
-            SCHEME.KEYS[region].clear()
-            await SCHEME.async_prepare_index(region)
-            await SCHEME.async_prepare_content(region)
-            shared_list[region] = SCHEME.LIST[region].copy()
-            shared_key_list[region] = SCHEME.KEYS[region].copy()
-    except:
-        await asyncio.sleep(2)
-        SCHEME.LIST,SCHEME.KEYS = pickle.load(open("SCHEMES.data", "rb"))
-        for region in SCHEME.REGIONS:
-            shared_list[region]=SCHEME.LIST[region].copy()
-            shared_key_list[region]=SCHEME.KEYS[region].copy()
-        print('loaded pkl file')
-        for region in SCHEME.REGIONS:
-            await SCHEME.async_update(region)
+        keys = pickle.load(open("KEYS.data", "rb"))
+    except Exception as e:
+        handle_exception(e)
     while True:
-        with open('SCHEMES.data', 'wb') as filehandle:
-            # store the data as binary data stream
-            pickle.dump((SCHEME.LIST,SCHEME.KEYS), filehandle)
-        print('created pkl file')
-        await asyncio.sleep(50000)
         for region in SCHEME.REGIONS:
-            await SCHEME.async_update(region)
+            new_data=await SCHEME.async_scrap_data(region,keys[region])
+            if len(new_data)!=0:
+                shared_key_list[region] = new_data+shared_key_list[region]
+                keys[region]=new_data+keys[region]
+        with open('KEYS.data', 'wb') as filehandle:
+            # store the data as binary data stream
+            pickle.dump(keys, filehandle)
+        print('created pkl file for keys')
+        await asyncio.sleep(50000)
         # process = psutil.Process(os.getpid())
         # print(process.memory_info().rss)
 

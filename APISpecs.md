@@ -16,7 +16,7 @@ Sample Response on 200.
 
 Public Endpoint for searching a pharse in scheme data.Send the search phrase as a parameter named 'phrase'.
 Returns a list of objects (best matching first).
-The list will have 9 or less objects.
+The list can have n number of objects.
 \<region\> specifies the region to be searched.
 for eg- /karnataka/search?phrase=housing
 
@@ -71,8 +71,8 @@ Public Endpoint that does the following:
 
 - \<region\> takes the region values.
 - Takes a parameter called 'range' (for eg,range=5 ) and returns list objects with schemeids 5 from lastest .
-- If no range is passed , returns the the complete list.
-- If no schemeId is passed, range number of schemes is returned from latest data
+- If no range is passed , returns list with 10 objects.
+- If no schemeId is passed, range number of schemes is returned from latest(updated) data
 - Returns a list of objects having thre below structure.
 - Returns the list of objects in order of date, latest first.
 for eg- /karnataka/list?range=3

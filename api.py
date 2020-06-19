@@ -473,7 +473,7 @@ def execute_flask(shared_list, key_list):
     app.config['shared_keys'] = key_list
     # process = psutil.Process(os.getpid())
     # print(process.memory_info().rss)
-    app.run()
+    app.run(host="0.0.0.0")
 
 
 async def main():

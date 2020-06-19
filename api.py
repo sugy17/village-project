@@ -27,10 +27,10 @@ from whoosh.index import create_in
 from whoosh.fields import *
 
 def handle_exception(e, risk='notify'):
-    if risk == 'notify':
-        exc_type, exc_obj, exc_tb = sys.exc_info()
-        fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
-        print(fname, exc_tb.tb_lineno, exc_type, e)
+    # if risk == 'notify':
+    #     exc_type, exc_obj, exc_tb = sys.exc_info()
+    #     fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
+    #     print(fname, exc_tb.tb_lineno, exc_type, e)
     pass
 
 
@@ -482,8 +482,11 @@ def search(region) -> json:
             query = QueryParser("content", ix.schema).parse(phrase)
             results = searcher.search(query)
             for hit in results:
-                #print(hit['schemeId'])
-                data.append(json.load(open(os.path.join('DATA', region,hit['schemeId'],'index'))))
+                try:
+                    data.append(json.load(open(os.path.join('DATA', region,hit['schemeId'],'index'))))
+                except Exception as e:
+                    handle_exception(e)
+                    pass
         return json.jsonify(data)
     except IndexError as e:
         handle_exception(e)

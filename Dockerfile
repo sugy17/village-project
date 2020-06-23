@@ -4,4 +4,4 @@ COPY . ./
 
 RUN pip install -r requirements.txt
 
-CMD ["python", "test_api.py"]
+CMD ["python", "aio_server.py"]

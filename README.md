@@ -1,10 +1,34 @@
-# Recomended API formatting.
+# village-project
 
-# ```/regions```
+### Objective 
+
+Provide an api for information regarding govt. schemes.
+
+### Tasks
+
+Crawls the internet gathering indian govt. schemes while keeping the endpoints open.
+
+### Requirements
+
+Requires Cpython 3.6 or above and the modules in requirements.txt .
+
+### Improvements
+
+- Json structure for long content.
+- Make crawling more generic and robust.
+- Organise data.
+
+# Host
+
+```https://api.rxav.pw/village```
+
+# Routes
+
+## ```/regions```
 
 Endpoint that returns list of avaliable regions.
 
-## Method: GET
+### Method: GET
 
 Sample Response on 200.
 
@@ -12,19 +36,19 @@ Sample Response on 200.
 ["karnataka","central-government"]
 ```
 
-# ```/<region>/search```
+## ```/<region>/search```
 
 Public Endpoint for searching a pharse in scheme data.Send the search phrase as a parameter named 'phrase'.
 Returns a list of objects (best matching first).
 The list can have n number of objects.
 \<region\> specifies the region to be searched.
-for eg- /karnataka/search?phrase=housing
+for eg- /karnataka/search?phrase=lockdown
 
-## Method: GET
+### Method: GET
 
 Sample CURL request:
 ```commandline
-curl "https://village.rxav.pw/karnataka/search?phrase=lockdown"
+curl "https://api.rxav.pw/village/karnataka/search?phrase=lockdown"
 ```
 
 Sample Response on 200.
@@ -34,7 +58,7 @@ Sample Response on 200.
   {
     "title": "lkUsXxOgXJIlnBeFhD",
     "encoded_image": "jOJURJdCq",
-    "schemeId": "https---sarkariyojana.com-apply-karnataka-rupees-5000-scheme-driver-barbers-dhobi-"
+    "schemeId": "7ba64ea5-f901-56ce-8fc6-5972b7189e3b"
   },
   {
     "title": "NRGNGoZwuONcuXRm",
@@ -65,24 +89,27 @@ Sample Response on 200.
 ```
 
 
-# ```/<region>/list```
+## ```/<region>/list```
 
 Public Endpoint that does the following:
 
 - \<region\> takes the region values.
 - Takes a parameter called 'range' (for eg,range=5 ) and returns list objects with schemeids 5 from lastest .
-- If no range is passed , returns list with 10 objects.
-- If no schemeId is passed, range number of schemes is returned from latest(updated) data
+- If no range is passed , returns list with 40 objects.
+- If no schemeId is passed, 'range' number of schemes is returned from latest(updated) data avaliable.
 - Returns a list of objects having thre below structure.
 - Returns the list of objects in order of date, latest first.
-for eg- /karnataka/list?range=3
-for eg- /karnataka/list?schemeId=https---sarkariyojana.com-apply-karnataka-rupees-5000-scheme-driver-barbers-dhobi-&range=3
+- Examples: 
 
-## Method: GET
+> ```curl "https://api.rxav.pw/village/karnataka/list?range=3"```
+
+>  ```curl "https://api.rxav.pw/village/karnataka/list?schemeId=7ba64ea5-f901-56ce-8fc6-5972b7189e3b&range=3"```
+
+### Method: GET
 
 Sample CURL request:
 ```commandline
-curl "https://village.rxav.pw/karnataka/list"
+curl "https://api.rxav.pw/village/karnataka/list"
 ```
 
 Sample Response on 200.
@@ -92,7 +119,7 @@ Sample Response on 200.
   {
     "title": "lkUsXxOgXJIlnBeFhD",
     "encoded_image": "jOJURJdCq",
-    "schemeId": "https---sudhwduheiuh--svdj"
+    "schemeId": "7ba64ea5-f901-56ce-8fc6-5972b7189e3b"
   },
   {
     "title": "NRGNGoZwuONcuXRm",
@@ -123,17 +150,17 @@ Sample Response on 200.
 ```
 
 
-# ```/<region>/content```
+## ```/<region>/content```
 
 Public Endpoint for retreving data for a given schemeId.
 
-## Method: GET
+### Method: GET
 
 Request parameter is schemeId.
 
 Sample CURL request:
 ```commandline
-curl "https://village.rxav.pw/karnataka/content?schemeId=https---sarkariyojana.com-apply-karnataka-rupees-5000-scheme-driver-barbers-dhobi-"
+curl "https://api.rxav.pw/village/karnataka/content?schemeId=7ba64ea5-f901-56ce-8fc6-5972b7189e3b"
 ```
 
 On 200, A sample Response:
@@ -174,6 +201,6 @@ If there is an error, 400 or 401 or 503 as appropriate will be returned.
 
 Currently in json.
 
-Changes can be done to the current structure to better fit the response of the Application at render time. 
+Changes can be done to the current structure to improve usablility. 
 
 

@@ -103,7 +103,7 @@ Public Endpoint that does the following:
 
 > ```curl "https://api.rxav.pw/village/karnataka/list?range=3"```
 
->  ```curl "https://api.rxav.pw/village/karnataka/list?schemeId=7ba64ea5-f901-56ce-8fc6-5972b7189e3b&range=3"```
+>  ```curl "https://api.rxav.pw/village/karnataka/list?schemeId=3ed1ab4d-b602-11ea-b90f-309c236ac1d2&range=3"```
 
 ### Method: GET
 
@@ -160,7 +160,7 @@ Request parameter is schemeId.
 
 Sample CURL request:
 ```commandline
-curl "https://api.rxav.pw/village/karnataka/content?schemeId=7ba64ea5-f901-56ce-8fc6-5972b7189e3b"
+curl "https://api.rxav.pw/village/karnataka/content?schemeId=3ed1ab4d-b602-11ea-b90f-309c236ac1d2"
 ```
 
 On 200, A sample Response:

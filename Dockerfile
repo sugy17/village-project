@@ -1,12 +1,7 @@
-FROM python:3.8-slim
-RUN mkdir /project
-WORKDIR /project
+FROM python:3.6
 
-COPY aio_server.py .
-COPY requirements.txt .
-COPY KEYS.data .
-RUN apt-get update -y && apt-get install -y build-essential python3-dev
-RUN pip install --no-cache-dir -r requirements.txt
-RUN apt-get remove -y build-essential python3-dev && apt-get -y autoremove 
+COPY . ./
+
+RUN pip install -r requirements.txt
 
 CMD ["python", "aio_server.py"]

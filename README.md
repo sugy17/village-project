@@ -11,6 +11,17 @@ Crawls the internet gathering indian govt. schemes while keeping the endpoints o
 ### Requirements
 
 Requires Cpython 3.6 or above and the modules in requirements.txt .
+Docker
+
+### Docker Command to run it.
+
+Clone the repository to a directory.
+
+Then import the image from the dockerfile
+
+```zsh
+docker run -p 5000:5000 --mount type=bind,source="$(pwd)"/DATA,target=/project/DATA --name vil village:1.0
+```
 
 ### Improvements
 

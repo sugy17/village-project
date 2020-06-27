@@ -562,9 +562,9 @@ cors = aiohttp_cors.setup(app, defaults={
 })
 
 # Configure CORS on all routes.
-for route in list(app.router.routes()):
-    cors.add(route)
 app.add_routes(routes)
+for route in app.router.routes():
+    cors.add(route)
 
 runner = aiohttp.web.AppRunner(app)
 my_loop.run_until_complete(runner.setup())

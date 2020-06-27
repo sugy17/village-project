@@ -1,8 +1,6 @@
 aiohttp==3.6.2
 aiohttp_cors==0.7.0
 beautifulsoup4==4.9.0
-
 html2markdown~=0.1.7
 markdownify~=0.4.1
 Whoosh~=2.7.4
-python-Levenshtein~=0.12.0

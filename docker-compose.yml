@@ -1,0 +1,13 @@
+version: '3.3'
+services:
+    web:
+        image: python:3.8-slim
+        container_name: village
+        build: .
+        ports: 
+        - "5000:5000"
+        volumes: 
+        -   type: bind
+            source: ./DATA
+            target: /project/DATA
+    
